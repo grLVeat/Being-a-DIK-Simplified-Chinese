@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安装、校验与卸载说明
+    url: "https://github.com/grLVeat/Being-a-DIK-Simplified-Chinese/blob/main/docs/INSTALL.md"
+    about: 下载、选择游戏目录、SHA-256 校验及卸载恢复方法。
+  - name: 常见问题
+    url: "https://github.com/grLVeat/Being-a-DIK-Simplified-Chinese/blob/main/docs/FAQ.md"
+    about: 版本不符、缺少 RAR、旧存档、MOD 冲突与离线安装说明。

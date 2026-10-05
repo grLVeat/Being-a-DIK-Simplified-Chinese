@@ -1,0 +1,15 @@
+/dist/
+/work/
+**/cache/
+**/saves/
+**/test-saves/
+**/__pycache__/
+*.py[cod]
+*.rpyc
+*.rar
+*.zip
+*.zip.sha256
+*.partial
+*.log
+Thumbs.db
+.DS_Store

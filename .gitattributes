@@ -1,0 +1,10 @@
+*.py text eol=lf
+*.md text eol=lf
+CODE-LICENSE.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Preserve exact release bytes, including PowerShell BOM and manifest hashes.
+packaging/** -text
+payload/** -text
+tools/unrar/** -text

@@ -1,0 +1,63 @@
+name: 安装、检查或卸载问题
+description: 反馈安装器报错、版本识别、离线使用或恢复问题。
+title: "[安装] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先阅读安装说明与常见问题，并保留游戏目录的 .badik-cn-community 备份文件夹。
+        只需粘贴相关报错。请将 Windows 用户名、个人路径替换为 <用户>、<游戏目录>；不要上传完整日志、存档或备份。
+  - type: input
+    id: patch_version
+    attributes:
+      label: 补丁版本
+      placeholder: "例如：v2026.10.03"
+    validations:
+      required: true
+  - type: dropdown
+    id: package_type
+    attributes:
+      label: 使用的安装包
+      options:
+        - 完整离线版（OFFLINE.zip）
+        - 在线版（不带 OFFLINE）
+        - 其他或不确定
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows 版本与系统位数
+      placeholder: "例如：Windows 11，64 位"
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: 游戏版本与已安装的季数
+      placeholder: "例如：Steam 0.8.3，第 1 季及第 2 季 DLC"
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: 出错时执行的操作
+      options:
+        - 安装
+        - 检查安装
+        - 卸载
+        - 安装后启动游戏
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 脱敏后的报错与操作步骤
+      description: 粘贴与问题直接相关的少量文字；不要包含个人路径或完整日志。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充情况
+      description: 说明 ZIP 是否完整解压、是否保留 cache、此前是否装过汉化或其他 MOD、是否校验 ZIP。无需提供完整游戏路径。

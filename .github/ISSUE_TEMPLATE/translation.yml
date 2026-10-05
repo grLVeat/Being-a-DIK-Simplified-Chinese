@@ -1,0 +1,49 @@
+name: 翻译或显示问题
+description: 反馈错译、遗漏英文、变量或文字显示异常。
+title: "[翻译] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮助改进简体中文修订。请优先提供文字和位置，不必上传截图。
+        不要上传完整游戏、完整存档、安装备份或未脱敏日志；玩家自定义姓名可写作 [玩家]。
+  - type: input
+    id: patch_version
+    attributes:
+      label: 补丁版本
+      description: 可在安装包的先读我或发布页查看。
+      placeholder: "例如：v2026.10.03 离线版"
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: 游戏版本与季数
+      placeholder: "例如：Steam 0.8.3，第 1、2 季"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 章节、场景与角色
+      description: 尽量提供能找到这段文字的位置；涉及剧情可注明剧透。
+      placeholder: "例如：第 7 章，自由探索，某角色的手机对话"
+    validations:
+      required: true
+  - type: textarea
+    id: current_text
+    attributes:
+      label: 当前显示的文字与问题
+      description: 只需相关短句；说明是错译、遗漏英文、乱码、截断还是其他问题。
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_text
+    attributes:
+      label: 建议译法或预期显示
+      description: 可选。若涉及变量，请保留 [玩家]、%s 等占位内容。
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充上下文
+      description: 可选。注明是否读取旧存档、是否安装其他 MOD，以及可重复出现的步骤；无需提供存档文件。

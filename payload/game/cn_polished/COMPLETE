@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "release": "2026.10.03",
+  "game_version": "0.8.3",
+  "seasons": [
+    1,
+    2
+  ],
+  "language": "zh-Hans",
+  "base_patch": "Vetoyi CN0.09"
+}

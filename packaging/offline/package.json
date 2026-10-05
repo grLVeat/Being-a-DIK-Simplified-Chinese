@@ -1,0 +1,5009 @@
+{
+  "format": 1,
+  "version": "2026.10.03",
+  "game_version": "0.8.3",
+  "seasons": [
+    1,
+    2
+  ],
+  "upstream": {
+    "url": "https://github.com/Vetoyi/CN_Patch.Being_A_DIK/releases/download/CN_Ver0.09/2022.09.07_BAD.CN_Ver0.09.GameVer0.8.3.rar",
+    "release_url": "https://github.com/Vetoyi/CN_Patch.Being_A_DIK/releases/tag/CN_Ver0.09",
+    "sha256": "92ca5221e51db8422a038146ffc9121f6ad4e7b1d2a9e4138a66e6a8a05f8e77",
+    "bytes": 286811442
+  },
+  "game_checks": [
+    {
+      "path": "game/archive.rpa",
+      "sha256": "a5a7c02d35de61089b7cc2e868562ce65ef82819da936925727b8558dc82e0bf",
+      "bytes": 16645751
+    },
+    {
+      "path": "game/scripts.rpa",
+      "sha256": "2a0db12ff8e60574751e005c61cc0f1bc2922b66190b72148156b02a2301ce5e",
+      "bytes": 9526634
+    },
+    {
+      "path": "game/scripts_season2.rpa",
+      "sha256": "078754a19cfe31a91e233f2dd1b31f70ada8c4e9b0c0309d74f28d4bd27d44ca",
+      "bytes": 13036009
+    }
+  ],
+  "baseline_files": [
+    {
+      "path": "game/Audrey-Bold.otf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/bradhitc.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/cabin-regular.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/candara.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/centurygothicbold.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/centurygothicregular.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/characters.rpyc",
+      "sha256": "ec6aa81b5b8e3e1aa3fe6cf104df6fe0ad6edeeaa9cc1935ea8cff830e110a20",
+      "bytes": 14458
+    },
+    {
+      "path": "game/collegiate.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/credits.rpyc",
+      "sha256": "b644786674bddf73de76079b35737c2a5b1c7151fd52100341473b9b0b32b80c",
+      "bytes": 40554
+    },
+    {
+      "path": "game/gallery.rpyc",
+      "sha256": "32c8ec4d1363936424e4fd6de43788ff99d6c8713fdb02c59e3b25dd2a789b66",
+      "bytes": 147074
+    },
+    {
+      "path": "game/header.rpyc",
+      "sha256": "f41567cb6c368cb017089f70bd97f3c561431a27df8322e5d31d39ffa0466093",
+      "bytes": 176930
+    },
+    {
+      "path": "game/images/classes/buttons/classes_cheat_test_bg.png",
+      "sha256": "86bb3147a57aa3c297d8216f7a5f0d70977b794255fbc5d685bda71b50bd453c",
+      "bytes": 146742
+    },
+    {
+      "path": "game/images/classes/buttons/classes_fail.png",
+      "sha256": "3bc67c28e4cc00773c1c966829b31936a7362d66d31d150867c7295b0c91dbe0",
+      "bytes": 12923
+    },
+    {
+      "path": "game/images/classes/buttons/classes_failed_test.png",
+      "sha256": "459d7e409bab73041be1b2ab8dc1b0369c678a3737b8bf3851288baf3c94f3eb",
+      "bytes": 4404
+    },
+    {
+      "path": "game/images/classes/buttons/classes_good.png",
+      "sha256": "1f75e7b1f9b374ee6488de8fdf1f6a158512b05bbb76a908da916f841a7b83f6",
+      "bytes": 12030
+    },
+    {
+      "path": "game/images/classes/buttons/classes_great.png",
+      "sha256": "69127d1b7eb134e332a385619efa62ffe64338993b84456d1afc428ffd5d133c",
+      "bytes": 10956
+    },
+    {
+      "path": "game/images/classes/buttons/classes_nerd_notes.png",
+      "sha256": "e61209de632a165923b1611b62cf9fb27003e168000faca109b1314563c5e20f",
+      "bytes": 8696
+    },
+    {
+      "path": "game/images/classes/buttons/classes_perfect.png",
+      "sha256": "76e5a8661b42edf9ae2fdb3c89d3bf44192d9fe74608648beb8d14e01eac7571",
+      "bytes": 13514
+    },
+    {
+      "path": "game/images/classes/buttons/classes_quit_test_bg.png",
+      "sha256": "7972d0c7f50ff1e4517b17b3d0c1a3394ddc5c44ac0cae878f31501c11a78b22",
+      "bytes": 146442
+    },
+    {
+      "path": "game/images/classes/buttons/classes_special_render.png",
+      "sha256": "9f76b62154114932443c17de5b8a2bab1e10ca51fd5ffe0f466a18ead4f0d05e",
+      "bytes": 6840
+    },
+    {
+      "path": "game/images/classes/buttons/classes_view_tutorial_hover.png",
+      "sha256": "6d6e910c31bd68bf12223e5b6a2378ec9c30159b29b9d5e6a102dc21b9218876",
+      "bytes": 4049
+    },
+    {
+      "path": "game/images/classes/buttons/classes_view_tutorial_idle.png",
+      "sha256": "a7f92108d2962e7ac4d50bd7523308a1381f82d557d22000520979da4b0627e1",
+      "bytes": 2217
+    },
+    {
+      "path": "game/images/classes/buttons/classes_with_cheating.png",
+      "sha256": "e7c5652a2b77ae94e6d392659d6612682212da29bbf70cc8908c4f0b4d8bec9d",
+      "bytes": 6946
+    },
+    {
+      "path": "game/images/classes/buttons/classes_without_cheating.png",
+      "sha256": "4c03a361f70286ac5376d9fc4d61437e9c407045d4a0e1e9b7ee2cdb7928034b",
+      "bytes": 10848
+    },
+    {
+      "path": "game/images/classes/buttons/classes_you_scored.png",
+      "sha256": "6e9eb7358318e2192ca5360b45f26a5ef0b44deb0c52c32b35bc83488efe1248",
+      "bytes": 3230
+    },
+    {
+      "path": "game/images/classes/english101/english_ok.png",
+      "sha256": "9e414c62950fe3e3bca184826c520e3cd58a891483bbacdf367b6b0b9a2f8102",
+      "bytes": 29227
+    },
+    {
+      "path": "game/images/classes/english101/english_ok_hover.png",
+      "sha256": "05e1f679f3b0b84d438219bee4ca03fbbf17080c03af3751f831dd24896e844c",
+      "bytes": 31158
+    },
+    {
+      "path": "game/images/classes/english101/english_quit.png",
+      "sha256": "879a1be00eabecf771d6436cdc619cb2d56c2064ede3a17869372cbee4c08177",
+      "bytes": 29508
+    },
+    {
+      "path": "game/images/classes/english101/english_quit_hover.png",
+      "sha256": "549406d23ef783966454ac429292773389fe0e805c48677ec1534518fd18b8e1",
+      "bytes": 31809
+    },
+    {
+      "path": "game/images/classes/english101/english_quiz_main_text.png",
+      "sha256": "3c92e50fed7cacf6a1746d54528d638a94f902e55c539a0bb461f0fc7f7896ed",
+      "bytes": 23345
+    },
+    {
+      "path": "game/images/classes/english101/english_test_board.jpg",
+      "sha256": "076131f8e9c2a6a429468b9a562417f73dc773bc3346d2cb62127d3b081785a0",
+      "bytes": 797527
+    },
+    {
+      "path": "game/images/classes/english101/english_test_board2.jpg",
+      "sha256": "e707f28677bfc94098616d5e0b69e85d4d6066a0c880dedf1901af55d9b3b2c8",
+      "bytes": 793150
+    },
+    {
+      "path": "game/images/classes/english101/english_tutorial1.jpg",
+      "sha256": "598fb31fff0c41c6bc9a9d260c0a91202e90e2d30ea412f55dca7fa1d1b0c1ba",
+      "bytes": 1140060
+    },
+    {
+      "path": "game/images/classes/english101/english_tutorial2.jpg",
+      "sha256": "4c80b73424309c3d2f5827b4e03ed9e7fbe9cb612c66c43b82675691bb1cdda3",
+      "bytes": 1106336
+    },
+    {
+      "path": "game/images/classes/english101/english_tutorial3.jpg",
+      "sha256": "1a26b792b2cc2e49bcb3653def4793086df22a86bf2a6ea847a2d02ba2dc95d8",
+      "bytes": 1146877
+    },
+    {
+      "path": "game/images/classes/english101/english_tutorial_full.jpg",
+      "sha256": "09bec57ec4846a14af19ddaa976f3ab296b5f7fbfbfdf887aded84abc80021ba",
+      "bytes": 1147985
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_blam.png",
+      "sha256": "9e4bf52dd4be548294ffdf71cdad80721097b93aeef93f0d11709b809b6d269e",
+      "bytes": 2145
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_fail.png",
+      "sha256": "9d0ed7cb5bd002c3e660c6c0cca0e1c3bac7865a5a40c9f8a6ff4b5f943e53ea",
+      "bytes": 2282
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_fight.png",
+      "sha256": "f0f5eb3118ba89a47f2b6b811e08e94b46e927172247e64b647050c2342deb17",
+      "bytes": 53716
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_fist.png",
+      "sha256": "3b3f3bd46676c3d4e8096b05705cabda19fd093f1a5f138a565b57b085b76530",
+      "bytes": 2190
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_hard.png",
+      "sha256": "5ffc48baa684aefd9d4f5f035251354e01497e7f7cdd79dee2d33ed574edeccb",
+      "bytes": 2055
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_heal.png",
+      "sha256": "ecbea99e4aea2d7e67ee3870d7e243153087700cdca54423ab0aa37b2f2516ee",
+      "bytes": 2585
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_healed.png",
+      "sha256": "b51d6bce6c49da91341743e412c684322f4d91601d7e77f8c51326f215bb4fb7",
+      "bytes": 43334
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_high.png",
+      "sha256": "e14115f630adc5e8dc1c7ec3d0d56217c1e592c0c313d72d10c115a40842aaf5",
+      "bytes": 2105
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_hit.png",
+      "sha256": "f94f818d7065d911e7f4d19675088b6ee90734e78f7dedc2936b9e407d66625f",
+      "bytes": 2540
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_kick.png",
+      "sha256": "9f04e2211a5551c0daaf5d5d1849d8e4e01ec96cf7779be06f3234ddf1af17c3",
+      "bytes": 2268
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_miss.png",
+      "sha256": "9750124a1e3f618829126a9c0719b6abf753f4c2e485da909730d7876ad2ac59",
+      "bytes": 2819
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_nope.png",
+      "sha256": "34d6e140667f9777f653cabfbe45351c8eb714220cb428af62a9d4cd057e2edd",
+      "bytes": 2616
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_ouch.png",
+      "sha256": "2ba9aa8b03f5f41377618311c38fea35f18a0e034f93e789063c6a3f3703d233",
+      "bytes": 3211
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_power.png",
+      "sha256": "f7e03033cf1c949a8793150b082756b38ab315496ff37a4aaf1e0b755ebd7902",
+      "bytes": 3019
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_ready.png",
+      "sha256": "6da096f6404f96e1e1bb562f92be8a0873b642fa38105b61bee7e640b447c36b",
+      "bytes": 49344
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_round.png",
+      "sha256": "93a16d9d4a0c12d9e7ce264059911c5b777d3f00c69622bc9c1b1de8d55a2c03",
+      "bytes": 3098
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_super.png",
+      "sha256": "b74711204aacd058b3cf38696e89d504ab4fa5a78c55a52db63ee13b61702fd2",
+      "bytes": 2708
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_thud.png",
+      "sha256": "d9fe74884a7a83ca47ee5dd27d5c443ced42f31bc71c4a09c70e1fbdaacc4f3a",
+      "bytes": 2634
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/pov_weak.png",
+      "sha256": "cd32e2cf498f45d34cbbe9fed8ef20a46a18d2ebb45f4094f1cef7385a56dbcc",
+      "bytes": 2545
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/sports_lower_easy.png",
+      "sha256": "3bd9485959c057036826cdd223e6481356954aaa5e6754002daadfef6aafeb95",
+      "bytes": 2248
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/sports_lower_hard.png",
+      "sha256": "21fa6fea1cbb8a4b2258f66ee2d0ad41da0f99996b8fa8b501decdd74834de05",
+      "bytes": 4122
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/sports_lower_hard_hover.png",
+      "sha256": "a55a7c3d7871fbeaa7020564c396fa59fc22cabd57df9358afc63e7471b3cdd9",
+      "bytes": 9638
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/sports_lower_normal.png",
+      "sha256": "26f20871c0ec02bb73ac38ae34bb83024eb2d27001fea9075e137d6d6c176a6f",
+      "bytes": 2838
+    },
+    {
+      "path": "game/images/classes/fighting/text_displayables/sports_lower_normal_hover.png",
+      "sha256": "141969f983d96ee49ce16abeb5022adba39afc95dd19ea155f1d2d170e70e2ac",
+      "bytes": 8611
+    },
+    {
+      "path": "game/images/classes/fighting/tutorial/brawler_tutorial_3.png",
+      "sha256": "2952dc01385e58fa5d57059f046e2506f7c90768f42dd6f094ca2bd88fbf0e08",
+      "bytes": 72488
+    },
+    {
+      "path": "game/images/classes/math101/desk_bg_test.jpg",
+      "sha256": "57a7b4a1dd39c210ef130e0605ec18423c19dbdd5c9006784df8695a55b41b02",
+      "bytes": 832710
+    },
+    {
+      "path": "game/images/classes/math101/desk_bg_tut.jpg",
+      "sha256": "4ade16aabf87d6a3ee0f9763dd2172659a7fef9f2f9e16e8c688fa87c9e2a280",
+      "bytes": 1119761
+    },
+    {
+      "path": "game/images/classes/math101/desk_bg_tut1.jpg",
+      "sha256": "06bf630a1e452ea77bf84ab2f87d88cbaf3165064b5a180c50d38f4593737b3e",
+      "bytes": 1162830
+    },
+    {
+      "path": "game/images/classes/math101/desk_bg_tut2.jpg",
+      "sha256": "0dc3d1704e8211f1063e88e2416223f409814c09243ba12c414862d39808e442",
+      "bytes": 1114538
+    },
+    {
+      "path": "game/images/classes/math101/math_tutorial_full.jpg",
+      "sha256": "9da914f799948d6af918c26d527e41a1bd3745d86c1577ca74584d3f640067e1",
+      "bytes": 1153351
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test1.jpg",
+      "sha256": "b00b21c75327ac6dff65a16a7f9daa6c5c5308267fd70f663b31d86a2503dff3",
+      "bytes": 843400
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test2.jpg",
+      "sha256": "294cd89e5bca70c8ce22cbf009efd3278bd5c0c75900d09764ebca367ce4d4ce",
+      "bytes": 832546
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test3.jpg",
+      "sha256": "14d1e5276f3ccf61731c38299a0213f42465c433b880ba326e9a8c99550542b8",
+      "bytes": 841210
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test4.jpg",
+      "sha256": "069a169b9a896f314bd90f87cc9a1b3486e57c702d54c35fc9da45783672d4e5",
+      "bytes": 851111
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test5.jpg",
+      "sha256": "64cc7f7168e45a6b1841d177ea0797e54b6564bfe6e502cf9db75e4a6a3191c6",
+      "bytes": 833998
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test6.jpg",
+      "sha256": "0b228b4ba3de0c1fc59edf4e1cc7caccf53ec252d7d7864ea54bb0f0a9dc53e6",
+      "bytes": 842258
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test7.jpg",
+      "sha256": "54f7ec241a4577430bda74f7db0a430bf7154bb9a54b6344b183839466cfbfa4",
+      "bytes": 842877
+    },
+    {
+      "path": "game/images/classes/math101/test01/math1_test8.jpg",
+      "sha256": "c9f3dc84afa6e54a0f77d0638fc456f5a76d454a1b4c2fab7705f6581c1d2e19",
+      "bytes": 836401
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test1.jpg",
+      "sha256": "b5b6d41302b0d919717d4d9af2a1744bdd0425686c11b7d4c8ebc6b08a005644",
+      "bytes": 843575
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test10.jpg",
+      "sha256": "a00d332f5ced0cadafc864d94be964a8189aaecfe68dec29d2acabf881987935",
+      "bytes": 843341
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test2.jpg",
+      "sha256": "2824b01d11bbd041afaea0ea0493a6c226c77ce7c58a58427003009daa68dccb",
+      "bytes": 849184
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test3.jpg",
+      "sha256": "73b715534b6b46798c2d9a29d53b957f0171030fdc5d07fa2b3ecb5b6ea4cf6a",
+      "bytes": 826496
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test4.jpg",
+      "sha256": "3de89e144cdb66577436c0fb1efe1523b3ea6fdad47fbb2124a778796bf9d3e0",
+      "bytes": 828945
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test5.jpg",
+      "sha256": "bf63bbde9bce2247c7dca9c3bf407dee6287939516e2c134c8d479535f6bcc69",
+      "bytes": 823860
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test6.jpg",
+      "sha256": "59709949b8ffabc01714172deeaff510984dde321b0c7dd8afb87c9f8ad601db",
+      "bytes": 826500
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test7.jpg",
+      "sha256": "8f4907d3ed13662a6ce663445e3faaba64e86dba88b35900ece35dbb0fb8ef2c",
+      "bytes": 827348
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test8.jpg",
+      "sha256": "5760de8a7023823c3340194586214489627cfa82e6a3d7c1338f0ef8e713d975",
+      "bytes": 844706
+    },
+    {
+      "path": "game/images/classes/math101/test02/math02_test9.jpg",
+      "sha256": "4badeb52b1b44181e4b7a98451bb87436aac9ab2959b5f4aaf74bb899f903c92",
+      "bytes": 843789
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test1.jpg",
+      "sha256": "55cb041a9952298c2d37dfd782e2efee085e27d2b777b95c5880a3d642658bf5",
+      "bytes": 832938
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test10.jpg",
+      "sha256": "71c3ed8b5276d9ab77d85096186441a022024fbd66008acc640ebefcfa0f0ac2",
+      "bytes": 848342
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test2.jpg",
+      "sha256": "e97f3d2ecf64440bb4519e5a3867d62cc79acaf0ea110c1bc817b203b3588020",
+      "bytes": 835038
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test3.jpg",
+      "sha256": "bcdb8f992703f2be0506fd3cf532c0dc99c0158d269f7d321e222c89aec8d3b8",
+      "bytes": 833781
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test4.jpg",
+      "sha256": "576bb6cef28ca7935519e4ddf5b5e7bf4475fb5ee07dd10392ef6cb50c74762b",
+      "bytes": 840729
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test5.jpg",
+      "sha256": "c482b2d31a30bb1f8670ade8bace5cbfcef4f07547d528f4654aa825f839658d",
+      "bytes": 846311
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test6.jpg",
+      "sha256": "739f03c64ea0ba128afac26062829062c73292ac63a0995ff99e88ff9b348200",
+      "bytes": 838178
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test7.jpg",
+      "sha256": "17b2961fd06b0a3af288829f0353c76d6ea9638a43efa58d125f72e521290824",
+      "bytes": 840866
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test8.jpg",
+      "sha256": "40348d1a6982e873804d41669cf5251d44d5d79da0d0546b6f259b7d80bcdeb9",
+      "bytes": 848133
+    },
+    {
+      "path": "game/images/classes/math101/test03/math03_test9.jpg",
+      "sha256": "cdcf71cbe984f7076ee90a8841073e5cbc50826b7ee00830cb311653efc92995",
+      "bytes": 847386
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test1.jpg",
+      "sha256": "24cad48c6f23195841db8b556ac135d93a77eaa7fe43ae644a6a9dd427580f25",
+      "bytes": 828220
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test10.jpg",
+      "sha256": "1f49d006dd91b6252d2ce57bc5b3ec0bd9c3d4aba647659261bbda14f05fe716",
+      "bytes": 846766
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test2.jpg",
+      "sha256": "2b9606fd13ee7fdcadf6568510611bd41b50b7ee28818cb4ef2c50627cd528b6",
+      "bytes": 826581
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test3.jpg",
+      "sha256": "673789264348779f7724d597b6d4a0b509a5639bd930448f83b0204cff2e5bbd",
+      "bytes": 850843
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test4.jpg",
+      "sha256": "dbf7163cfd5514f85e0b9cd6b44a6b2d65e37504940cffa0b891988a9d757689",
+      "bytes": 832305
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test5.jpg",
+      "sha256": "260c22f095f3bee108ddaee7e47706cad6ae946e4146b3592a99958ca5f50ea7",
+      "bytes": 841709
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test6.jpg",
+      "sha256": "c625bd46d649a382addd99678fffcb2bad7b18b848396ef62e85f0f0fa17c6df",
+      "bytes": 860719
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test7.jpg",
+      "sha256": "ee0d19795925921baa8d100efd10a2bae723e160813134befc40f7f61ee6841a",
+      "bytes": 865598
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test8.jpg",
+      "sha256": "1babeab497a9671effa357a7d44c718fc351fb6bd8c4df3ee23329d8d6aaf0d0",
+      "bytes": 858526
+    },
+    {
+      "path": "game/images/classes/math101/test04/math04_test9.jpg",
+      "sha256": "bcbcf1409a184b96cdd0488870e7dd53e24abb8dbd0a00d553bd3f627b606e80",
+      "bytes": 866742
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path1.png",
+      "sha256": "d48f0b822b221fb38e9e8862c9cff079e580558a6c8268164906d35689fc150f",
+      "bytes": 108570
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path1_goal.png",
+      "sha256": "249ab27532ade03dda2831c49cc4170b450340bfa1a723500e655f77b9b5fd6f",
+      "bytes": 39409
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path1_start.png",
+      "sha256": "3832f37516e930d7de3164c2ffae1d7dbda9441206cc4c2d30974bb22e7c2181",
+      "bytes": 39770
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path2.png",
+      "sha256": "5a87dbde64289d5cfe55c06e5fd57a4c28969df55efaf5a948e620a86dad33c0",
+      "bytes": 123908
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path2_goal.png",
+      "sha256": "9c8ad4c65fa244c9081b9639c0b5bfcdbb4bb2aa27da1505c2823181053fb53f",
+      "bytes": 39344
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path2_start.png",
+      "sha256": "13153fdc54a85acab59ef5f815aa6639fa1b458bb6a6493560a6d063f6710bd1",
+      "bytes": 45746
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path3.png",
+      "sha256": "95a1562e750c82551e4f3173a7a554b2a65b9a1cc0222ba4f8be6e5ccea596dd",
+      "bytes": 95659
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path3_goal.png",
+      "sha256": "5cb58190da5817491e9937b8391a52a6792ba848dc0f96578549a59c91a07d18",
+      "bytes": 39243
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path3_start.png",
+      "sha256": "9e7b2cca9aaf70316e12ee940ecf98f480f6abab7bd6b33e477345b8fbb76494",
+      "bytes": 39929
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path4.png",
+      "sha256": "f0ef426a3f1fc7321d2b4a8e529220df9d6045449c573dd70c0bbfc4e2b3b5bf",
+      "bytes": 122057
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path4_goal.png",
+      "sha256": "d29efaad760e7d7b87f39462f3c746129ba847dbf03a91cb5fcd9928d8858b4b",
+      "bytes": 37526
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path4_start.png",
+      "sha256": "61db175b7fcb2db2ab505d48a9b02c8143e46efe3815f02f86cc79797699d7e3",
+      "bytes": 40062
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path5.png",
+      "sha256": "05ebb3b6dcf0bfa1024c6ae2ae263b03c2d0a71dc9bb3f676adb52262f19a779",
+      "bytes": 123442
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path5_goal.png",
+      "sha256": "95ed74159fcffef1fe0c398cfedad73e83e5b77e54f63e67e5eae57387742d53",
+      "bytes": 37447
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path5_start.png",
+      "sha256": "03d6dc4ef7db85df12c3dbcc58e00664b2636aad8b769ed1783f1adf1ceb36b2",
+      "bytes": 40181
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path6.png",
+      "sha256": "52920fa43360eb2bf3b80ea0bfcee554ab91b483fbe9c39564aa3d8b7b02d25e",
+      "bytes": 135858
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path6_goal.png",
+      "sha256": "ebbf50a5a866859f6e8828d10a31992b0b7dde0fa47da12ac0aac389146385ad",
+      "bytes": 37439
+    },
+    {
+      "path": "game/images/classes/path_game/ep2_path6_start.png",
+      "sha256": "85622834dab29eb15c245245fb9173ba349e2e8adf27770cafdc573a83be2dc9",
+      "bytes": 41079
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path1.png",
+      "sha256": "72064ec488eccf0675a9b0a807266208893fd5208453b7e9469fde78bf0ae787",
+      "bytes": 124385
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path1_goal.png",
+      "sha256": "47495a097dd0581fce9a1750297b41bdd454ffe015e047cf7b99ae97e9bcc1db",
+      "bytes": 37246
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path1_start.png",
+      "sha256": "6e670d6eb6438d78352c0d3704eef626d5035460dbf3946f10e2e973951c36a7",
+      "bytes": 40246
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path2.png",
+      "sha256": "3fb0c7a409a42f75460a20f7e96f5be2ce38ce1ff92267023ef49836de61af60",
+      "bytes": 122487
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path2_goal.png",
+      "sha256": "c1cf55cf273b79999b1c885bda48282e6cf132c62c35bea8a5844cdd42982973",
+      "bytes": 37917
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path2_start.png",
+      "sha256": "af3e8e5e63f60c1f5965a8c3f1f6a57101e533b89f30aba62e2dcdf8d95373ea",
+      "bytes": 40246
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path3.png",
+      "sha256": "8a28af6fda375b2cf96a78c816085dee91cc8a324f82f0ed4826988e4f7367f3",
+      "bytes": 114652
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path3_goal.png",
+      "sha256": "49252598c4dad8a800ef2af2c3887fd3aac4c5eec1d545a3762333aafb75df99",
+      "bytes": 37909
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path3_start.png",
+      "sha256": "4cfe3263ea92e927c6a488ff035f8f14fd4d621dd1066c0f1d0fcaa25ccbfe9e",
+      "bytes": 41280
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path4.png",
+      "sha256": "7e00e363aefe72c5e546fe396aba6530f248eb1c22e1065b6c9018700ffa5fa3",
+      "bytes": 88995
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path4_goal.png",
+      "sha256": "cac54df89a9fcaf665e6889232b5132f49310f62ff66efe52ee7f333dec2c2c5",
+      "bytes": 38054
+    },
+    {
+      "path": "game/images/classes/path_game/ep3_path4_start.png",
+      "sha256": "54af9d2a6fbeb8ed9c73ad41dd507d4c002a28453d8f9e19bf792e694b510593",
+      "bytes": 39739
+    },
+    {
+      "path": "game/images/classes/path_game/path_tutorial1.png",
+      "sha256": "e97373afc08471d558ab6d9450ddc5d35cb3ce56742a8c0596d135e44c5d7718",
+      "bytes": 674728
+    },
+    {
+      "path": "game/images/classes/path_game/path_tutorial2.png",
+      "sha256": "27d8ea80bfe3ea3d874c2d5018de07c3c656f6fa0eb71ec11e8ef53ca8d08ef5",
+      "bytes": 767564
+    },
+    {
+      "path": "game/images/classes/tennis/displayables/tennis_ball_hit.png",
+      "sha256": "e5f54ed3773cb883a228670f89004094bf2e311c5a76b10f9876842aaacfe38f",
+      "bytes": 36587
+    },
+    {
+      "path": "game/images/classes/tennis/displayables/tennis_ball_miss.png",
+      "sha256": "2452a1d2e88ffd08a2e86a7a8f4f2b44ab45beef84f042cf6b553ef80cd6f4e7",
+      "bytes": 37933
+    },
+    {
+      "path": "game/images/classes/tennis/displayables/tennis_vs_jill.png",
+      "sha256": "62dc5910abbdbe8abdadeee6e5563d4c833f090d3984375b10f306957e077fd6",
+      "bytes": 28617
+    },
+    {
+      "path": "game/images/classes/tennis/tennis_tutorial.jpg",
+      "sha256": "7cf4a614dbe249226cbc5f7b28391d4c3db31f3e6e411d15d31f8fc579dd8be7",
+      "bytes": 1564434
+    },
+    {
+      "path": "game/images/classes/tennis/text_displayables/tennis_serve.png",
+      "sha256": "bd6adf10b492bf250ca385c147fc7c9994895241a0c5b50a7ab1cf6870b471bd",
+      "bytes": 47461
+    },
+    {
+      "path": "game/images/ep2/freeroam_ano/ep2_freeroam_ano30b.jpg",
+      "sha256": "bd592395ff66c543fa49bbf77c457784207a9a4d199bfecc14c675aeb636616d",
+      "bytes": 745011
+    },
+    {
+      "path": "game/images/ep3/diks/major_choice_personality_tutorial.png",
+      "sha256": "b36408b63261004b4509e446ba2d3c9c4faf994193852ded47923e3f18340482",
+      "bytes": 290776
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_bathroom2_hover.png",
+      "sha256": "95079e4f78ee4316e57f8cdd99d5a12122a18f9e5b87f1d3c889af166d7c2d09",
+      "bytes": 2042
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_bathroom3_hover.png",
+      "sha256": "5adba55b7c98100f4322fc93541dbb9c097dc6503279c232bf3d3e98dfba7677",
+      "bytes": 2830
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_bathroom_hover.png",
+      "sha256": "53287884c27584facf00234966a3bc2679760188ba10b9a1b0083b207639645e",
+      "bytes": 2388
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_bed_dorm_hover.png",
+      "sha256": "acab166f0e85538e7ce0155236d1c9ba588c293d75a3a7361a21ca233bcb6cc0",
+      "bytes": 958
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_closet2_hover.png",
+      "sha256": "5009baedacd82a2d067906447e8ac9fd07c9577a4c0344f7e2ad0d8a0bc012f3",
+      "bytes": 2110
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_closet_hover.png",
+      "sha256": "befeae772566d906785309dfa6ffc8524b36dadb75f75082f614d8e4c26213bf",
+      "bytes": 1721
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_dad_hover.png",
+      "sha256": "83722142e36ed962cf78bc864990bf56b251798467e37d4576ca2312955eb5b6",
+      "bytes": 2741
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_derek_hover.png",
+      "sha256": "83f0f12202b6d02fdbcdc1f020ac03d2905411c64f6b9f6bd6cbc146abbec9c3",
+      "bytes": 3103
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_dorm_hover.png",
+      "sha256": "547492424a4709b162f5d6711661ef85922187aeb4ea20a5a8823b1ccc905c20",
+      "bytes": 2294
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_examine_hover.png",
+      "sha256": "b324f6901fe2bc03fd985a6002760bb2f00b07e1ee8fc3def414b3f817f94a09",
+      "bytes": 1656
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_guitar_hover.png",
+      "sha256": "278a5efe7e675c0611cba6c57227b5deeba74f1ae3ffdcaac84ea4f8043e6cf8",
+      "bytes": 1093
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_hall3_hover.png",
+      "sha256": "bbbdceec7cf5b033bea62ed2d4bc318df65998953918f34b14ce159fc23e3dec",
+      "bytes": 1251
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_hall_hover.png",
+      "sha256": "f5b44e70c9d47baea3ca3e44fa9c2242ad55e7e232ce6e3f3d0df5a75f4f6bcd",
+      "bytes": 2692
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_hallw2_hover.png",
+      "sha256": "b055b597895547d89f30e8a821eefa799d8d2a3d817bd728f7ed59b2cb4356fa",
+      "bytes": 2702
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_hallw_hover.png",
+      "sha256": "6cab84cdcf3fd2cc2b74e0ae800df9a1e8bdf19520db8fb2b122a719ee858275",
+      "bytes": 1563
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_hole_hover.png",
+      "sha256": "36347f340cb0be8a3de4a697730a757ab56792f74ad2ff1ef6c28fff916e9898",
+      "bytes": 1601
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_investigate_hover.png",
+      "sha256": "4b01cb48fe5956c575bb9939df3116c8168b33b41bd5f78b16dde6355d5dd348",
+      "bytes": 1218
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_kitchen_hover.png",
+      "sha256": "310e6791a2ac49c4d1dc05054e3207233ca8e7b0791fd2c278b30ef535d826eb",
+      "bytes": 2686
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_maya_hover.png",
+      "sha256": "ffca3b728cf0b91deba683baa3345f7738a6b0cc9ac25f52cc90e34e7fccfacb",
+      "bytes": 2827
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_mc_desk_hover.png",
+      "sha256": "b0e1af8f5d631b8223baec3f7968d651ed2644f687e960017b887232583e9282",
+      "bytes": 1093
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_mc_dorm_hall_hover.png",
+      "sha256": "d4b289d135d3fafc2386ee924ed244423596db69b7f1a0cfe45f59a70edb97a3",
+      "bytes": 2703
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_raid_hall_hover.png",
+      "sha256": "60682ac0ef132d93c2909481a97858df8837fedfb851ab551e6dfe8f448be5fe",
+      "bytes": 1596
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_room_hover.png",
+      "sha256": "e27fcfdca20f3c9217eabcb3082f689993f80dc5b0ead41f7d6871b231d07efc",
+      "bytes": 3178
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_shower_hover.png",
+      "sha256": "de3f00632cf9aa7c6ab05e0ac4a24ed1e9f1ba64faeeab72c775e5ab9af48f6c",
+      "bytes": 2087
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_stall_hover.png",
+      "sha256": "546bcdcd050b9d6c7e32c2fc1fc8d13b74e122178792c6b5f64a8775af933710",
+      "bytes": 1977
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_stove_hover.png",
+      "sha256": "d8c85c765a4dd4ee15d83853f213ef5814e123e96ebe89ecca98fc26b5b5e4ff",
+      "bytes": 1267
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_student_hover.png",
+      "sha256": "c267cb4aec8fc0ac0bcde4378376da6f7c1fc3824ccd0ee8c09d09f7bf0219b5",
+      "bytes": 4627
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_toilet_hover.png",
+      "sha256": "e36fc2babc5eceeecdfd21ff3e95c559edc3e724af26eb5f8d224d5bbecffdf6",
+      "bytes": 1178
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_ep1_troy_hover.png",
+      "sha256": "4fcdeeff5320f852e213e365e0c0a1fb56a6084b93742482846dbbb3eba4d315",
+      "bytes": 2773
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_stairs_hover.png",
+      "sha256": "67569e5ad603644ff6b5da476f72e38a43cef861792ce845abb645ced970c929",
+      "bytes": 1165
+    },
+    {
+      "path": "game/images/freeroam_common/bubbles/fr_talk_hover.png",
+      "sha256": "aca8d36df491009bbc943794f8ca9b7dadf1337047ec0fa786de2e5dd55f5c78",
+      "bytes": 1132
+    },
+    {
+      "path": "game/images/gallery/exit_btn.png",
+      "sha256": "e2b6fb706556f4fefc857c5eda08b85789a63c7ac2716c3ae883d0c494ca60e1",
+      "bytes": 6805
+    },
+    {
+      "path": "game/images/gallery/exit_btn_hover.png",
+      "sha256": "d6b4864ea27a5a836f2996ad2455a2964ca40300161716c2e4ac87d37a7b87ac",
+      "bytes": 28636
+    },
+    {
+      "path": "game/images/gallery/scenes_bg.jpg",
+      "sha256": "a5cedc7aa2d7a29e77ece2c14580922a0613bc35031efe4f7d9d63474eedb14d",
+      "bytes": 389350
+    },
+    {
+      "path": "game/images/gui/buttons/continue_btn.png",
+      "sha256": "164d81544a639495d9480e348d69910f26132d0c04eaec38842966233303bf4a",
+      "bytes": 15566
+    },
+    {
+      "path": "game/images/gui/buttons/continue_btn_hover.png",
+      "sha256": "74997c1194849ca6b6af1dd2228f788788cbca3bbd6b3acfb54a980e8e2b309b",
+      "bytes": 32480
+    },
+    {
+      "path": "game/images/gui/buttons/license_btn.png",
+      "sha256": "11fe9ebea1a9978856b9e9d5ec0e0cbb7ae2b7a9879ac25ddf5f10facf280ca0",
+      "bytes": 4239
+    },
+    {
+      "path": "game/images/gui/buttons/license_btn_hover.png",
+      "sha256": "f5a294b9e4b799457363ee338216ae8112756771233c55182cc1fd72c90ea694",
+      "bytes": 4289
+    },
+    {
+      "path": "game/images/gui/buttons/menu_gallery_btn.png",
+      "sha256": "60ba9b30ebd900371f747d00f45bafd100f56a4b99b6c36b1bcc11d0bfdbc958",
+      "bytes": 16512
+    },
+    {
+      "path": "game/images/gui/buttons/menu_gallery_btn_hover.png",
+      "sha256": "5753be6d391f14da5b619bf297a64f99be0fd70baea48e980ce945df30b42db0",
+      "bytes": 24811
+    },
+    {
+      "path": "game/images/gui/buttons/music_credits_btn.png",
+      "sha256": "536a1274955dfcff3e0d0481d884b24e847e471f33f179bb999e7c42efd6afa0",
+      "bytes": 9879
+    },
+    {
+      "path": "game/images/gui/buttons/music_credits_btn_hover.png",
+      "sha256": "69ee2706f56694b4195b37de3af80799e16b4744f25892c88a82683ba5f60a41",
+      "bytes": 13092
+    },
+    {
+      "path": "game/images/gui/buttons/music_credits_header.png",
+      "sha256": "55f751c453849e147557f2a08fd5bf0ce308326a78051956f6b0f7348b53b4c9",
+      "bytes": 17653
+    },
+    {
+      "path": "game/images/gui/buttons/new_game_btn.png",
+      "sha256": "c625a5c507bfa16e9b61bee946471ac4aca1fd3c178f802dd14dd2a5fa99d3a6",
+      "bytes": 17391
+    },
+    {
+      "path": "game/images/gui/buttons/new_game_btn_hover.png",
+      "sha256": "086d29e70cddc4253df097cb4662d5dbb5e8708885896237771c71cbc2f3eaa6",
+      "bytes": 27842
+    },
+    {
+      "path": "game/images/gui/buttons/options_btn.png",
+      "sha256": "b7f66babf1e1dd052f62bcb586d217ff0534d7266b22a400309ba3deaec111d1",
+      "bytes": 16400
+    },
+    {
+      "path": "game/images/gui/buttons/options_btn_hover.png",
+      "sha256": "5ee6b7699e10d8bd87e5816898a58e4b7275221a4dab95beea925282719a204c",
+      "bytes": 27335
+    },
+    {
+      "path": "game/images/gui/buttons/quit_btn.png",
+      "sha256": "526f7b8d3dcd8a0e315e72049e198bb2580bcf67b31d8b77423692d5c8f452f6",
+      "bytes": 9616
+    },
+    {
+      "path": "game/images/gui/buttons/quit_btn_hover.png",
+      "sha256": "a4981d5786358d18971c5ec9a1273efe69ba2f191cd324ba7b0b13f991229258",
+      "bytes": 12604
+    },
+    {
+      "path": "game/images/gui/buttons/skip_recap_button.png",
+      "sha256": "a16bb31be4e68817d54737ef79a8020e891f46a5555d36af00308eee18b64b50",
+      "bytes": 7364
+    },
+    {
+      "path": "game/images/gui/buttons/skip_recap_button_hover.png",
+      "sha256": "fb6f08dd75fd1c118e50af026e57e74d8bb5eeb5e0bc9b5448b6a4b152e2e228",
+      "bytes": 7362
+    },
+    {
+      "path": "game/images/gui/dikscale/chick.png",
+      "sha256": "1417bea5dd0879f32983c1573a9eab343286b9da3bd8b5914e0500923927c4d8",
+      "bytes": 7078
+    },
+    {
+      "path": "game/images/gui/dikscale/dik.png",
+      "sha256": "1d20ce5992d2f36752b73bb3569b53cb263199d6ed168db445597e63abbe1d1c",
+      "bytes": 5391
+    },
+    {
+      "path": "game/images/gui/dikscale/hugechick.png",
+      "sha256": "d47a414dcbe2f8ce32cee88b94fa315c63be99256d1aed8359e354a1782f1d06",
+      "bytes": 7196
+    },
+    {
+      "path": "game/images/gui/dikscale/hugedik.png",
+      "sha256": "45058e3f13766f24bda820e3f7e36cb7c13afa7ec43b2c9087d1d631afe1f927",
+      "bytes": 6822
+    },
+    {
+      "path": "game/images/gui/dikscale/massivechick.png",
+      "sha256": "a27e3991b12f95e0e4d75b70fb05930ef901ce259daa7748b9b31f9cb4e9796b",
+      "bytes": 8372
+    },
+    {
+      "path": "game/images/gui/dikscale/massivedik.png",
+      "sha256": "708040d39a353bc1762023aedd08185c878b75eddd210f5bda2d14953307bff0",
+      "bytes": 8217
+    },
+    {
+      "path": "game/images/gui/episode_ol/gui_collectible_tutorial.png",
+      "sha256": "cfe62103dec891637f4a1c821a28fd701c026c4445f124227db45d9ac8de74e5",
+      "bytes": 94942
+    },
+    {
+      "path": "game/images/gui/episode_ol/major_choice_scale.png",
+      "sha256": "c8d9be1e95ad05192f16117f14f9d2056f057668d9c996e9a3e950535195ed42",
+      "bytes": 99488
+    },
+    {
+      "path": "game/images/gui/episode_ol/menu_gallery_bg.png",
+      "sha256": "8eb64328dedc8e94fc8fb617dc703febf528b6265dbb0c6b19beec34329458fc",
+      "bytes": 1333920
+    },
+    {
+      "path": "game/images/gui/episode_ol/menu_gallery_bg_rewards.png",
+      "sha256": "52a1ae632dc3588dd4ee0329c0067e2154108773af564fddbb4af841b0414490",
+      "bytes": 1115495
+    },
+    {
+      "path": "game/images/gui/episode_ol/menu_gallery_bg_scenes.png",
+      "sha256": "1e0e5bfb2738b06c8e9e5c3a0978be25dde6bdfb7a6da535191bb496673ac0e7",
+      "bytes": 1135669
+    },
+    {
+      "path": "game/images/gui/phone/app_buttons/pet_name_reset.png",
+      "sha256": "887f4dabe2208b1af8e6d28efd9201b1cd99220e88a2e819177a81046f1e8d58",
+      "bytes": 4843
+    },
+    {
+      "path": "game/images/gui/phone/app_buttons/pet_name_reset_hover.png",
+      "sha256": "dfacc626318334d598b35444730297bb6f0a3c5c065dcc5a34a73bda9f9909cc",
+      "bytes": 5701
+    },
+    {
+      "path": "game/images/gui/phone/app_buttons/safe_ok.png",
+      "sha256": "675d87f6f6e7bf0ffe00d132d7111a696414959c8e9ed90788338846e4c30362",
+      "bytes": 7474
+    },
+    {
+      "path": "game/images/gui/phone/app_buttons/safe_ok_hover.png",
+      "sha256": "a8dca4db546c2ce1578f7f5fc03cae77705610ed38c417198c5ce1010516bdf1",
+      "bytes": 7574
+    },
+    {
+      "path": "game/images/gui/phone/app_game/eco_solve.png",
+      "sha256": "1aed04ea8cb524f8ecb9235f6874f124dea989ee852e86956cfa4f6bdbac7bbd",
+      "bytes": 32373
+    },
+    {
+      "path": "game/images/gui/phone/app_game/eco_solve_disabled.png",
+      "sha256": "11d8f8805879d2b65640a1919613da948ed6ec33f18a22400b96a9c4aaf391d6",
+      "bytes": 18243
+    },
+    {
+      "path": "game/images/gui/phone/app_game/eco_solve_hover.png",
+      "sha256": "cdb397ab2710a18544e68256d7479ac188084ee76bab128fe0f97338d995fc53",
+      "bytes": 32104
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports101_arena_skills.png",
+      "sha256": "1997e7f8b07abdaf80058ac94faa0b05b2ad6df8fd7c0dfbdffca372ecb4b795",
+      "bytes": 50878
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_attack.png",
+      "sha256": "fe16ef05f6e250b69493a1dfda67630ea1a97638bcdb0a514a712df0e4378edf",
+      "bytes": 21009
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_attack_disabled.png",
+      "sha256": "f8d8637fd000ff86c13ef4b88f6096be2a7ac957144cd59a8dbe9160918e350f",
+      "bytes": 15550
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_attack_hover.png",
+      "sha256": "ccb1f9eda5d52df0121814bd7e42fdf492151d14f131bb6fcb0ab5fc8853aedb",
+      "bytes": 22341
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_buy.png",
+      "sha256": "e993af9a5e34b1404f3985b9cae03299b545a804e196a8247eadb46859c166c3",
+      "bytes": 7433
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_buy_disabled.png",
+      "sha256": "69a12cb401c118f3c28bac566e6751689e346c319a82263f709052dacc6421e3",
+      "bytes": 8320
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_buy_hover.png",
+      "sha256": "798fd3e83d584ea35c4c968b0cfa80ced83135af855c42b4c12572004e78f996",
+      "bytes": 8005
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_easy.png",
+      "sha256": "b2fc605d252b674aefc3d35ef1b0b7849a5ee3e5d24ef5ed38957f866e3b8bad",
+      "bytes": 8944
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_fight.png",
+      "sha256": "b044048c9af6b65e4824db44fe0b3fd94ff81b7e160781a190522e46a6b5821e",
+      "bytes": 9802
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_fight_hover.png",
+      "sha256": "83e103e47d7e44d57279b78d35620212f070c8c831174be2a2606ab0b141c165",
+      "bytes": 12126
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_fight_screen.png",
+      "sha256": "803fa0fba442fce5089ae61f3f86ffe737f1bc8cc53164c5ad1d57e5ae631761",
+      "bytes": 50665
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_hard.png",
+      "sha256": "9468e198c518b2e63f247cd2f2128deefaf1670db5a7c7f87078ea5bab0157f6",
+      "bytes": 9255
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_heal.png",
+      "sha256": "15e7fb47eacdac1a906f54e1ac66b52c92d4560f6c8322e4d436f992daf627a8",
+      "bytes": 25854
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_heal_disabled.png",
+      "sha256": "4e4e554dbc97a1ca54bee9cc67eb2c2c371a280490acd46a23050defef286bc1",
+      "bytes": 15290
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_heal_hover.png",
+      "sha256": "97b1fb996a784b55ee5cf58b967af35efddac74febfe34d41f131680756d3a1c",
+      "bytes": 22929
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_logo.png",
+      "sha256": "d893cbef932745cf39abef159d70b2604d611db8ac0d32c145455c3b98735e6e",
+      "bytes": 38274
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_loss.png",
+      "sha256": "85babf09b3b36d12184ef4857147fc49754788482d6f494e0a5be487b040cbea",
+      "bytes": 65531
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_no_reward.png",
+      "sha256": "a69cde08a7bfc802692af2cd69c775e30da443f1b19f8c2911d93954f653061d",
+      "bytes": 3489
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_normal.png",
+      "sha256": "1e5e3ed8e14a459a3bb4e85f941868430b3eefc32f0f48e8cb2f2b92352641d3",
+      "bytes": 11972
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_ok.png",
+      "sha256": "b1a4cd63e367be50f50e3dca691eb9e6f3b0150b9ad379f4282eb5ead4106bed",
+      "bytes": 10452
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_ok_hover.png",
+      "sha256": "734cfd29dbf7a4e5f69b2e953a8b1330a79d285a20284183ef0d4d0de419004a",
+      "bytes": 13998
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_opponent.png",
+      "sha256": "afd4a79710a1bc6dc400b9469764d740eea4f0974de39c887bd09c88bd91fc67",
+      "bytes": 8518
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_opponent_hover.png",
+      "sha256": "65ddd08249ecff855f8178e75d0c66bb09c49e11ee6924bb3f184caacdf3a752",
+      "bytes": 10502
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_quit.png",
+      "sha256": "db8b488bb9693f6d3408f53b194543bec9f10c1f2e441dcb7c2a4f10873a9c25",
+      "bytes": 8100
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_quit_hover.png",
+      "sha256": "0347a8ba728740f7169dddbc293d6c62322dd72e554a9b2400e55e5aa4c58484",
+      "bytes": 9751
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_reward_money.png",
+      "sha256": "1721e0b014cc4e86387717c7403b42e3f1d84b99a082e2bd9b4015cfe8caf3ea",
+      "bytes": 4706
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_reward_render.png",
+      "sha256": "d3f369b86398ab31d9e3b869edc9d6c57d6046d8059ae11cf0cfd8a90414ef82",
+      "bytes": 5414
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_reward_skillpoint.png",
+      "sha256": "f18350ac21f75a8a18180bb8f980bcb3c289608230ac680827192ae77ff11b73",
+      "bytes": 4943
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_skills.png",
+      "sha256": "f28d56f6fdbf99e7829116f19602ae047d65b6c6ac1e5baf6278c35e43ce7dd2",
+      "bytes": 10603
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_skills_hover.png",
+      "sha256": "922efd071eff1753313d55f6bac22c87977367c4403e659267ab7973a9363a64",
+      "bytes": 13526
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_sold.png",
+      "sha256": "bccb313b560eaa8b566bf26ca2a697029104c5c85864f1802b1dfe3b81ea40ee",
+      "bytes": 8270
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_store.png",
+      "sha256": "f7b846d240d23b5dcdf9a41e1d47880c959df76c5792b0e41c765bc5caf92447",
+      "bytes": 7641
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_store_heal.png",
+      "sha256": "1ba0570feb3adb2a6f2d8a17058d0073cde3b820a15629d4164dbff9d5131aa6",
+      "bytes": 6687
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_store_hover.png",
+      "sha256": "736d0de308b5c9430695b18aba9112db3046769c9d6b2666becf88ec9caa7296",
+      "bytes": 9433
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_tutorial.png",
+      "sha256": "d2c69b755ff406586d963c08808865060f0da13b895929009d7978c35eacde63",
+      "bytes": 10729
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_tutorial_hover.png",
+      "sha256": "cf03b7eb139ac58aeeb4de5e4ecd87cd66ba8519fbd97a1cf9d32345063ad4f1",
+      "bytes": 13146
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_victory.png",
+      "sha256": "d788e76cff4196f6709b2d28bc956b48dd783b40e8e0bb2ffc7b4bb4ad836c50",
+      "bytes": 60092
+    },
+    {
+      "path": "game/images/gui/phone/brawler/sports_you.png",
+      "sha256": "927f492bb4da1f93f2a13c341b74e3cc55bc76fa0179065b1172c5f4ae307383",
+      "bytes": 8112
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_background_txt.png",
+      "sha256": "d6afd6bd622da109fa7157c720217d0e635bf68753246d53a6bdcdcbf19a693e",
+      "bytes": 7286
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_background_txt_black.png",
+      "sha256": "d066cc81de623439e4221924c12e1268f7bf7a17d12612f8d8fc0b2ecbe8801b",
+      "bytes": 7299
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_bios_txt.png",
+      "sha256": "4868a5c3153986f03d6e78a414f68147b2fcbb5b830ffe41d636c22797e67279",
+      "bytes": 16387
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_bios_txt_black.png",
+      "sha256": "28871fdebd30e59769d3a31c7b0f190e92c9d42091470b88f89fa7491b29868e",
+      "bytes": 15760
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_brawler_txt.png",
+      "sha256": "bb824a7f6f788f4923c2e8313c3d1e7db9638722860e6fb1015d748e0646426e",
+      "bytes": 7492
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_brawler_txt_black.png",
+      "sha256": "19e564cf99305a2423c1060a3762d49ef658ae1f05ae2a879f3eea812d253b62",
+      "bytes": 7090
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_contacts_txt.png",
+      "sha256": "1baf7345f8a1fdffc8edb895f435ba3d9d0eac07b8c6187bb5113227f87f285c",
+      "bytes": 10345
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_contacts_txt_black.png",
+      "sha256": "6d6bdf08cb4db6415cbbfa54be5ba09957fe4393a220577400222db97b1c5fb3",
+      "bytes": 9444
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_game_txt.png",
+      "sha256": "b35d555b39c4247e67638cfa158a4c04679526ad8f10ee11d98671b70d1bcaf7",
+      "bytes": 6445
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_game_txt_black.png",
+      "sha256": "1d75487446e75c94ae876d72465ab5b184fef592a17862105b96795205fbdde5",
+      "bytes": 6375
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_music_txt.png",
+      "sha256": "24aa4a418ee088e030d811de80ec9e55cc6d568cacda97d690160d81306c90c0",
+      "bytes": 14613
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_music_txt_black.png",
+      "sha256": "7f2a8d1aee242823e412d99e544ac7e0c5e0ea3c4807b85c31c8666e3edd7b1c",
+      "bytes": 13952
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_pet_txt.png",
+      "sha256": "0ac5c599bb8a3f46ab75372c1584d4f7a2e4c2960d04c870dc2be8848b4a1148",
+      "bytes": 9932
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_pet_txt_black.png",
+      "sha256": "1b9a6db44854ff4c37d66c18ea7f0b6cd1c7b6e03c31c9ee087e59a06036b7db",
+      "bytes": 9175
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_rewards_txt.png",
+      "sha256": "39840343704b01b46819ea2638766971ad2f7ed1a7cf8e1ccd7b6f19dea8f366",
+      "bytes": 12719
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_rewards_txt_black.png",
+      "sha256": "57429a2de9c3aa5edb97107763d06503457eef997eebdcf6efd638d5aca89058",
+      "bytes": 12309
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_rooster_txt.png",
+      "sha256": "7f96942ad111d8cc1d18cc1ea903e537b64b6cdf96bc61858dc2f1cbedc126c5",
+      "bytes": 5588
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_rooster_txt_black.png",
+      "sha256": "9923527e436adc3d1cc3d399c34761b093ad1d5bb9e2136e90eb41974d6b7108",
+      "bytes": 5414
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_safe_txt.png",
+      "sha256": "0e9357d8793cd172431e22303b43917bff0353b9b25ea70c68046105b04999c0",
+      "bytes": 6569
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_safe_txt_black.png",
+      "sha256": "d5b7649839d59e802a9fb00df39b5fa8e100f234631226cdb433afbaf23547c9",
+      "bytes": 6373
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_scenes_txt.png",
+      "sha256": "325bd5d73d63c1ac90a6e2ddb40859962991aca0b935cc74a4c0f63a508d875f",
+      "bytes": 10502
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_scenes_txt_black.png",
+      "sha256": "81b2ad647e2c9e18dce8afbef7a8a95cac0dd8bc4cac0c3cc66940d5be07d26e",
+      "bytes": 10257
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_skills_txt.png",
+      "sha256": "b752cf038f30ecda5cc50fb0c179b1bb129f5ea472fb81751447c273fc726f8b",
+      "bytes": 8042
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_skills_txt_black.png",
+      "sha256": "8ab5dbcb4560955f865567c91f80ebe3526647915ef22d2bf2b8eb6825f8b0a7",
+      "bytes": 7623
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_stats_txt.png",
+      "sha256": "82a3fb352b49cff0073be90bee7dd6c5bb160c127671d753ba4ae2511c14a577",
+      "bytes": 7553
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_stats_txt_black.png",
+      "sha256": "43a7d28be49edd579548b8eff44d452466dcdc3932e9aa2ba8a2bcf9bb0e03b5",
+      "bytes": 6974
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_swyper_txt.png",
+      "sha256": "e28e0308f49014c6baf9d49d91d1155aad1f6082254705ee721fbec0e5b48170",
+      "bytes": 4146
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_swyper_txt_black.png",
+      "sha256": "bbafa88bc966d409fa604b62848d67eae86aebc231fa7a97b59f767938a4d4e5",
+      "bytes": 3949
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_tasks_txt.png",
+      "sha256": "d056b97ad2178a8d72f065fbc49d0d22fd9775f698e138d5556867158a5ce7e0",
+      "bytes": 7329
+    },
+    {
+      "path": "game/images/gui/phone/phone_app_text/phone_tasks_txt_black.png",
+      "sha256": "a98293386af5b161c95960c4dd29466a459a0484e08c593e9b33017f0a910544",
+      "bytes": 6780
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_bios.png",
+      "sha256": "7556c1617700c7c818830a134e197a82ddf498f2f1af1e99e5f45832a4047c3a",
+      "bytes": 157016
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_call.png",
+      "sha256": "6d3d1193f1059135be3672ecbb653f4984de83108015d581fbb65fa719b83e05",
+      "bytes": 178055
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_contacts.png",
+      "sha256": "6d5293e95bbf18eba6b9b7b1182a91cd92136feab69f7e498ffe1b986a69deb6",
+      "bytes": 398750
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_rooster.png",
+      "sha256": "70e1ad8b5107c245169ee07b6270dda317c8c154aa149f8a043f9b38936b0850",
+      "bytes": 163706
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_safe.png",
+      "sha256": "ca23d2977c391ceb18670dfa6dde67ef0a2e0bebb797b2d67b87f39d343ac4e2",
+      "bytes": 244482
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_safe_help.png",
+      "sha256": "50fb0c9b2f2ef818749574192bfafff08220dcb0df9a1476a8c752a824b93d1e",
+      "bytes": 195768
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_safe_unlocked.png",
+      "sha256": "af89bcde8d6c4cbfd5eca739f14c48f307807a004628f28b6e8813e53447bfc2",
+      "bytes": 340146
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_settings.png",
+      "sha256": "44f22155ae50a370da4429796816e62d93708e5f7b82a32cf5820d38831fe98b",
+      "bytes": 422982
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_skills.png",
+      "sha256": "21db6fbdb325e44f44b0f28e77ccdcb680f6b962215b198c5afd317b1293b05b",
+      "bytes": 380115
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_stats.png",
+      "sha256": "54386c9b3c6c3cbb43b2568721bd634efbc7104dcfcd03dd81df65e92758051b",
+      "bytes": 447971
+    },
+    {
+      "path": "game/images/gui/phone/phone_bg/phone_bg_tasks.png",
+      "sha256": "e20d829d1bd595393f2418d16421ec71e9b1740de04dd9004d83415af01fb0e8",
+      "bytes": 382307
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/common/swyper_chat_bg.png",
+      "sha256": "bb205c31d707bdfdd41ffedb19fc5a3c420d6418e1a5f80d551d5a4111107719",
+      "bytes": 154069
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_catrin_disabled.png",
+      "sha256": "38260fb49a9f732eeaf836326081b18970fa7d0e75d00ce9cf91f2d70753a6e6",
+      "bytes": 22413
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_catrin_hover.png",
+      "sha256": "9c4bc501b349414acbdfaf1bc389a066569f35aa6b90228907ea629dc8375026",
+      "bytes": 42397
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_catrin_idle.png",
+      "sha256": "031b952d062d2c7d6e7ec7bf2fb25c37f7d9b606da66b9638e37c567e004b92b",
+      "bytes": 42258
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_catrin_new_hover.png",
+      "sha256": "1686e703a264846582409e2b35a753d61d359ca9919a0bdb5c33d5d030e83f9a",
+      "bytes": 43924
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_catrin_new_idle.png",
+      "sha256": "dd0df4d88c3870864c50f2b23b6edc25a2d9d97d2f15f13239c947199a256e2e",
+      "bytes": 43571
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ellie_disabled.png",
+      "sha256": "fca0a7002b34e32df3290b0df1e8aad6942b7682335163cd6572ca67aea1e5a1",
+      "bytes": 21597
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ellie_hover.png",
+      "sha256": "eb3445a0d5150c286d662efc3eb32c9a546841d20f7ae441af6e00b59d008b2e",
+      "bytes": 39780
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ellie_idle.png",
+      "sha256": "547e7908b15c40d8a7ab3f766f55e1e8a8a51cab497083913d889d6a8370a0cd",
+      "bytes": 39540
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ellie_new_hover.png",
+      "sha256": "8184500674073124d6cc8b5a6d748dc5a77b8fda73873d0ff5594c1a07d02c8f",
+      "bytes": 41210
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ellie_new_idle.png",
+      "sha256": "fc106439f1070ac64bc6dc0a1227faa1b4eb2e36db022771bed5f623ff572d15",
+      "bytes": 40955
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ida_disabled.png",
+      "sha256": "90072b3734c78bf898500e4913874ff179dd5d73cb5df7f088d90fb686a80433",
+      "bytes": 21445
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ida_hover.png",
+      "sha256": "ab1bee24885e95aba83d0d2b720879fda52030a47739419898f566d5987b58b1",
+      "bytes": 40933
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ida_idle.png",
+      "sha256": "13b20ad5395868f914b9344775a02529a9dc10e074928be177980112c02419e3",
+      "bytes": 40535
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ida_new_hover.png",
+      "sha256": "4691a23f00cc2d47c1bd5f97d1591d5dcadae7f8712e7b58b12e6f10e6a7f85e",
+      "bytes": 42211
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_ida_new_idle.png",
+      "sha256": "b26d6479b34adbb197a128fb3c8b900a7417dc9c89fba5b54c0ad6cf2ef08ab2",
+      "bytes": 42190
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_nicole_disabled.png",
+      "sha256": "dac7068448fa3464fba8be93c333961586bb8c89c52d97f3d41b4e4ccc7e5f89",
+      "bytes": 21368
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_nicole_hover.png",
+      "sha256": "0ba3f334182dad1a856926f46f3e6bcaaaa211a12c51d422308096c5f0fc21b2",
+      "bytes": 41440
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_nicole_idle.png",
+      "sha256": "b2385f84f17a7a69f4a11b62123a56d252ee0f421cebbaaf47a8dc808935a974",
+      "bytes": 41196
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_nicole_new_hover.png",
+      "sha256": "2a6de4abcff3789b6dd21652891660c23466e3b877d7f36e01024852b36bd52d",
+      "bytes": 42748
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/chat/names/swyper_chat_nicole_new_idle.png",
+      "sha256": "9d5d68fc0f70e92e16d314673600aa1934d2c6d4651fa880fc6d822aa4ef34ac",
+      "bytes": 42389
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/gallery/cathy/swyper_cathy_pic5.png",
+      "sha256": "8b9da3a0c36185246b22b4ee600f38578f99b7d607c37c74f05f49391b1ee534",
+      "bytes": 670201
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/gallery/catrin/swyper_catrin_pic4.png",
+      "sha256": "ee66f6145d15182e58bdf5382db6997dd5d3ff4080e9dcee3ccb72dcb5e25a37",
+      "bytes": 510355
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/gallery/ellie/swyper_ellie_pic4.png",
+      "sha256": "06862c73bed8f3861140fe6a67817de47696b2d857302d23bce5d72c0a4d8ede",
+      "bytes": 655118
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/gallery/ellie/swyper_ellie_pic5.png",
+      "sha256": "a268421f60966875c7f6930a66bf281cd953c4051a832eb0175cf717b046884c",
+      "bytes": 807540
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/gallery/ellie/swyper_ellie_pic6.png",
+      "sha256": "9336be61f3cc262049c8353ebd591b564593bd80c6166a70fccd975d140ea6ba",
+      "bytes": 808465
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/gallery/nicole/swyper_nicole_pic4.png",
+      "sha256": "b34f84794b00aa7f61aa1e7135614b75249d50bf96c795397411ff8e5f2dba19",
+      "bytes": 665345
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_chat_button_hover.png",
+      "sha256": "101c2b8fee10889246497f57c1aff7096a32544feaacd1999f06888c93b7e237",
+      "bytes": 10122
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_chat_button_idle.png",
+      "sha256": "9c895462cbdb7bf4d63e8179b38c4416de0d260d854e583c04944e51828143c3",
+      "bytes": 10219
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_chat_button_new_hover.png",
+      "sha256": "284b3cc064f535f4067c8362d21a50a0c6156dcc0fddc1e47baab31655763037",
+      "bytes": 10916
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_chat_button_new_idle.png",
+      "sha256": "5226c9b37d124395589d1a89474199730778134baf1d816eae6de8ddc1c94a07",
+      "bytes": 11011
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_choose_profile.png",
+      "sha256": "ec3cd79d7c7ed7c41a219046577a370589d23d5d2604a8235fce6506fc5d755e",
+      "bytes": 331394
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_gallery_button_hover.png",
+      "sha256": "5951e4a872c59baa29c690e006bf2fceaf9a7cbef269b5835d175c23beb0228e",
+      "bytes": 10188
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_gallery_button_idle.png",
+      "sha256": "ebb99c70e7a88788a04ac0ff3f42785b25a6767d0f1911898d17e45966266fac",
+      "bytes": 10301
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_gallery_button_new_hover.png",
+      "sha256": "40bc9005f3dd61536bd7e1b9fa44680fd25325cba780d2a7079c1f8d74035486",
+      "bytes": 11529
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_gallery_button_new_idle.png",
+      "sha256": "c03140d8caa6a9d4a314da3e3fff3a23e78b9d073b34560d2b4429096ab213a9",
+      "bytes": 11078
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_main_profile1.png",
+      "sha256": "3da170ea3615f0856c518c786249937bb07b4f342c93865e6b6720c0f505d961",
+      "bytes": 221106
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_main_profile2.png",
+      "sha256": "a8247b0d0c30e3b09eb8ae22cd1b3091d24bd7d9441340c4a92d22cde098f84d",
+      "bytes": 248640
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_main_profile3.png",
+      "sha256": "c26346c7e9ebd8adb49d5eb521b3ba39f3c27430d32376c434e4bc908ef4ded3",
+      "bytes": 234251
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_quit_button_hover.png",
+      "sha256": "28ea8b611bef7d06f0316f4e78807b29fa4a97e50e9ac9e35ce43b20616663a0",
+      "bytes": 10032
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_quit_button_idle.png",
+      "sha256": "83749df3ff5aa4474bd0bee428e63cafbbb2b502e092181c9aa38e25026b2279",
+      "bytes": 10564
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_swype_button_hover.png",
+      "sha256": "2d8bf621e3319ad64c307e16931097edf2d99c4512235af677016eea6b1282ee",
+      "bytes": 9745
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_swype_button_idle.png",
+      "sha256": "c2f133e47e58e6cac22c9a5dac672ea35ef489068ecafb07bf71ac913df36383",
+      "bytes": 9919
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_swype_button_new_hover.png",
+      "sha256": "e836a3b6876d323404e49f8f2ba50ed99fa1986a2fb6a78e658e13f4d6038886",
+      "bytes": 10536
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/main_menu/swyper_swype_button_new_idle.png",
+      "sha256": "d408e751978f8c1f5f9bbebf16bad436565ba47d5079fde9a320c218b296df57",
+      "bytes": 10722
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/common/swyper_no_match.png",
+      "sha256": "4db53c45a9a45d9f30de06e01d677505af6abb3d14d758a86a4c6bfbb2d2e864",
+      "bytes": 30823
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/common/swyper_swype_done.png",
+      "sha256": "dd6c97bc1147ffdb07ef5d6b4872beabddf847d26ee16be4639371191ad6fa84",
+      "bytes": 162836
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_cathy_pic1.png",
+      "sha256": "6fd0a049c19308dc905b6dfcf4cd20c2fb23430eb848964d45eddfdd3d9f7652",
+      "bytes": 541375
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_cathy_pic2.png",
+      "sha256": "01d8e54369f0558a2451ebabcc71c9a67c59229d1b70227f10cf3c8cc862a48a",
+      "bytes": 765983
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_cathy_pic3.png",
+      "sha256": "d596e44f2def2ff8bdc3a86b0445801180d7f5a2cc5c112176205ab4a0d2f00e",
+      "bytes": 677578
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_cathy_pic4.png",
+      "sha256": "fb161c73cefd865a8a26bfc2913dcd555db3317d91627fe2ad42bf6be930fe09",
+      "bytes": 510181
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_catrin_pic1.png",
+      "sha256": "7c974eb9d42879e13bd098f64caf543f13e89820b915aafd017ed6ffdf55c061",
+      "bytes": 784146
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_catrin_pic2.png",
+      "sha256": "10224aa9ac2a6b83699d11aea904dca4f1e44e6f0ce33963a973eec8c33259cb",
+      "bytes": 644587
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_catrin_pic3.png",
+      "sha256": "d1dae76de4239b0a8665a00b4a1b4cb875d9c5e1e9b82a4620bec25d3a3f75c3",
+      "bytes": 611336
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_ellie_pic1.png",
+      "sha256": "9f5f2343bad54ff9d9adcae3a65a73e463874f04eba13a7280bb4663e8494e88",
+      "bytes": 759046
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_ellie_pic2.png",
+      "sha256": "a6028c8c7e0feebd6ce4384bf0e4c7dc39fc8011d401c04e7eb296b9a25b9c9a",
+      "bytes": 662810
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_ellie_pic3.png",
+      "sha256": "55c1546506312b674dd65b77ea0f35a6d383cfce2c0b23207251c9d3377c30cc",
+      "bytes": 732726
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_ida_pic1.png",
+      "sha256": "cf40e222bb65b26d55ca262f8e0924150a1dd542c028a1470cb55f5e4d3e1bc2",
+      "bytes": 849533
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_ida_pic2.png",
+      "sha256": "3f717d832e868f9f30d759685e662c55f0872f5d945b3e381d14b981d5ef22cb",
+      "bytes": 660578
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_nicole_pic1.png",
+      "sha256": "61df1e36a66c555114c60b1173ab1b766abfc86edd9e272b7f5839b7592f971d",
+      "bytes": 740676
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_nicole_pic2.png",
+      "sha256": "4c8eea32de03ebc16f2ce5df813de769be6a39bbc0bb9a47b11ef59f6f40500d",
+      "bytes": 644038
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/pics/swyper_nicole_pic3.png",
+      "sha256": "b4da8112fa052eb20804f4b7b831ed46ab8931da8fe2398f1b9bb4d06f09869a",
+      "bytes": 585462
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/profiles/swyper_cathy_profile.png",
+      "sha256": "7eb20749643a00ee200ac3acb0bdef6cef1e84aa082667436aed04726be235e6",
+      "bytes": 511535
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/profiles/swyper_catrin_profile.png",
+      "sha256": "0ee1edfe02f3aa516782c0fda02686b16a99fa500669bc59089a46020f4f1a97",
+      "bytes": 695880
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/profiles/swyper_ellie_profile.png",
+      "sha256": "f6e99bb613f85be22a95d236203612fb61ad1f17eae740bba812860553926bcf",
+      "bytes": 704349
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/profiles/swyper_ida_profile.png",
+      "sha256": "19cb023b50f09d6d090f2ebb86b230c2d5e9e4d2556c1b0c38c7d87e2077e9a1",
+      "bytes": 686143
+    },
+    {
+      "path": "game/images/gui/phone/swyper/ep4/swype/profiles/swyper_nicole_profile.png",
+      "sha256": "76787b8136ad82a9014862f334a5d51273cff9260f85968085fccdc446a608f5",
+      "bytes": 639371
+    },
+    {
+      "path": "game/images/gui/report/report_done_hover.png",
+      "sha256": "e9ec0b256044405e6893d258a325eb3981f54942117ac7351f2752051f4357b0",
+      "bytes": 12861
+    },
+    {
+      "path": "game/images/gui/report/report_done_idle.png",
+      "sha256": "cc58b88163d3bf47fb8737190698f8c6ac1d4b92d9502d7da9857a9039b27a2d",
+      "bytes": 9265
+    },
+    {
+      "path": "game/images/gui/shop/shop_bg.png",
+      "sha256": "df47dd99da800ce59d4eb1350b59fea489ebb65a2cff87ac6b129d43553b0591",
+      "bytes": 39904
+    },
+    {
+      "path": "game/images/gui/shop/shop_bg_long.png",
+      "sha256": "43d94b0b47d2aa04a2ab8020fd81e41cb3e61fd632441246b826c94e3dfaf6a5",
+      "bytes": 41367
+    },
+    {
+      "path": "game/images/gui/shop/shop_brawler_cheat.png",
+      "sha256": "c04ca08cde87e8391f06dbfba72452e31a5a53a566c537113405abffa9db7c44",
+      "bytes": 10373
+    },
+    {
+      "path": "game/images/gui/shop/shop_buy.png",
+      "sha256": "bd64d61f48ff87ee569edb3b5b30a68c1fff77d16bce8aa358c11684f6644aa7",
+      "bytes": 5940
+    },
+    {
+      "path": "game/images/gui/shop/shop_buy_disabled.png",
+      "sha256": "b9a66fc0cb89a5a6c3f897bc63b6bcc5993a35ec2630919a8a13778cbfe4ed57",
+      "bytes": 5919
+    },
+    {
+      "path": "game/images/gui/shop/shop_buy_hover.png",
+      "sha256": "fc0bdd1086924de52aefda4d9bcddcfc04c11caa7005e0c9d2eebd55c2f310ea",
+      "bytes": 5515
+    },
+    {
+      "path": "game/images/gui/shop/shop_english_booster.png",
+      "sha256": "6a07156346adb240d723f842653c9512581250371dd4fa5fe19a3c17e097bdd5",
+      "bytes": 7680
+    },
+    {
+      "path": "game/images/gui/shop/shop_english_cheat.png",
+      "sha256": "4babb92bcbf8de52cd9283028dbae0c030c70bc628503c2f4ad2a349c3e99d32",
+      "bytes": 7810
+    },
+    {
+      "path": "game/images/gui/shop/shop_free.png",
+      "sha256": "91aa5a6010bdce4240fa324c2eac16e0e54477d03abcbd78658722ec940f05aa",
+      "bytes": 6021
+    },
+    {
+      "path": "game/images/gui/shop/shop_gender_booster.png",
+      "sha256": "4edbea988f3f1160a6b271288435241a590cd721c98bc118052b0dd78c2ebf21",
+      "bytes": 10130
+    },
+    {
+      "path": "game/images/gui/shop/shop_gender_cheat.png",
+      "sha256": "f9f31f618dc335e9d694641616c50517aa25d0e63e8d44ab43dc87920533094a",
+      "bytes": 10084
+    },
+    {
+      "path": "game/images/gui/shop/shop_japanese.png",
+      "sha256": "23fb7040ae56b1fa350d4c7f1b8d1a6f74e985f00c9b6c3cb7bdd340959b3ed9",
+      "bytes": 6910
+    },
+    {
+      "path": "game/images/gui/shop/shop_leftovers.png",
+      "sha256": "bb02a72470e38d6e898f68b507e150b70bf8dc146fb8eef8ef42a5080d6ea16b",
+      "bytes": 7354
+    },
+    {
+      "path": "game/images/gui/shop/shop_math_booster.png",
+      "sha256": "936909262cf696356508e03d92e185563325f1ef558bc634b6dd219a25b137e6",
+      "bytes": 7975
+    },
+    {
+      "path": "game/images/gui/shop/shop_math_cheat.png",
+      "sha256": "03fbe7016275d17ffe2cb492710d710438899b9ddbf90b9ab2471c6e5882e01a",
+      "bytes": 8041
+    },
+    {
+      "path": "game/images/gui/shop/shop_max_lvl.png",
+      "sha256": "121363e5af5be0598889445389b8b3c51f9efc5b8b37075962a9073c5a788d7d",
+      "bytes": 5659
+    },
+    {
+      "path": "game/images/gui/shop/shop_notes.png",
+      "sha256": "a2a4165a52a7c2327783ec58f126874ff415e2f5b6cb69590a63c73967abba88",
+      "bytes": 9150
+    },
+    {
+      "path": "game/images/gui/shop/shop_shuffle_cheat.png",
+      "sha256": "758a8934467445750b73762c698a32b645ed5627281884f27f7600b07cd9c797",
+      "bytes": 7506
+    },
+    {
+      "path": "game/images/gui/shop/shop_sold_out.png",
+      "sha256": "aac65c5600d68b5b728a5ec8b3836611de26cff1c8d3fefc50927e1a6aed9ec7",
+      "bytes": 7317
+    },
+    {
+      "path": "game/images/gui/shop/shop_special.png",
+      "sha256": "779c4dc3a12c64df2cc21bbecf5118dd580ec6e2a02c0bb00af57bca1167f2ed",
+      "bytes": 7995
+    },
+    {
+      "path": "game/images/gui/shop/shop_spicy.png",
+      "sha256": "cde304e1999b9dad2c020d5c44824278990b8b9d3ebb279236486653bb7185ec",
+      "bytes": 9630
+    },
+    {
+      "path": "game/images/rewards/general/rewards_bg.jpg",
+      "sha256": "b4420918700c8e5bf51cfe8ecdc9ccb4461980c67c748cde08252ea51a3f840e",
+      "bytes": 527896
+    },
+    {
+      "path": "game/images/rewards/general/rewards_bg_stripped.jpg",
+      "sha256": "ceaa61cef687fe17b21389a9980985fc4bf116ee771a27cfe77ce29d23779ff0",
+      "bytes": 397919
+    },
+    {
+      "path": "game/images/season2/classes/basketball/basket_toss_hover.png",
+      "sha256": "edb3d24568089f77d6c5812e852c5b53aa5d3fc9818f6b4f771910704cadc2a3",
+      "bytes": 9442
+    },
+    {
+      "path": "game/images/season2/classes/basketball/basket_toss_idle.png",
+      "sha256": "b353462f20fa32f49a09976bc7b954af6c25563e3a48e31a1a630727b7bc6c11",
+      "bytes": 8870
+    },
+    {
+      "path": "game/images/season2/classes/basketball/ep8_basketball_scoreboard.jpg",
+      "sha256": "7379ca899e8ca5465f86140c6989f81b02f3b20ed93694fafc2ceb9662f39c1f",
+      "bytes": 604419
+    },
+    {
+      "path": "game/images/season2/classes/english101/english_test_board_new.jpg",
+      "sha256": "04d20ff8da598f3e46ba1ed8d97a3fd22f5a477cc93514ae5b3e7decaef6f4f4",
+      "bytes": 955097
+    },
+    {
+      "path": "game/images/season2/classes/math101/math_test_board.jpg",
+      "sha256": "a099f322fbb1350459f5047ba96801ebe107190d5d977e4d3291cf05e5d60dff",
+      "bytes": 840278
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test1.jpg",
+      "sha256": "078ddd2b837b515782a6d1fbb182002c59832e185ec59ee4e7a7755e338217a6",
+      "bytes": 832634
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test10.jpg",
+      "sha256": "7ac45ba70fdbf064db9f0cd78da4832ab75ffe900cce03fe0ef5be0b81343114",
+      "bytes": 845041
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test2.jpg",
+      "sha256": "04f52871cb2d345f15b115e9e006a7d9f2d6a1c40d9ec087d5fde81bb12c0cdf",
+      "bytes": 836643
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test3.jpg",
+      "sha256": "2b2956adf2fe39550a6b96955dd14d210a3fa5ed5c99f214ca9c374878ed3472",
+      "bytes": 836714
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test4.jpg",
+      "sha256": "33b61c4f3c9c18c42df9f0dd819b6947799b2a1f9fc9bc382b84564f4fea7d71",
+      "bytes": 834676
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test5.jpg",
+      "sha256": "cc71f774d0f7596992a168447c94c9b1ee646ae0583219690a3f32ef5b2a0063",
+      "bytes": 845631
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test6.jpg",
+      "sha256": "4d10c8111a5667a2df2fe1ac369d241365b9c7d0ba7eba20f08fa4f927fd2dae",
+      "bytes": 848887
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test7.jpg",
+      "sha256": "8c861c2f3666e1c9461f08fde2f9f8ab39695a08947145bc337bdef1d93fd4ee",
+      "bytes": 859865
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test8.jpg",
+      "sha256": "d1c518066562e1379b2a225e2bbc39332eba25a05b788e61713b6e27d4e8b74c",
+      "bytes": 831832
+    },
+    {
+      "path": "game/images/season2/classes/math101/test05/math05_test9.jpg",
+      "sha256": "a74ce4ac19ec7cc15cff71a29b7033576264780dff033694a19b310415322df1",
+      "bytes": 839159
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test1.jpg",
+      "sha256": "fbefa0ca078546a9c597cb997a15b1914992627c20c34608e559ec8982127501",
+      "bytes": 845171
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test10.jpg",
+      "sha256": "1355334bd22bfe68fc31110157bb791d4493f55012d43a33f5fa078292611917",
+      "bytes": 842038
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test2.jpg",
+      "sha256": "75941b5d6c1113b1f691d8c45c6c77618964fc98bcb61b5511e5ae4a29cd2c60",
+      "bytes": 863536
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test3.jpg",
+      "sha256": "5c89b5be26bcc2eb714492f609d4ad52bcd96e02a59734b0fac1e9c8f262e0b9",
+      "bytes": 849616
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test4.jpg",
+      "sha256": "7587dd2394867202dae9a717058895a12500a07460b894b9d8aa2c14d9db3b9c",
+      "bytes": 850284
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test5.jpg",
+      "sha256": "2b9b35092e4ec506306c2c7fcdea862e76625b8e983029455a2756515281468e",
+      "bytes": 852210
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test6.jpg",
+      "sha256": "d2c9b93b84027693f1ebe6aa98a23817cf99a17991610007a193a8678614e840",
+      "bytes": 833655
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test7.jpg",
+      "sha256": "dd66e882fe78965f743468226da2388aed73cfa895a122f06f9f788b26eb712e",
+      "bytes": 851179
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test8.jpg",
+      "sha256": "1c17425debb4f1fbd36fbc84a62e48f337ba1af087fbc34fe95842a9ff22316d",
+      "bytes": 839657
+    },
+    {
+      "path": "game/images/season2/classes/math101/test06/math06_test9.jpg",
+      "sha256": "42b470957a4de82591a5f7465f113964e5d62fc1a856fe6d1fa93f039552c0d8",
+      "bytes": 844793
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test1.jpg",
+      "sha256": "e8cfaf1ac487042c3074d7acc2ceaf34584903c8bcc1f2d42d193c8548d1a9a7",
+      "bytes": 845428
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test10.jpg",
+      "sha256": "a9c4fc0faaee507a214c3f540873c9ae1c486c0adac93833367ff3d0abe71823",
+      "bytes": 847915
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test2.jpg",
+      "sha256": "2a6462fd8b40e521c9b94a9e84ebf20c529bf7592f8e95ab9fc601fbf1a8476f",
+      "bytes": 854876
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test3.jpg",
+      "sha256": "96616745d67c94570f8e97f99f29ff24fb8ece724321af1c165abde68ce01d0d",
+      "bytes": 855015
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test4.jpg",
+      "sha256": "f537fa64ea91156a60dad14306954dea78cbe2d20aa7341ba28fcdb2f9032e83",
+      "bytes": 831727
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test5.jpg",
+      "sha256": "413d5a0f06f5cba37fa794483e3cb300ecbdfdb67575d2d754329da3a42188ed",
+      "bytes": 845914
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test6.jpg",
+      "sha256": "fe281f325c5920c9a8cb46aabf28ce42695b36907c60216910c4bb38a15ac86d",
+      "bytes": 848942
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test7.jpg",
+      "sha256": "be9bc443ad08f3156a7294147433d2f8914bf8f2eaefc24f5c94f7bbab447ff5",
+      "bytes": 850295
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test8.jpg",
+      "sha256": "d20c0e399fa3a3fb0ec21f8d581a42eaca4ce253f885ff5fbe3e28701e1793fd",
+      "bytes": 851273
+    },
+    {
+      "path": "game/images/season2/classes/math101/test07/math07_test9.jpg",
+      "sha256": "8a36578547fbbc8eaf69df150f24e1b1add7e1890f5e5aef1a84182c97812bf7",
+      "bytes": 845358
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test1.jpg",
+      "sha256": "9ce8bb07e3c258d61ccfe6df7c2f8dae98652b10d1e7cd2f613d14298079294a",
+      "bytes": 860905
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test10.jpg",
+      "sha256": "00786cb3ad82654980b85575d911a27facf6ff78218c296b80defcde02eaf815",
+      "bytes": 842544
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test2.jpg",
+      "sha256": "6fb31a4d50f0782e3424964368c67a3577230bd447f4fc38560c273d43ebf891",
+      "bytes": 861629
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test3.jpg",
+      "sha256": "01eabb8dbf2f51bff7633bcf22904b6b9d6e670822377fd8f361f4bca601b13c",
+      "bytes": 851711
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test4.jpg",
+      "sha256": "3ed856ba3d458fb5b7c1a28e2b4800d530f6e1a6df80923f277b712884c2d960",
+      "bytes": 866945
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test5.jpg",
+      "sha256": "528641f3b90ce0d13b82ddb9388028d4859a2abd7910c0925de266577886c668",
+      "bytes": 840678
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test6.jpg",
+      "sha256": "14132de5381e68d9372a42973bd75b1e79667cd55c797599248343632b209b0c",
+      "bytes": 863779
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test7.jpg",
+      "sha256": "d423d1330cd8277513ec35b685207fc2c9cd72e34fae7f5e1544621ce2b69510",
+      "bytes": 872308
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test8.jpg",
+      "sha256": "3aa6852321bf44f82c70aa9e0f9b3d89d69a1ed7e97a121b2efb4e5949bdfae4",
+      "bytes": 856257
+    },
+    {
+      "path": "game/images/season2/classes/math101/test08/math08_test9.jpg",
+      "sha256": "ff21b1b26edb83a9c2505c8fa0139260936b7f1c2d292c2030c3c6f7735470f2",
+      "bytes": 854006
+    },
+    {
+      "path": "game/images/season2/classes/tennis/displayables/tennis_vs_tybalt.png",
+      "sha256": "dacf465440300153b5a1aaaa1a9d19c1df8a29e1dcda952e362dc69471eb5c64",
+      "bytes": 32688
+    },
+    {
+      "path": "game/images/season2/ep5/classes/cooking/cooking_flip_hover.png",
+      "sha256": "bb1be4aedb17a39cf7024c9f98effee60b46b94568f4f1919f14b24e2a9f3456",
+      "bytes": 3441
+    },
+    {
+      "path": "game/images/season2/ep5/classes/cooking/cooking_flip_idle.png",
+      "sha256": "623cc9466a203964cbe06bb486e89730655287609d971f67f978ec1073dacb5a",
+      "bytes": 3666
+    },
+    {
+      "path": "game/images/season2/ep5/classes/cooking/cooking_score.png",
+      "sha256": "4431b0d6d11f24ce82143b466846e8f72a6d80df34eb3924f0a95ae94cc92c30",
+      "bytes": 19121
+    },
+    {
+      "path": "game/images/season2/ep5/classes/painting/path1/ep5_path1_start.png",
+      "sha256": "83d2fe4a16e9684ff8f03ca6b2744a98959f16a687fc3c9d1f022c575925d757",
+      "bytes": 22341
+    },
+    {
+      "path": "game/images/season2/ep5/classes/painting/path2/ep5_path2_start.png",
+      "sha256": "39eeac9b0b7d985635f24efcf22237966904849305ab3e9f2b638237d06662b3",
+      "bytes": 22234
+    },
+    {
+      "path": "game/images/season2/ep5/classes/painting/path3/ep5_path3_start.png",
+      "sha256": "bcf1d7270183831a1b67f09d96a00b37b4224f5bbf893b924631b8973269e567",
+      "bytes": 22262
+    },
+    {
+      "path": "game/images/season2/ep5/classes/painting/path4/ep5_path4_start.png",
+      "sha256": "cd39d570af30a85156bbf9cf9f1b0bec7f4035ba80f0b4db38dbdbf34b4d6961",
+      "bytes": 22211
+    },
+    {
+      "path": "game/images/season2/ep6/campus/ep6_mj_dorm23.jpg",
+      "sha256": "f6d3fcdb994750f76f84489c17ae9bca3ef28ee7ece88d3371e0858d401653a6",
+      "bytes": 502277
+    },
+    {
+      "path": "game/images/season2/ep6/campus/ep6_mj_dorm23b.jpg",
+      "sha256": "85ffb9b10b97d113733e6c2d193647175958da709e16b43b61c0dbfa522c77b8",
+      "bytes": 322937
+    },
+    {
+      "path": "game/images/season2/ep6/campus/ep6_mj_dorm24.jpg",
+      "sha256": "9479fd79e56d034167077588185236348eed2ca331f99257264a115a7b03779f",
+      "bytes": 678107
+    },
+    {
+      "path": "game/images/season2/ep6/campus/ep6_strut1.jpg",
+      "sha256": "18a8e1917c11fa417ae23b2dd79330e2c9faeefcc4613858d0015aae779ffc57",
+      "bytes": 894867
+    },
+    {
+      "path": "game/images/season2/ep6/classes/painting/path1/ep6_path1_start.png",
+      "sha256": "50c1088a59bcb54aa4ce30240f07e84731db89f3bbf98454038488a44c1cabc0",
+      "bytes": 22278
+    },
+    {
+      "path": "game/images/season2/ep6/classes/painting/path2/ep6_path2_start.png",
+      "sha256": "1f7491ef269593e6ab9fe0acf37bcdc08aa7eea918546b7b05d60fd3a3d7e3a8",
+      "bytes": 22217
+    },
+    {
+      "path": "game/images/season2/ep6/classes/painting/path3/ep6_path3_start.png",
+      "sha256": "7d122a18fa7c798db5d3c85b38e48e9b9356a7846dfda460fbef1c589c159092",
+      "bytes": 22277
+    },
+    {
+      "path": "game/images/season2/ep6/classes/painting/path4/ep6_path4_start.png",
+      "sha256": "42af573e62694d9b9d4c4cdd0154108c4b584a4ca92591b3df0355f8c3e3f1dc",
+      "bytes": 22273
+    },
+    {
+      "path": "game/images/season2/ep6/freeroam/diks/events/ep6_diks_derek2_event1.jpg",
+      "sha256": "074b76371606121da1db927a0e8b8cc3f21dd201e684b64eb9b8c1d58d5c47de",
+      "bytes": 688615
+    },
+    {
+      "path": "game/images/season2/ep6/quinn/ep6_quinn25d.jpg",
+      "sha256": "26847387b03563e1c74ce7c0e9b7715e8ba9937dab60a61afee918c3bb9230a0",
+      "bytes": 315874
+    },
+    {
+      "path": "game/images/season2/ep7/intro/ep7_intro41.jpg",
+      "sha256": "41e43addcdeb51a523eb52355081ec1c9e480fbb8106099d086b71b9bc4fc06d",
+      "bytes": 466298
+    },
+    {
+      "path": "game/images/season2/ep7/intro/ep7_intro41a.jpg",
+      "sha256": "226ca81a7967de01d6e827f10a2cdc962ae7a655e8ee6436576260dc9c006d5f",
+      "bytes": 430801
+    },
+    {
+      "path": "game/images/season2/ep7/intro/ep7_intro43.jpg",
+      "sha256": "30ef081d475230d87df883c422fdea1f77652400ed3750b3526d489719df9f63",
+      "bytes": 755231
+    },
+    {
+      "path": "game/images/season2/ep7/sage/brawler_sparr_left_hover.png",
+      "sha256": "8ea8cc49a1e354a2c4d23d3fe9ef3e2d17aa59af65514c4e0cf6e7ad940533f9",
+      "bytes": 17883
+    },
+    {
+      "path": "game/images/season2/ep7/sage/brawler_sparr_left_idle.png",
+      "sha256": "508fc5c69253bc41e74651ab6bac13610621da6dd9ba94da011defd8e8943847",
+      "bytes": 9241
+    },
+    {
+      "path": "game/images/season2/ep7/sage/brawler_sparr_right_hover.png",
+      "sha256": "f9a685ddf1c765fe62178b9a6be77225a8947c5c80a3e3019ec8c6e1bb1867a3",
+      "bytes": 17788
+    },
+    {
+      "path": "game/images/season2/ep7/sage/brawler_sparr_right_idle.png",
+      "sha256": "c6547aee063f72ac9286e4213869eb5e6a7409c51078227f39252559b9375f51",
+      "bytes": 9403
+    },
+    {
+      "path": "game/images/season2/ep7/sage/brawler_sparr_up_hover.png",
+      "sha256": "45b1262f9a73fffe24ecaf666db9ef18195f8f2bd626bdbdda3eaf10d7590717",
+      "bytes": 16609
+    },
+    {
+      "path": "game/images/season2/ep7/sage/brawler_sparr_up_idle.png",
+      "sha256": "32c4f4b75127dd8f7ab7c1120e8e87bcf3d90a2039e7c18c070a3e01560a19da",
+      "bytes": 8873
+    },
+    {
+      "path": "game/images/season2/ep8/classes/ep8_english58.jpg",
+      "sha256": "47e514cfcf070bc3961d7a4b475e5949d0421925a4822380ee985b51079246f0",
+      "bytes": 1042005
+    },
+    {
+      "path": "game/images/season2/ep8/freeroam/diks/desk_sprites/spr_frame_tutorial.png",
+      "sha256": "b5934bcf7c7ebd2e0507e32bc7c29c1613be76a54f7179fdf42c19672a9bf50e",
+      "bytes": 85030
+    },
+    {
+      "path": "game/images/season2/ep8/freeroam/diks/desk_sprites/spr_second_painting_buy2_hover.png",
+      "sha256": "eb30cb35f550e2e50dbf2b9448b75a6c2b8d9dd7ecf2d18aa6da55da2953c8f8",
+      "bytes": 56258
+    },
+    {
+      "path": "game/images/season2/ep8/freeroam/diks/desk_sprites/spr_second_painting_buy_hover.png",
+      "sha256": "74121948c1e13f934a94928f434df5cd44326fda2fe7e72abc6a5d8326c8dd9a",
+      "bytes": 63040
+    },
+    {
+      "path": "game/images/season2/ep8/jill/ep8_recital_play65_fr23.jpg",
+      "sha256": "56faef0528c93c77b7e36bf877f0ae8cd6c8d05645037bdf5c33fcffcbfe9a2b",
+      "bytes": 436532
+    },
+    {
+      "path": "game/images/season2/ep8/jill/ep8_recital_play65_fr24.jpg",
+      "sha256": "3c02b516e3775b67180ca3b81e6a125d8843e0dbf1d332c7b43370321df21c52",
+      "bytes": 445222
+    },
+    {
+      "path": "game/images/season2/ep8/jill/ep8_recital_play65_fr25.jpg",
+      "sha256": "4917a87faacdef46c2815bc64ea1ebe8308a105b5b5270235b8900a290152cb9",
+      "bytes": 589502
+    },
+    {
+      "path": "game/images/season2/ep8/waterpark/ep8_wp_ball_tutorial.jpg",
+      "sha256": "505e9886140ce226e9c2b181b348833bc0bb5945a69e65f17d414f7ca36cecbb",
+      "bytes": 1168252
+    },
+    {
+      "path": "game/images/season2/ep8/waterpark/wp_game_hit.png",
+      "sha256": "c11899a05dc008672e14c79835c64cf5ca5984be2f45ae0a19451493f275df4b",
+      "bytes": 23590
+    },
+    {
+      "path": "game/images/season2/ep8/waterpark/wp_game_miss.png",
+      "sha256": "db473f98834ca03808c200e6edddf8fa03906bd72535d9b5275ec9544429cca4",
+      "bytes": 26726
+    },
+    {
+      "path": "game/images/season2/ep8/waterpark/wp_score_jm.png",
+      "sha256": "99de32de410e88fce1cf28c14d0014c518cd733f5b2962514dee3e7465d9eb4c",
+      "bytes": 27208
+    },
+    {
+      "path": "game/images/season2/gui/episode_ol/major_choices_new_tutorial.png",
+      "sha256": "78f4afb858c2f3960cac1734889b82242f6908206ea95a8f66d87ef62a5d4830",
+      "bytes": 85225
+    },
+    {
+      "path": "game/images/season2/gui/episode_ol/textbox_tutorial.png",
+      "sha256": "f445b3d95a89c9f04a35b38d9ce61e9784cfe050684b405c3c7101282b195842",
+      "bytes": 356067
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_buy_disabled.png",
+      "sha256": "8273d328ca9091a40f11cb9f8f7b567c8469a9259602c11bc9c7827d4e29b7b6",
+      "bytes": 2481
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_buy_hover.png",
+      "sha256": "0b498f7adcf6aded645f72177fcc1e20f11b3e5cf7bae2ae8cc072ce1a27e4e4",
+      "bytes": 3164
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_buy_idle.png",
+      "sha256": "390db33e61ee5fed4c302292776d14f2ce253d6285ec5ea5d385637a42b95531",
+      "bytes": 3401
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_camila_hover.png",
+      "sha256": "e1447ff3f1fa45bbdc7c24a1d2920c57f0544455791cf4e02b94a6e5b8364af2",
+      "bytes": 87424
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_camila_idle.png",
+      "sha256": "2f72cecfc039a6fd32dddb0f6eefd84476b9ddb3d0c183b452ff8875e37e4a69",
+      "bytes": 87020
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_camila_new_hover.png",
+      "sha256": "544822a5dc878bdf67a65c5cc51ecc40aaf2b84fc1b838d5d0369d93076d83d8",
+      "bytes": 88246
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_camila_new_idle.png",
+      "sha256": "d366681e57bc2ab7cbfca53edac90f5c132ad222b8c5586a426329115c734e42",
+      "bytes": 87865
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_cathy_hover.png",
+      "sha256": "b4e4a93119206cb1116f713ef981ba20f6fd617db808d862881ad4b97807bd08",
+      "bytes": 89138
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_cathy_idle.png",
+      "sha256": "c6b9daac9ae399dba4eb7faab70b9f9928204162bcde3eba5cecfe1f2d97f640",
+      "bytes": 88632
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_cathy_new_hover.png",
+      "sha256": "fa65816661ca794942a37653964c8d93b4a983b785ccc47735c06520a70b0447",
+      "bytes": 89812
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_cathy_new_idle.png",
+      "sha256": "a946bcd97815ad321f2f12ec1496ef8044b3865e45d6fce450336880da747bb9",
+      "bytes": 89320
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_envy_hover.png",
+      "sha256": "1b1f9a9542eebda7b73bc1a83d2fbfd33461c6821be425bad7de88313b41fe2b",
+      "bytes": 114802
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_envy_idle.png",
+      "sha256": "e9d16966afe8c25f9276354feb8cbdf7d9c80244859f421c897dfbe8fddc5ec5",
+      "bytes": 114209
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_envy_new_hover.png",
+      "sha256": "c3fadb7c52c085511571e445e37d6eee4e8ceead70ccb432692069b689125ad7",
+      "bytes": 115123
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_envy_new_idle.png",
+      "sha256": "5c9779bf26d50e535a782a8ec9a991fedbaa83735c7d438d31a6465a7688bdb2",
+      "bytes": 114546
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_isabella_hover.png",
+      "sha256": "a662fa7f6de987a2c975a7d22faa4cb778a3a5720f8a062be9a50ccd33faab9a",
+      "bytes": 106224
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_isabella_idle.png",
+      "sha256": "cb5566d07954d4b473a6e936766e0baa027b9773b2f5ba5ddac71bd2c142cd41",
+      "bytes": 105768
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_isabella_new_hover.png",
+      "sha256": "1d01d3e0862d65ffb916e576b06332c0f2d63f6cae06ef3011d7b3b28f312bff",
+      "bytes": 106558
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_isabella_new_idle.png",
+      "sha256": "589e48ffa66497ec9661e57e3c750f99fe0420a4621d254730a3c7d961b2f896",
+      "bytes": 106165
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jade_hover.png",
+      "sha256": "e8a054451fb35befe3f2fb95b458a0816bb5d6b26572353ac9f3fb0644bc5a33",
+      "bytes": 92197
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jade_idle.png",
+      "sha256": "630e0bc035b5c5bd00399bf487abfc69e852654406d5a03a19ba5e73cbe37b3a",
+      "bytes": 91623
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jade_new_hover.png",
+      "sha256": "91bbe36a2750c7ec602e605d9856c061ff26cb202409eb62ac21034959cdb223",
+      "bytes": 92555
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jade_new_idle.png",
+      "sha256": "aca47fae68932a73e201ae464c053b1561167128f7110183cc55d974941bf7f5",
+      "bytes": 91974
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jill_hover.png",
+      "sha256": "f193ce6ec2fdb963f16e13fe8e5a93022d25194a31464a0f65c6c2fc175bd170",
+      "bytes": 101895
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jill_idle.png",
+      "sha256": "63364ff90cd6f45a9f0e919e7c8db9c2334e53e9c9bdaf4b749225fd68f9b1e9",
+      "bytes": 101349
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jill_new_hover.png",
+      "sha256": "f3bcc362e8627ec4a3b9418a246b8bdb01e53a7f6c7011f8385de118b98ed486",
+      "bytes": 102615
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_jill_new_idle.png",
+      "sha256": "df3345d2402c578541a508195fe77cf8e0b1f535d5b15f53e953a8bf0c9916a7",
+      "bytes": 102088
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_josy_hover.png",
+      "sha256": "b22fd0826078e4e65db015e74aca49e4a3aa580fd24d24f76d0d3123778584b0",
+      "bytes": 98883
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_josy_idle.png",
+      "sha256": "a739d96c56891fcba557f5fe0fdd13d30fe81123cddaa66767db4d63d6b4eb14",
+      "bytes": 98336
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_josy_new_hover.png",
+      "sha256": "c800a419ed5d2bc34e86eed07f8abe75738767976f129ec2a2ba85c91b956c73",
+      "bytes": 99439
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_josy_new_idle.png",
+      "sha256": "39eb9a0252f7edb345bcbb13f70d8e706c62f9a46221b1409c0b776d76ebc549",
+      "bytes": 98861
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_lily_hover.png",
+      "sha256": "aecc196dc7521d612f0aa8ccb283e8cdb0f0944f8e4b4f3ada75b3fa48f1833b",
+      "bytes": 118482
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_lily_idle.png",
+      "sha256": "6cd0648f72f1694a9777b1f19ebd2f9e8648212cc983616137256220721e79fe",
+      "bytes": 118040
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_lily_new_hover.png",
+      "sha256": "f9aa3a3927aba740a08d25dd099f5667225718b57c6de14b56102fda07ae5811",
+      "bytes": 118433
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_lily_new_idle.png",
+      "sha256": "390b5bb9fa1173a46e71f08fa3fe97c3423daa58a1ae865811eb10fed1cdf71c",
+      "bytes": 117993
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_maya_hover.png",
+      "sha256": "7536e282aa574eaf5c92b3606aa315a8b954582122c1b29baf640c6f42fee8d0",
+      "bytes": 92116
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_maya_idle.png",
+      "sha256": "15e2d078f35c10951947f263b3e437e3a67e5584292fd46837c2547dd4a75fac",
+      "bytes": 91512
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_maya_new_hover.png",
+      "sha256": "81795fbc8c023854d47df888aef0314a7414f7741c5670423a0a236967d258f2",
+      "bytes": 92680
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_maya_new_idle.png",
+      "sha256": "e84e658b35612d53d6a7c6299b0b2671781bd9dad4925ce0fe1bcfe895336c87",
+      "bytes": 92072
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_melanie_hover.png",
+      "sha256": "a6511c5e497d35fbd0f4f1fad95a8b97873c3e9d9d456ecadef1a60fb9218d84",
+      "bytes": 112211
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_melanie_idle.png",
+      "sha256": "5ed9034e7873d9352aa4e141434347413f35f4bfa03381f829fb83e1444881ae",
+      "bytes": 111661
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_melanie_new_hover.png",
+      "sha256": "aa75a9bb5cd237de038b89a426609b2db362cd61b17b41e856a59579767e286e",
+      "bytes": 113093
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_melanie_new_idle.png",
+      "sha256": "cf527f3a2f949fe4f6d93c3191721544d94ddf375afca7bb14b20cbc6697ccfd",
+      "bytes": 112497
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_quinn_hover.png",
+      "sha256": "74f973de86aefc4eaa715c5d57caf96a1d2884c615402f252bbfa0062c1c8adb",
+      "bytes": 80594
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_quinn_idle.png",
+      "sha256": "c26497ce5cfd8bfa798b1dbb8031ce11c96b6795ea8db1f4e45c0a317034c621",
+      "bytes": 80052
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_quinn_new_hover.png",
+      "sha256": "a344097f26420b3bcff0c4531c91ad7b9b0ba811536f054be47d2b806b2aea53",
+      "bytes": 81969
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_quinn_new_idle.png",
+      "sha256": "81e26ca66c11b2bd4cb401a3c9fb7a8356bc35bbb29e75bd0aca9e7dbb060720",
+      "bytes": 81416
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_riona_hover.png",
+      "sha256": "306e54aa32ddf6f833c504c83fc459653a607b9a042763feeeace3aaba129bd4",
+      "bytes": 88663
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_riona_idle.png",
+      "sha256": "a5fb3880b89262e18a3ccd08c0ea679953f0b0407cde89618e81c56f0ec4359c",
+      "bytes": 88130
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_riona_new_hover.png",
+      "sha256": "417031999556b778c19f74713872d0e17992676de589e57a8d8b4209b0552838",
+      "bytes": 89769
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_riona_new_idle.png",
+      "sha256": "d2368ed8d19ee84db758fd82901acc68fb9e6cb3d9c657e14bd1246a569cf3aa",
+      "bytes": 89231
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sage_hover.png",
+      "sha256": "3d1832619301f55322b6bea7da69111a557d3b78ad5c8d722ec4bf95a0719a3a",
+      "bytes": 107279
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sage_idle.png",
+      "sha256": "7cc4fb635364e0be00d097b125f424a21894a6800d8cf0ee2146e12a79d99829",
+      "bytes": 106768
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sage_new_hover.png",
+      "sha256": "65329cd8916399333d8962e2135edf2df724e2e02f6ab784b38b8577dd9af969",
+      "bytes": 107469
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sage_new_idle.png",
+      "sha256": "08cf21be50f80d042bef3f93abafcd0ff2e2a238a9e2bc45008a0ea93778f47a",
+      "bytes": 106938
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sarah_hover.png",
+      "sha256": "674d76c6ff7cac137a5a85370126830e154886e4fe3e253b37c02c4ec792b0d9",
+      "bytes": 89046
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sarah_idle.png",
+      "sha256": "966960d776f23246e10fb14a5c0d0d47b3ef06afb894c1a9dc9034cc30236ad1",
+      "bytes": 88525
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sarah_new_hover.png",
+      "sha256": "5c2dc920c7dab664af528f9dccdbdcc020197e075ff5242f9baf5a26e36c87a2",
+      "bytes": 89598
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sarah_new_idle.png",
+      "sha256": "9f760204a0383ba1df373387a934dda15167783a7a572a8a35c5f4650204b482",
+      "bytes": 89051
+    },
+    {
+      "path": "game/images/season2/gui/jacob_art/buttons/art_sold_idle.png",
+      "sha256": "5560fd2a2ed0cff5607f503bf652930a739be02fe3c468c9be9f178ac20e2a1d",
+      "bytes": 3022
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_close_button_hover.png",
+      "sha256": "b4bbc8a789d2797554737572cabacddf8fb64041488a7173811698519590a88f",
+      "bytes": 1920
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_close_button_idle.png",
+      "sha256": "d3f50e4d55b41d18d587c4ee36395ffab4d1fbd92ae5c1297335e3663f6afa5d",
+      "bytes": 1541
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_customize_button_hover.png",
+      "sha256": "97ef5350aed8f04fa12781293d6dad65a32a28789ff51f2ac343f75ae9bd7d46",
+      "bytes": 7825
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_customize_button_idle.png",
+      "sha256": "35b7365e74e400542e404fc3b0021a7f65be402c9aa0142b819e74de32ca6e34",
+      "bytes": 7152
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_dikfolder_button_hover.png",
+      "sha256": "b306a2a94ee36c786f861e827b2ee0fd7bc3fd29de13a7212dd50b9b7f1311ab",
+      "bytes": 3421
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_dikfolder_button_idle.png",
+      "sha256": "7ec950ded5735338f1ebe06cb038f1bd3861755bca35701f00b1fe0d040f22e5",
+      "bytes": 3122
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_pack_quest_button_hover.png",
+      "sha256": "542240b7f9fa26617f09d149d0b8d45f91db2abca4e5e7b36b5fc10fb71f9206",
+      "bytes": 9786
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_pack_quest_button_idle.png",
+      "sha256": "35d346619cafd0bbb93dead5532579cee00d0f8ff2ee77d4de5084a8c00da527",
+      "bytes": 8905
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_rooster_button_hover.png",
+      "sha256": "78e2585343fc76453d302a27469c07737246177fa418628ede07f60ee9b1cff4",
+      "bytes": 6845
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/laptop_rooster_button_idle.png",
+      "sha256": "f737a8203839e9d98804860569cc49da2a014186ff81a3e023b6d094ae4d39a6",
+      "bytes": 6035
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_main_title.png",
+      "sha256": "50681b86e10449aeac5f314f597d8fec85e71133398b3be45d68005fcafe7a41",
+      "bytes": 24586
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_start_quest_hover_fr0.png",
+      "sha256": "3b38717ecc6a16917404df106236b99489c6a7ac2655c761fe970e91a5039145",
+      "bytes": 6258
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_start_quest_hover_fr1.png",
+      "sha256": "f94815871ca1db32db4a5d7536ee55cf9d13f77a8ccbbd188988cc95b0ae4f98",
+      "bytes": 3256
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_start_quest_idle_fr0.png",
+      "sha256": "97e5b69053362a8c270dd6cae198070daced109886ffbcbf4a7dd91141ceeef0",
+      "bytes": 6192
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_start_quest_idle_fr1.png",
+      "sha256": "9f956b5178f703648a9d95fb58c6b4b1a96bb7072bdae8e09a1a5c8193930eb0",
+      "bytes": 3253
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_turn_in_button_hover_fr0.png",
+      "sha256": "550715e4c8417f20068ee8ffa1beebc718e03f2e2b1e13ceff44805e6ebb6f1f",
+      "bytes": 5314
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_turn_in_button_hover_fr1.png",
+      "sha256": "81bb89997cc72c0b2cb6228f11a2521d899fcd9e2588efff5dbb120a035cc6f2",
+      "bytes": 3526
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_turn_in_button_idle_fr0.png",
+      "sha256": "05c06bc113d8b7f61a2fc9841139574f65e3fd19a774f780b80efbf7758674aa",
+      "bytes": 4610
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pack_quest_turn_in_button_idle_fr1.png",
+      "sha256": "05d5d4ca5f4189948e36a8640d324badc035d30be0f22c9d1b24b5fe21a40fd3",
+      "bytes": 2964
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pc_rooster_login_button_hover.png",
+      "sha256": "cab8e86d0aa37f69df344ad859d2a1b182c089d15d52d4a02981b7cec62ea720",
+      "bytes": 10261
+    },
+    {
+      "path": "game/images/season2/gui/laptop/buttons/pc_rooster_login_button_idle.png",
+      "sha256": "099b3d416cf2860025499c1df666f8795a4ec30b378ab94ef3f5a3fa6a93e4ec",
+      "bytes": 10039
+    },
+    {
+      "path": "game/images/season2/gui/laptop/overlays/customize_overlay.png",
+      "sha256": "e8abd063392fefc8175b3ae86fad73442ee8ecd43efbc5f825cfeb3ef77594e4",
+      "bytes": 20806
+    },
+    {
+      "path": "game/images/season2/gui/laptop/overlays/dikfolder_overlay.png",
+      "sha256": "7d65c49d43583d823261afada05713e60ee9f2c2dc7dcce85eb19680804ec037",
+      "bytes": 18519
+    },
+    {
+      "path": "game/images/season2/gui/laptop/overlays/no_access_overlay.png",
+      "sha256": "e64ae7c8dbdb0fe2374552274ecaf3df7602b5a0179772637f9b570c4699a885",
+      "bytes": 28789
+    },
+    {
+      "path": "game/images/season2/gui/laptop/overlays/rooster_overlay.png",
+      "sha256": "4cf31b78cba5312b6cb380fd3282918c7efbbd69ba89b2c0796f05ad291ef32a",
+      "bytes": 159006
+    },
+    {
+      "path": "game/images/season2/gui/laptop/overlays/textbrowser_overlay.png",
+      "sha256": "3080e9005065c8af232753b1a3d87cfae1e7f1a966067678f2614e85a727e59c",
+      "bytes": 18913
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/backgrounds/mansion_cancel_button_hover.png",
+      "sha256": "f2010edc00f1e3a5c13d84535c160ae6b19e5c804a9b457ee185178380392612",
+      "bytes": 9483
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/backgrounds/mansion_cancel_button_idle.png",
+      "sha256": "f6f4919c6db44edb6c75148127f58786d1a3110540ff8489c33bbd4af60097fb",
+      "bytes": 9464
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/backgrounds/mansion_continue_button_hover.png",
+      "sha256": "d637646760464f14a3f1ae2e54c3664149e5b103674d59ddf9dfaa1b83caadce",
+      "bytes": 9640
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/backgrounds/mansion_continue_button_idle.png",
+      "sha256": "d81b7a5b1177e0accb68c16e4bb91132a925f01fdc2e393a09a2a553ebfa385f",
+      "bytes": 9665
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_blueprint_1f_legend.png",
+      "sha256": "eefd0e82c4fbf9bd1782684728a9e9127cbf185ec836dfacce7ae28b0e48b82f",
+      "bytes": 44567
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_blueprint_2f_legend.png",
+      "sha256": "8a38680087b360ce60adf9bb8c35bf7f6e94ad69b05ce6b3fb6a17baed92019d",
+      "bytes": 43818
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_blueprint_bf_legend.png",
+      "sha256": "00bf3de79ce31ba4f99015882c103bb96e02b12e8c9341a4148a1060d532441c",
+      "bytes": 19481
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_buy_btn_disabled.png",
+      "sha256": "da7891120d36866d2d9ef1658615b9702eabead65c82ff92e65a522106874a27",
+      "bytes": 2954
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_buy_btn_hover.png",
+      "sha256": "4b5cafe3b0467f7f50ccba4db5417337178f1e6dbc61419fe085813e1281e0ad",
+      "bytes": 2998
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_buy_btn_idle.png",
+      "sha256": "f6320afd3785290bec06764c543991740dfd85ae6b08d07abd479db5b8b87abc",
+      "bytes": 3433
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_report_next_button_hover.png",
+      "sha256": "1c6793b38d8b68eb87f32872854ec7cb73652622d271e998763fc0bc9fe3f902",
+      "bytes": 10988
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_report_next_button_idle.png",
+      "sha256": "516b2f6998e400d5c284d2ea27bc6799b4af7a372af9413f6d0dc43a70b94643",
+      "bytes": 11122
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/displayable/mansion_sold_btn_idle.png",
+      "sha256": "05aa1a8beac5b181ce715225e14b1f6206278b57555360314c3f7d46f27f84a0",
+      "bytes": 2768
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_bathroom.png",
+      "sha256": "7cd00af4ee9b046ffbad323569ab4032939b3f6f2f6a517311c8141759c4947e",
+      "bytes": 88468
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_dining_room.png",
+      "sha256": "3ffd89f36eb858778abe9ca95c669c257fb3e2771bb990c2cefab466884cb7f2",
+      "bytes": 90386
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_front_hallway.png",
+      "sha256": "acbbe9adf2070780a054e65976520679fa7d93ad481489da10645227a2464878",
+      "bytes": 89487
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_home_theater.png",
+      "sha256": "1b525001e87b653efff0d78897090b254733f892d9743fe791be33f806ef04e9",
+      "bytes": 88818
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_jamie_room.png",
+      "sha256": "3ad768d8dde454c537e0af06e4b3e44a27315136c10c3f32a89c94adea00697f",
+      "bytes": 88859
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_kitchen.png",
+      "sha256": "b23dbf046043accd5512d9749124c2f447377b5ed9bc3638164b3be26dd81de7",
+      "bytes": 88910
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_left_hallway.png",
+      "sha256": "991d7d44b560dc9ca74b52aa90b6f060bc0c6423f77a0da7a51fd7589bc76b0f",
+      "bytes": 89532
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_main_party_room1.png",
+      "sha256": "ecf119df56566d9c41f46ce55074cea1e3864d9fe8bbecfbce44d21b89ee2f36",
+      "bytes": 90024
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_main_party_room2.png",
+      "sha256": "ecf119df56566d9c41f46ce55074cea1e3864d9fe8bbecfbce44d21b89ee2f36",
+      "bytes": 90024
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_main_party_room3.png",
+      "sha256": "ecf119df56566d9c41f46ce55074cea1e3864d9fe8bbecfbce44d21b89ee2f36",
+      "bytes": 90024
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_porch.png",
+      "sha256": "3072df575ddfb5b9d66b6af78c69210663e98a1efe3637b487807dcf8d086f22",
+      "bytes": 88889
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_right_hallway.png",
+      "sha256": "3dd3ec81d1c5746e029844c5898f2b5ce6b82815857fe6222b2d07d840e9005f",
+      "bytes": 89608
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_rusty_room.png",
+      "sha256": "709175567174bd630ca8f4763acb41ea40a70b896e43868221161a2b116f8fcc",
+      "bytes": 89141
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_1f_stairway.png",
+      "sha256": "78ea1e2c8176221a86b8d113c9fd65a43580bce38d706e18835bde5ee82088ea",
+      "bytes": 88870
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_closet.png",
+      "sha256": "accd9dff3cea63e219d3967d63edc6239796f908b3b81e264c8a61f3f40c4f0c",
+      "bytes": 72535
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_jacob_room.png",
+      "sha256": "c7726ac7ce893ba9f63632e961026c43bc1b58c1f46834940363a564d46d4622",
+      "bytes": 72215
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_john_boy_room.png",
+      "sha256": "89b439f6ff8dd1aaeaa62b0f651c2e61364abcec38f70206b75981c98b63639e",
+      "bytes": 72258
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_leon_room.png",
+      "sha256": "82f8be279ecb27ed9d14e62309626ef02b56f0da90bf273c0df205bfd5bf4f4c",
+      "bytes": 71940
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_terrace.png",
+      "sha256": "8f42584074d2137ecef49cbb18f13903dc643d2d68c54672af00e48f41487419",
+      "bytes": 71933
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_upper_area1.png",
+      "sha256": "e2ca5fa75c9456e5bca15510f71e28b960af5b0d58fdd1bd4df482535cd22ba6",
+      "bytes": 73354
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_upper_area2.png",
+      "sha256": "3d0a1759171e1a735336a558a6701d9d55131300e04b1874e5a9a9177ae3274a",
+      "bytes": 72574
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_upper_area3.png",
+      "sha256": "f0059c4893d919cd1cada59b1f95753a009565b67021d5ab3c06663d4e74af68",
+      "bytes": 73727
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_2f_wc.png",
+      "sha256": "932dae90eb9a24b79abe2b05647ac48c4992677e834a369e566b14713b6aa5b1",
+      "bytes": 72033
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_bf_laundry_room.png",
+      "sha256": "ae0f50d6eca81a2b2ae08daffc18c6c691865314f594e0d88ddcea8448e65379",
+      "bytes": 35159
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/mansion_mm_bf_tommy_room1.png",
+      "sha256": "12c42ac949e8a37ab78961b526da6484dc25c9a9622157c5fc3da6d8c87a3660",
+      "bytes": 33675
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/minimaps/right_hallway.png",
+      "sha256": "3dd3ec81d1c5746e029844c5898f2b5ce6b82815857fe6222b2d07d840e9005f",
+      "bytes": 89608
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button1.png",
+      "sha256": "d25ee786a0c79303816b308727e86b9fdeec28621f8486b556b1421849af7542",
+      "bytes": 113793
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button10.png",
+      "sha256": "b77615f37ef41064ff4920393b9f17e183adca32c62a23ba7a9def6554bf4400",
+      "bytes": 64098
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button11.png",
+      "sha256": "af7d0238b813ea17817e830e7f85a439ca259b2804b21f708ab4fd1e4c212ff8",
+      "bytes": 48778
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button12.png",
+      "sha256": "dece729a90f126e8e64107dde36a49a8895bd655dfdab95c691c18252196a352",
+      "bytes": 56731
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button13.png",
+      "sha256": "075b8bd774142c3b4e69eb898b9b54f6ea111eafcb1742c3833c6c958f11cb79",
+      "bytes": 42481
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button2.png",
+      "sha256": "c3f3063ba617dc4d345c084e3fa60d3b32bdef3105a015b69e15e1f6ae0ca0be",
+      "bytes": 25958
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button2b.png",
+      "sha256": "6da8377b43ff83a619bac768b1c2e3c3f73302e9d2457242873469d877715f55",
+      "bytes": 117337
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button3.png",
+      "sha256": "38383fe1499c62a0c6127ab421bc58ee95943f93e4ddfc266fa0249a69e20761",
+      "bytes": 106139
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button4.png",
+      "sha256": "b0cbded04996ae4a395b7775a562e06f8c036228b728f6d140d5e72bb83aa89f",
+      "bytes": 80769
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button5.png",
+      "sha256": "889003980daf9cc2141b456a8e2ea85338bc36d0020283d46b6f7285d34ac947",
+      "bytes": 51182
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button6.png",
+      "sha256": "cd0d51486c3ff3fdf8e28c4b64238ea73fa6e7f7a183bf607b7e312e2c27ef2e",
+      "bytes": 50071
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button7.png",
+      "sha256": "b321d799719f39e1ce1d71aaefa5d98a1206138be2a29238ad637685c450ce4d",
+      "bytes": 51244
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button8.png",
+      "sha256": "ec96f2f8d517a959f21021bb8e4deb44b89b39ce1337745b2e7887c5edbb53fc",
+      "bytes": 48760
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_dlg_button9.png",
+      "sha256": "a71ff4e24b6e0d6bfe5523fbf9d41d31aa69cbaa46b5f53dde4cc5d339d2b0de",
+      "bytes": 74983
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial1.png",
+      "sha256": "637a98e1cca87a9276f3b8128228b66caa03dac02758c014a1d6d0e046a2d757",
+      "bytes": 37373
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial10.png",
+      "sha256": "3aaf66916282147016bf2b411b12a5ea9fec549784189333a977c9ec6a6a3048",
+      "bytes": 41837
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial11.png",
+      "sha256": "9943ea8d3c7f8ce185707ebced1c0d877cc3ada72d2dda526edc725b1b0790cb",
+      "bytes": 27751
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial12.png",
+      "sha256": "de97fc10d77055dc15f1723705a7e2f7c29bce7a08a15730dac4a66f19244711",
+      "bytes": 47667
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial13.png",
+      "sha256": "8091c0e0457eb203ac7017fa306e4e9416f97555956aa10bd77180a83e09f5ca",
+      "bytes": 29097
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial14.png",
+      "sha256": "4f2d2454313effa179bf15f41d646ce801ab8396e93862346dbe47589268d116",
+      "bytes": 26385
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial15.png",
+      "sha256": "406e4157ca39035361b49e00cedf7d278a42520338ef02655250fec18981d5fa",
+      "bytes": 52388
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial2.png",
+      "sha256": "6ced3a1a38449f27661333c9859bd9bbe9a8b42f29c04c6cb5298a623e37b65e",
+      "bytes": 29554
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial3.png",
+      "sha256": "fe399c8e75d45cc8f30228c644e3f6e83ddea9991bc450a91bc48df2efe38e0b",
+      "bytes": 33660
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial4.png",
+      "sha256": "63547cdf5a80f2947db942ef3abef73e5d23b690987824de01982cbd90618691",
+      "bytes": 59948
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial5.png",
+      "sha256": "43461b71cce60e6a6f08c717a022eea5a4d4417b7248e3b4c29602b05f304859",
+      "bytes": 43482
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial6.png",
+      "sha256": "a2077fdbc41a213b5f6328da3c768e60f6e347c14981d9e9f937fd62e946c83d",
+      "bytes": 50190
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial7.png",
+      "sha256": "56a1b40715dca720c356ea514bf130bac1f745b0d187f2f8103787f32e4ca12d",
+      "bytes": 57742
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial8.png",
+      "sha256": "8722927ecab44b3b545d99f6446aa9cc76e7588bf584da915dacf98c87d70ee2",
+      "bytes": 20995
+    },
+    {
+      "path": "game/images/season2/gui/mansion_game/tutorial/mansion_report_tutorial9.png",
+      "sha256": "6e6e19f749c16e6e0c957eba813587d74f3b1dac439f30a62a3dadc138a541a3",
+      "bytes": 43536
+    },
+    {
+      "path": "game/images/season2/gui/map_system/map_tutorial_screen_button.png",
+      "sha256": "f33e44af8e86e6bd45d63e0aafb202a30e154ff272d63fd3f2313d5a0a81a98a",
+      "bytes": 44609
+    },
+    {
+      "path": "game/images/season2/gui/new_phone/apps/rooster_app/mphone_rooster_bg.png",
+      "sha256": "98b88757c8cfcdef7a34923ec2de3dd3831c3f21f60d260bbf093d22b343fe56",
+      "bytes": 26376
+    },
+    {
+      "path": "game/images/season2/gui/phone/rooster/cluck_photos_buttons/ep8/ep8_cluck_photo_becky.png",
+      "sha256": "e2da1872e276fae6bb2e38565c097ce367558d6165fe8a76ce63f1d897083785",
+      "bytes": 1894827
+    },
+    {
+      "path": "game/images/season2/gui/phone/rooster/cluck_photos_buttons/ep8/ep8_cluck_photo_becky_hover.png",
+      "sha256": "805506fe3dda5dc896072fe6190148b4b53d8e86e9716a41b589feabbf2db8ca",
+      "bytes": 258609
+    },
+    {
+      "path": "game/images/season2/gui/phone/rooster/cluck_photos_buttons/ep8/ep8_cluck_photo_becky_idle.png",
+      "sha256": "b1eb589e9553d2916f1d226dce218ec55e9e08cc18bc27aa638739fca91c1850",
+      "bytes": 258578
+    },
+    {
+      "path": "game/images/season2/gui/phone/rooster/cluck_photos_buttons/ep8/ep8_cluck_photo_derek2.png",
+      "sha256": "640105f7bfd96a2ffbee17b479357c4b357d5f4167442a1479c87410104530f6",
+      "bytes": 120708
+    },
+    {
+      "path": "game/images/season2/gui/phone/rooster/cluck_photos_buttons/ep8/ep8_cluck_photo_derek2_hover.png",
+      "sha256": "055591054678b8a3c09bcab071da8f858a864be56cfa311cdff0107ffb383125",
+      "bytes": 27171
+    },
+    {
+      "path": "game/images/season2/gui/phone/rooster/cluck_photos_buttons/ep8/ep8_cluck_photo_derek2_idle.png",
+      "sha256": "934d33e39a7a720e4453ebfc360cba8b9f052e46b901829318952d12fd36947e",
+      "bytes": 27173
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_arieth_disabled.png",
+      "sha256": "f3562894ab8670af32361044fa806849819475892a5bf2aeaaa9e7c94ca95967",
+      "bytes": 20908
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_arieth_hover.png",
+      "sha256": "db0a8a9e209414b9984a61c28363c4c7db86948aa68120f9eb7c0b12fcbfe719",
+      "bytes": 39034
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_arieth_idle.png",
+      "sha256": "21b0cca21229d32f1969a0d41fd2251c735edf64a37355e840464e39c7056e48",
+      "bytes": 38858
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_arieth_new_hover.png",
+      "sha256": "c5377e25b6118352dbe80cf17554664d8b2bbaf6813bde2b7dd520bd15fe6a1d",
+      "bytes": 40505
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_arieth_new_idle.png",
+      "sha256": "ebd6cff431484c63b5a3d3b7e30ec27c5aed373b2db8b3a5a4a12869fd43f129",
+      "bytes": 40224
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_nora_disabled.png",
+      "sha256": "0d229df3cdf902314741b1ca87702c69dde67a0b98619dc0e73958d79c5989b4",
+      "bytes": 23141
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_nora_hover.png",
+      "sha256": "2038ff176c65ff8057a5aab78b7300bb53b60ff6f8d1a4dd37cf2e2f0a12335c",
+      "bytes": 43281
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_nora_idle.png",
+      "sha256": "c67bb1df671f843309117528f0efed0de19c6be580fed5f10e40f83ee109e433",
+      "bytes": 43045
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_nora_new_hover.png",
+      "sha256": "51695ae8537f0555cb7a81489301024ea8773294ed7dd430d9faa0d32d6dfbe2",
+      "bytes": 44699
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_nora_new_idle.png",
+      "sha256": "5eb96a7d55b9d926f761e3014c98b0693de0c4e2cde881e40597cd185b287648",
+      "bytes": 44345
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_paula_disabled.png",
+      "sha256": "a5f71282ad95d608e865cc86a509fb6e3a10814edc9f0625905baf6a4ced13e4",
+      "bytes": 19451
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_paula_hover.png",
+      "sha256": "2a4cbe0c6fc98ebf8462ec701f353d4fbfe8d11f1eb08d3cb2a75dd304d7d3c3",
+      "bytes": 38970
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_paula_idle.png",
+      "sha256": "4b7d3e85a72de61588319894eef65c549793491933aa4961bf352bbd5974450f",
+      "bytes": 38909
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_paula_new_hover.png",
+      "sha256": "5dcb8837f9ea6970c41e0eb8e63745a5b26e16f80ece0facb23dc7796a1b2553",
+      "bytes": 40700
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/chat/names/swyper_chat_paula_new_idle.png",
+      "sha256": "35a671f51f340d77d5aa3738960162fe944e86e7c7a91c7ec78a7bae0af05b98",
+      "bytes": 39936
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/ellie/swyper_ellie_pic7.png",
+      "sha256": "e86f9963a538740896bad5777ea405d9597f5983293725ab4cb33e218dec0698",
+      "bytes": 629248
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/ellie/swyper_ellie_pic8.png",
+      "sha256": "ad1c022229b5248423e561fc8b340bdc9bb3d956d0f8847419b7cc12e08263af",
+      "bytes": 657777
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/nicole/swyper_nicole_pic5.png",
+      "sha256": "46dfeca873778930733662040546d49e4f37965c964a89f9922fa0e1455bea41",
+      "bytes": 729346
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/nicole/swyper_nicole_pic6.png",
+      "sha256": "d90f0ffee36e92e5e543ce6d4d0956875f19687082ee7596907afb6b09e6ece6",
+      "bytes": 798050
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/nicole/swyper_nicole_pic7.png",
+      "sha256": "b9efbbcba68e267927f79c7667af04e56d8459c1566e11c743b1fcb0b795b09d",
+      "bytes": 656289
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/nicole/swyper_nicole_pic8.png",
+      "sha256": "08d6ed7f0a41a1505b0d40d9b203e2f8b0b53be0acf1213db92adfc739eeb3b0",
+      "bytes": 719899
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/nicole/swyper_nicole_pic9.png",
+      "sha256": "57aa9b7305629d476ff141ea8eb724e437f133f425371d81eaa1fa0ee985d8d4",
+      "bytes": 710698
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/nora/swyper_nora_pic5.png",
+      "sha256": "d6579bd5941ed4b076505f8f04a52e2596da975078ec4fcd7da0441d5579657d",
+      "bytes": 594705
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/nora/swyper_nora_pic6.png",
+      "sha256": "bfc8c1af700810fc34b440341e7ed56de4f54aa7e1e0b6db6be3e288d5d8cb81",
+      "bytes": 576598
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/paula/swyper_paula_pic4.png",
+      "sha256": "4d034782feda76655548b65ae6f516e4c97079015a2e16e7e4b572252594b872",
+      "bytes": 508542
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/gallery/paula/swyper_paula_pic5.png",
+      "sha256": "c626fb9ce843c203c96e6f0cce3a7155a78e34929b638741eaccd7a0af9153b4",
+      "bytes": 501210
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_arieth_pic2.png",
+      "sha256": "9ad513047b7a216d3a6c4a30a645559afccc72ecb7d92374f360c29bd4950844",
+      "bytes": 701031
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_arieth_pic3.png",
+      "sha256": "6fe1656355736098467d0df56fa6d2c2c449ad52d7171cf06fc933ce21e68b8d",
+      "bytes": 809921
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_arieth_pic4.png",
+      "sha256": "8fb583180cd796709d966523145195391e75b1b611e3218bdf824a1db1e7ae75",
+      "bytes": 771075
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_nora_pic2.png",
+      "sha256": "62bb102f402c002718b5e2d24b460a4191055d71be4a724c8537e9669ae9edca",
+      "bytes": 925170
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_nora_pic3.png",
+      "sha256": "fdb8b54e98c3e27b3120b6ed9e8b5230ce7525a9cbff9fd8812edca4ed6f9a7b",
+      "bytes": 744778
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_nora_pic4.png",
+      "sha256": "cbfbebb04e6e093f3a11c634faecb3e12a982ce32825e5e03debe9c086238e85",
+      "bytes": 768880
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_paula_pic2.png",
+      "sha256": "d31f711bb2336ac2d46e6688e9cc8d9d9d92c6c1988f8efedba188457d7157dd",
+      "bytes": 673187
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/pics/swyper_paula_pic3.png",
+      "sha256": "0aba0bae19466918b603747f978305adfb2cade1dcfad5c3ef3edb4b0bd8af9f",
+      "bytes": 605275
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/profiles/swyper_arieth_profile.png",
+      "sha256": "0038fa609a61dd991d8332bfbb7fc640b8f5a129a05a9fa02e73e9da172d31c9",
+      "bytes": 525886
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/profiles/swyper_nora_profile.png",
+      "sha256": "bbe8704b67f68f212234cf4bb22b54320e43c40047098c6a4f16febc28c036b8",
+      "bytes": 605095
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep5/swype/profiles/swyper_paula_profile.png",
+      "sha256": "d911440ae44ec21b05a34addae027836cb2a240918d7250cca836cb82accd266",
+      "bytes": 547104
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/chat/names/swyper_chat_micha_disabled.jpg",
+      "sha256": "73d59e9ccaa1901230ca5ec476290379f2e4fb4eee7182089189fb6cd6c92a44",
+      "bytes": 26983
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/chat/names/swyper_chat_micha_hover.jpg",
+      "sha256": "f6fc07267e43210b2866c88d8206a929990a794774e7f24f05eb0948b82df50b",
+      "bytes": 43486
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/chat/names/swyper_chat_micha_idle.jpg",
+      "sha256": "02e8e3839c0d257e465ca6611ff8a578a1c7da9307329814676ccdb8d71c97e3",
+      "bytes": 37318
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/chat/names/swyper_chat_micha_new_hover.jpg",
+      "sha256": "f24aede87b4a6ae6e275ebf6ec2fa829ec0f8ea2e4e699f128c0b92491c10f8d",
+      "bytes": 46506
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/chat/names/swyper_chat_micha_new_idle.jpg",
+      "sha256": "4274329e20e750b28be4a35f415dc2d56b88f791e27590e71241de905faea3a2",
+      "bytes": 46135
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/common/swyper_deleted_user.jpg",
+      "sha256": "aee1491dd30adab612ede3280fcd807a766c74c59d61b401aebf8bcae9d9ca9f",
+      "bytes": 23499
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/swype/pics/swyper_micha_pic2.png",
+      "sha256": "5c3ac960996fd90fd382870e461f05a97748946a0bf23e6c9408332f8738cc73",
+      "bytes": 550630
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/swype/pics/swyper_micha_pic3.png",
+      "sha256": "25c05ae9e7285b8166dde83c7a816700e8a4b82ae93ca8343abeed5d213dec3e",
+      "bytes": 632514
+    },
+    {
+      "path": "game/images/season2/gui/phone/swyper/ep6/swype/profiles/swyper_micha_profile.png",
+      "sha256": "312f6714354ad0dab4826a37aa21c6fb0b607b4d3c5c9b3e245dfd7217b28c41",
+      "bytes": 648638
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_clothed.png",
+      "sha256": "9bf1d408f92834e08f57da6ef2d952d558400394645819a83c31d8456e5475c1",
+      "bytes": 5462
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_clothed_hover.png",
+      "sha256": "152e23bb3cee54583c0129724bb410510f1e283656d900d81da26e460a3d84fc",
+      "bytes": 4903
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_clothed_idle.png",
+      "sha256": "fab09619d397bc61e81455c16365f9c249f10290967984379c7f1a0b2e0e262b",
+      "bytes": 4947
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_cum.png",
+      "sha256": "9b7b652b9f001d1b5ce255773703ff161e5242d55c2292c0364e770d4452e4a0",
+      "bytes": 5728
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_cum_hover.png",
+      "sha256": "fe0041757c9878aca583253e6d96cfa0ae29abdb9ad84db8d513554f9181199e",
+      "bytes": 5066
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_cum_idle.png",
+      "sha256": "f3482c9aff6c61d07a7d6a8883243ec222b213c9d8cef1e83dc9f8a365850aaa",
+      "bytes": 5021
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_nocum.png",
+      "sha256": "2db1f15ad7264ba115b5abd1d21fe7f79cbe5cd7a60e28a47547afbc570b0a9a",
+      "bytes": 4572
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_nocum_hover.png",
+      "sha256": "e2d9c6bbf10febd2d12e62570f969f085304bf970c1b0091e2dccdd1af37f766",
+      "bytes": 4181
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_nocum_idle.png",
+      "sha256": "faae2023fc52f3027d706d7be2b08ce682a717f37431a3be094a5436331879c6",
+      "bytes": 4212
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_nude.png",
+      "sha256": "a4caa43feca4744cbad968056933ff01952f48dd5ca6b57684516923a0db2fa6",
+      "bytes": 5237
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_nude_disabled.png",
+      "sha256": "c12db672a8a17fd11aa55054a62e29bf990e5eeddb4cdb19b1bf7d51137292ac",
+      "bytes": 3359
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_nude_hover.png",
+      "sha256": "f7cf85a615bdceebdeb1419caef4cf14568d3616dd5602e9d9c41b1e744861ce",
+      "bytes": 4712
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_nude_idle.png",
+      "sha256": "e8928468bbfc4d82eeeb486ff62329c3a6338bf8ecca5e2ce2d4adfdc69016dc",
+      "bytes": 4635
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_partial.png",
+      "sha256": "2f2a2d9498dc687044f7eaa4ee444ae0695325ee5e37ebd271498f0e6d71b029",
+      "bytes": 3858
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_partial_disabled.png",
+      "sha256": "72ef170e153ce0c47e425d98b4502da99f18888bc1f0d669fe61d714a8fe1fe7",
+      "bytes": 2944
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_partial_hover.png",
+      "sha256": "bd167ec1e7f75852ec89027cf5247da80137c00620ac4b9d26d7ba2594d6131f",
+      "bytes": 3566
+    },
+    {
+      "path": "game/images/season2/gui/rewards/toggle_2d_partial_idle.png",
+      "sha256": "977155645ae746e8463407c845818b6ab17759398a355766cded617f258f0c7c",
+      "bytes": 3467
+    },
+    {
+      "path": "game/images/season2/gui/save_transfer/mp_no_hover.png",
+      "sha256": "62e0e2d0ace8209d0159e3e6c44f6f88328e39cb3226cbf85b8eccbd76c48625",
+      "bytes": 6611
+    },
+    {
+      "path": "game/images/season2/gui/save_transfer/mp_no_idle.png",
+      "sha256": "8f8989892f39079dd2938286fd0072328ddd5a8fc32069c0099e4698b9885493",
+      "bytes": 5195
+    },
+    {
+      "path": "game/images/season2/gui/save_transfer/mp_yes_hover.png",
+      "sha256": "ae5bb52cf1973774b36ab70ee3fb88a4df2b79580d90e113efcb2ff3712da7d9",
+      "bytes": 6623
+    },
+    {
+      "path": "game/images/season2/gui/save_transfer/mp_yes_idle.png",
+      "sha256": "fae86738009f55ddb3b30c10eeb8fa0ea90a2e4d3cf6ab8714e57c16eddfc884",
+      "bytes": 5192
+    },
+    {
+      "path": "game/images/season2/gui/save_transfer/warning2_mp_screen.png",
+      "sha256": "d903721aff98dd18c9a7a39c5f9fafbb28dbcf9478cf8f307924357ab394045d",
+      "bytes": 31401
+    },
+    {
+      "path": "game/images/season2/gui/save_transfer/warning_mp_screen.png",
+      "sha256": "e4a80d36bbe32aa9b8955eb71d95814d969be14fea6ed92c33095a89791ecd80",
+      "bytes": 31943
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/pack_quest_app/mphone_pack_quest_app_bg.png",
+      "sha256": "e5939d9d83179fd71b3bb918f0d79058ab1426313679beb7eee7fbb9df8b3a38",
+      "bytes": 28080
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_new_game.png",
+      "sha256": "db5f4029f99f7678035bc9442f435d02c78940cd6eda08075aa9672a86f78a4e",
+      "bytes": 4850
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_new_game_hover.png",
+      "sha256": "bbce114073b722476692b0034a36ceb34ca935f62c3366672eeead5512f3e699",
+      "bytes": 5605
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_quit.png",
+      "sha256": "fed664edb4c3098147f52ff1e912952654a42a873d46415bce024ea3e7b25646",
+      "bytes": 3064
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_quit_hover.png",
+      "sha256": "e2e04f97ec98a66fa296640a5e091da3f237ab6003d1691838b636fd36cae7f0",
+      "bytes": 3718
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_restart.png",
+      "sha256": "562a8af1c6cf066cc4cababe65682d9cbc5cfe5b55e63350c4b566b461be8d42",
+      "bytes": 3296
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_restart_hover.png",
+      "sha256": "8e1fcf4d4c54752cda8b664562be7ebbf9f881bd0bdf547d212923c1ac35e66d",
+      "bytes": 3987
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_solve.png",
+      "sha256": "133d9905f6d45364f05c251816df0d3b4432dd8fcf37ff44c55c81cafc479f13",
+      "bytes": 3413
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_solve_disabled.png",
+      "sha256": "b1b75596da179bf5b5b33c747abcf6fbe38216ecff4aef13e4dcb77205616aac",
+      "bytes": 3443
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/buttons/shuffle_solve_hover.png",
+      "sha256": "db5cad8a5bff5424eebc1f9cd22b8fe7495c0813fc56a6d62c0c7b7343a5162a",
+      "bytes": 4121
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/mphone_shuffle_bg.png",
+      "sha256": "a0cd7f60141ec09fb324a63d2d6ca2255fb63ab7b08d93961665527543dc817c",
+      "bytes": 21295
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/mphone_shuffle_overlay1b.png",
+      "sha256": "95255358537cbd464f9d2f16939fa65b21e55f6deab95181d71e3a58d2ba4459",
+      "bytes": 16745
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/mphone_shuffle_overlay2.png",
+      "sha256": "c64f90aace4f6e3157d78f5cd9b3d51a8f60a89f4fe41eada11607b323e43153",
+      "bytes": 14188
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/mphone_shuffle_overlay3.png",
+      "sha256": "70953795b0bd4eedee1762bb16bc8c1c077b6454f41f3e5eb0bf27a67ec8b867",
+      "bytes": 24645
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/mphone_shuffle_overlay3b.png",
+      "sha256": "b200f7c642a4d88c1ced74b12b31267f5174fc4393777c2877f4d99b0f63abbb",
+      "bytes": 23241
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/mphone_shuffle_overlay4.png",
+      "sha256": "04cc6677d6415305e6e08758d48d65f009368a513adcf6129ea84ac51eab2745",
+      "bytes": 19317
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/shuffle_app/mphone_shuffle_overlay4b.png",
+      "sha256": "2addce56479eaa54585f79be0101dd970514b0a286dad6828efeba5d58d89c24",
+      "bytes": 15296
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/triple_tile_app/mphone_triple_tile_bg.png",
+      "sha256": "3ee68a9d7cbfd8a14aae7172a58145dc753d1ccffa58e9b588e19adfade1d72d",
+      "bytes": 433169
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/triple_tile_app/mphone_triple_tile_bg1.png",
+      "sha256": "225c1a66063b8591a78866abab744808c0829383f33dfe85f8b37663b0037491",
+      "bytes": 534669
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/triple_tile_app/mphone_triple_tile_bg2.png",
+      "sha256": "98ed931ca4a0b6c8752c82906444fe6aa337996a81cefb1c90b17a6b2f2513c9",
+      "bytes": 607691
+    },
+    {
+      "path": "game/images/season2/new_phone/apps/vault_app/mphone_vault_app_bg.png",
+      "sha256": "330baef6769544f983a837d101fe8012afb81627971fe613bed09eed8dba9512",
+      "bytes": 362958
+    },
+    {
+      "path": "game/images/season2/new_phone/overlays/phone_tutorial_screen_button_fr0.png",
+      "sha256": "f5b14412190bca50d6fe526798ff9c6ff2b135cd47b3122a0a04c8dcda680436",
+      "bytes": 76456
+    },
+    {
+      "path": "game/images/season2/new_phone/overlays/phone_tutorial_screen_button_fr1.png",
+      "sha256": "1a98cf12225a5f4f0deabdab22c186b1237659c8ea64f36e36d3fee90cfafdb9",
+      "bytes": 76681
+    },
+    {
+      "path": "game/images/season2/new_phone/wallpapers/mphone_wallpaper_disabled.png",
+      "sha256": "5902e7e9e005dd41565872fafbbec21bf52b82a94456421f319758365d39f718",
+      "bytes": 29130
+    },
+    {
+      "path": "game/images/season2/patched/ep5_mj_list1.jpg",
+      "sha256": "7799f92ea8cf26960317c6f3cca7f9b7443dada2504e759f68e42ea8c225e52f",
+      "bytes": 587476
+    },
+    {
+      "path": "game/images/season2/patched/ep5_mj_list2.jpg",
+      "sha256": "846b20098c521dd07695fd4d7259db11824027bf6930037fdbdfd4f4140c9d1c",
+      "bytes": 583535
+    },
+    {
+      "path": "game/Museo500.otf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/music/ep1/all_the_roads.mp3",
+      "sha256": "0bc2e2f44df31fb57473bc3dfdb6e144ecf5e191e2bd46be173d0cd25bd348e7",
+      "bytes": 2604302
+    },
+    {
+      "path": "game/music/ep1/amsterdam.mp3",
+      "sha256": "e0ef8740d8124d863b89648088a3d72939baa7353b6385c06ccba0acf97597c3",
+      "bytes": 2720913
+    },
+    {
+      "path": "game/music/ep1/amsterdam_intro.mp3",
+      "sha256": "67e4829af40b67292179606cd05738cb7659f72166aaee75491f3ab20bea9d91",
+      "bytes": 1174721
+    },
+    {
+      "path": "game/music/ep1/guardian_angel.mp3",
+      "sha256": "738cdcac6f2c071662a77368d65854963bd0a6411e1dc4826022e6f505353536",
+      "bytes": 2321344
+    },
+    {
+      "path": "game/music/ep1/punk_rock_flu.mp3",
+      "sha256": "ad485408e9f16f0a3525956d03ccb741f0ecd1f8c5befccdd7434e3da80ecd1d",
+      "bytes": 1759864
+    },
+    {
+      "path": "game/music/ep1/seed_of_doubt.mp3",
+      "sha256": "1a8ad157b0bbbd58754666a7fe67cf5aaf02c4824b4271c55ceaa8b809938edb",
+      "bytes": 3056952
+    },
+    {
+      "path": "game/music/ep1/social_wreck.mp3",
+      "sha256": "90546af02d9b922bdc68c7d87774a280e7d80192ae963abe7c82e28a68e9ec29",
+      "bytes": 1801403
+    },
+    {
+      "path": "game/options.rpyc",
+      "sha256": "52ca98f274b24d9eb5d7717d2635496b944fef8608ef010888070ff85d1e656f",
+      "bytes": 6612
+    },
+    {
+      "path": "game/Redressed.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/screens.rpyc",
+      "sha256": "01dc262d90ff1f0bab2c8bd72c0b1007c0902339307055f981a143a39e0ad8b2",
+      "bytes": 398706
+    },
+    {
+      "path": "game/script.rpyc",
+      "sha256": "1f2e8ac8bc519e2b49f9bbd67fa0bee76a9f27a77808745cdd11893c03e491ec",
+      "bytes": 813096
+    },
+    {
+      "path": "game/scripts/classes/english101/english_test1.rpyc",
+      "sha256": "189095ebd971efdc6310625fd72ff7f014186b3f8914c59797252abf893944a4",
+      "bytes": 38124
+    },
+    {
+      "path": "game/scripts/classes/english101/english_test2.rpyc",
+      "sha256": "32855dd3986a0d909caa648805a7065d15e2819eb93e067e86532dafce459842",
+      "bytes": 34246
+    },
+    {
+      "path": "game/scripts/classes/english101/english_test3.rpyc",
+      "sha256": "b2a2db1ad88e0514110ed0cb60ea61548736fdf8d21dcab525002b30e179522c",
+      "bytes": 35944
+    },
+    {
+      "path": "game/scripts/classes/english101/english_test4.rpyc",
+      "sha256": "6a009f930aef66e126ca08791b38e86ab1ce2dbb5636eabb1f9444b740d68347",
+      "bytes": 34840
+    },
+    {
+      "path": "game/scripts/classes/gender101/gender101_test01.rpyc",
+      "sha256": "c99a2fee1613bfba18d0e3b8317bd4c9e0a71f69bc2b741a034d7363aa47033e",
+      "bytes": 45779
+    },
+    {
+      "path": "game/scripts/classes/gender101/gender101_test02.rpyc",
+      "sha256": "7f5ad1d17f0bcaeedd5f296f6855b2329c2a6049ec4998d440f8a475cc37cd4e",
+      "bytes": 43261
+    },
+    {
+      "path": "game/scripts/classes/gender101/gender101_test04.rpyc",
+      "sha256": "2fd29687c6a706a3a7b52e6435d03a2b1ea9e607c581bc8c37ceddb5d498db23",
+      "bytes": 42803
+    },
+    {
+      "path": "game/scripts/classes/math101/math_test1.rpyc",
+      "sha256": "6765c8fd420f03e492134005169869eae01d4c60c7d5816c1d733da955411e89",
+      "bytes": 20226
+    },
+    {
+      "path": "game/scripts/classes/path_game/shot_game_b_ep4.rpyc",
+      "sha256": "0850f87db6aaa3f4dd756e6ccd321f1726a88794c9b484cdb4445a664ccad8a6",
+      "bytes": 16452
+    },
+    {
+      "path": "game/scripts/classes/path_game/shot_game_ep2.rpyc",
+      "sha256": "b4ef248c6e52b870d569f376bfad2e5fd0c7df4b557246d5401e1fded28f7f03",
+      "bytes": 17601
+    },
+    {
+      "path": "game/scripts/classes/tennis/tennis_image_labels.rpyc",
+      "sha256": "c52beb5f9216538edd96c74606a821590755139fcc1e5fdd49ca6868a63647c3",
+      "bytes": 8545
+    },
+    {
+      "path": "game/scripts/episode2/header_ep2.rpyc",
+      "sha256": "93ac04b29ff86186e3b6d47ea894b125e082a1fa98f6a2a3a69c14c3c40e7ce6",
+      "bytes": 12860
+    },
+    {
+      "path": "game/scripts/episode3/header_ep3.rpyc",
+      "sha256": "e28ef04522e1cdf990ad154be19f1a9ce90a77cd40a8de3a7823492cfa451eae",
+      "bytes": 15496
+    },
+    {
+      "path": "game/scripts/episode4/ep4_bella_route.rpyc",
+      "sha256": "c1e55809bdde70124a4bf64b4d0be9dd2caa3c7e528ecfa075e97ebc255bc847",
+      "bytes": 151479
+    },
+    {
+      "path": "game/scripts/episode4/ep4_derek_route.rpyc",
+      "sha256": "da67adb0e6cf13b08c836872c655cf6ec129ba9d889ce6cc4ac8242b865532ac",
+      "bytes": 61913
+    },
+    {
+      "path": "game/scripts/episode4/ep4_sage_route.rpyc",
+      "sha256": "a2691951a0093d3da265f15126a77057e881e56f4a6dccece47a7e9e6f57b572",
+      "bytes": 240753
+    },
+    {
+      "path": "game/scripts/episode4/header_ep4.rpyc",
+      "sha256": "04084aeba23cb168c966e375a09f1ae5f8eb0a99bfb15c519062b66dddb0aaa1",
+      "bytes": 29354
+    },
+    {
+      "path": "game/scripts/freeroam/episode1/ep1_freeroam_dorm.rpyc",
+      "sha256": "383350f6f9331307a3ab6eb1b1593d40d311089b36b0ec55c1d99ef32330e7cd",
+      "bytes": 88464
+    },
+    {
+      "path": "game/scripts/freeroam/episode1/ep1_freeroam_home.rpyc",
+      "sha256": "25c40c9c44ef366a1b250649a763392bfeef6973a00d60885d016222c1cd0f9a",
+      "bytes": 45987
+    },
+    {
+      "path": "game/scripts/freeroam/episode1/ep1_freeroam_hots.rpyc",
+      "sha256": "c95290268e7304cbddd0743b3b1e13f0d14d4c74d482026f295bd23587f524f7",
+      "bytes": 21992
+    },
+    {
+      "path": "game/scripts/freeroam/episode1/ep1_freeroam_maya0.rpyc",
+      "sha256": "05ba9d75b8d0d1f147131e754cf6cad36c897373a05c63f16325cc673a8b3fff",
+      "bytes": 27206
+    },
+    {
+      "path": "game/scripts/freeroam/episode1/ep1_freeroam_maya1.rpyc",
+      "sha256": "bd72a230def62e3fa02297237e320aa84afa37d608ffaceea8faad4f84162b3e",
+      "bytes": 22312
+    },
+    {
+      "path": "game/scripts/freeroam/episode1/ep1_freeroam_maya2.rpyc",
+      "sha256": "a8df34c5f8ce679cc8569c8339fde9678fcac7ffd3ba226906882d6c3f759d1c",
+      "bytes": 24000
+    },
+    {
+      "path": "game/scripts/freeroam/episode2/ep2_freeroam_ano.rpyc",
+      "sha256": "6e203cbeed864f55d282766d347475899d8a72d3c9003736f43b80b1b2623b84",
+      "bytes": 75890
+    },
+    {
+      "path": "game/scripts/freeroam/episode2/ep2_freeroam_bella.rpyc",
+      "sha256": "377130d13b7076951116a12477302dbdd27b0b364d3383c7ec5aa2d277a4b999",
+      "bytes": 40445
+    },
+    {
+      "path": "game/scripts/freeroam/episode2/ep2_freeroam_maya.rpyc",
+      "sha256": "c9b5b7d12737c529f67be62f8c3695566e9c53917f49614d9075cdc671764f37",
+      "bytes": 25406
+    },
+    {
+      "path": "game/scripts/freeroam/episode2/ep2_freeroam_party.rpyc",
+      "sha256": "c3c3e060bdf20309e75cf0cc6df3a826d09ec2c04cf84503e1afc7a69cbfef72",
+      "bytes": 100381
+    },
+    {
+      "path": "game/scripts/freeroam/episode3/ep3_freeroam_ano.rpyc",
+      "sha256": "31c87e521b30d6c5ac7a9ae541e334fa3028a2c25b3950e5ed74724412400587",
+      "bytes": 30602
+    },
+    {
+      "path": "game/scripts/freeroam/episode3/ep3_freeroam_maya.rpyc",
+      "sha256": "dbe794bf0d4ac81b2404abd669a34e09da939904d31455ea06c836bdce3b6d22",
+      "bytes": 27901
+    },
+    {
+      "path": "game/scripts/freeroam/episode3/ep3_freeroam_maya2.rpyc",
+      "sha256": "1af2005b92c40de3a5fb1ffad8474bf96e761ea92f33b9f5eca3551c6ad91f3b",
+      "bytes": 19518
+    },
+    {
+      "path": "game/scripts/freeroam/episode3/ep3_freeroam_stripclub.rpyc",
+      "sha256": "ad612a65866ce3d4fc1316521f6ff77c1b730eb8d3d851cbc0f9e4f0901055bf",
+      "bytes": 235376
+    },
+    {
+      "path": "game/scripts/freeroam/episode4/ep4_freeroam_bella.rpyc",
+      "sha256": "df0e041595c1a8c07a77f96bd776cb3fa71a472b86d545c941fb1de4e4c133f7",
+      "bytes": 122421
+    },
+    {
+      "path": "game/scripts/freeroam/episode4/ep4_freeroam_derek.rpyc",
+      "sha256": "7a3b344a096e64240e0d88dacb479652d66e80058273b9f382ae08a9a0374f55",
+      "bytes": 91751
+    },
+    {
+      "path": "game/scripts/freeroam/episode4/ep4_freeroam_diks.rpyc",
+      "sha256": "e9f6132e1a5561267a461031ab5f4f931e1bd4d506b9c84de6b9ad4cb875cbc4",
+      "bytes": 134565
+    },
+    {
+      "path": "game/scripts/freeroam/episode4/ep4_freeroam_sage.rpyc",
+      "sha256": "602b3989ddc5a977992a858c505f0e8ac6ed2405943bc441d49612f7f19fb6f2",
+      "bytes": 218758
+    },
+    {
+      "path": "game/scripts/freeroam/episode4/ep4_freeroam_stripclub.rpyc",
+      "sha256": "36306db79b22217fa3475335ec88477011c6b7900304ea3a8a2c66dd02684e40",
+      "bytes": 111194
+    },
+    {
+      "path": "game/scripts/misc/custom_functions.rpyc",
+      "sha256": "4424f344064accc558d713c4168e0ff99fcff4f7f3e862ae12fe4fadf4d83bcf",
+      "bytes": 12092
+    },
+    {
+      "path": "game/scripts/misc/title_screens.rpyc",
+      "sha256": "1ec3336dcf957198e7729346b6cfe4abf0c6bfbb1d329e42cd7051d3bfc96028",
+      "bytes": 12112
+    },
+    {
+      "path": "game/scripts/phone/bios/app_bios.rpyc",
+      "sha256": "94028219800998dcf9afcaa62f31f108a1ee07003cad57b25da6d9201b2f99fb",
+      "bytes": 75742
+    },
+    {
+      "path": "game/scripts/phone/brawler/brawler.rpyc",
+      "sha256": "0ee03723f85c0af45e5a7ca8c9a526da421f08da7e6bf545361e9bbc55c75f6c",
+      "bytes": 44672
+    },
+    {
+      "path": "game/scripts/phone/brawler/pov_brawler.rpyc",
+      "sha256": "046e453b550cfc8ef2953b348bd9648d2f90d133e08b7051093f7a9dbf32e91e",
+      "bytes": 57206
+    },
+    {
+      "path": "game/scripts/phone/calls/shop_phone_calls.rpyc",
+      "sha256": "dd49f9fbab87b24b2a2d2d17b697061fde488dec0fd5f5527530178d515d5777",
+      "bytes": 14351
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_dad.rpyc",
+      "sha256": "c671760dac97c516be59b650a26deaf7c9c43cba0f70b56e10bebbe55e4ff25d",
+      "bytes": 21108
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_derek.rpyc",
+      "sha256": "dfb6cbb0d537853f0ff1ec140639cbf2ab80e87c0f5a951bed719567d092cfbc",
+      "bytes": 19112
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_isabella.rpyc",
+      "sha256": "d71380c11edde8ebcb815dea52dadb1bf4ae7b9f670634bb1d43519df3dac9ff",
+      "bytes": 15402
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_jill.rpyc",
+      "sha256": "0d8b3d2071dd02fce8247abef4241bf18764b8d6bfc93031a15941d8b19120c5",
+      "bytes": 15352
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_josy.rpyc",
+      "sha256": "e1fdf3b9110e75c6b58ae2d0b3604e3af4b7ec48fb095a6081cc3ccb9df5bca5",
+      "bytes": 15346
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_magnar.rpyc",
+      "sha256": "abf0190cbc4db5770b0ce3ee17f7535a2eb99bf8b1802a81e90e885a713609b7",
+      "bytes": 15364
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_maya.rpyc",
+      "sha256": "0b6b96aad58e8cb2c8bc3264413a42b6b273e6e37f18f804e434eade47c37879",
+      "bytes": 15322
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_quinn.rpyc",
+      "sha256": "4e3f2986c67c35227ff02b36a1499e08e17ff51aafe52ebef6d4bee4ffda8d85",
+      "bytes": 15324
+    },
+    {
+      "path": "game/scripts/phone/chat/chat_sage.rpyc",
+      "sha256": "b3d630296fe1e365a9e6039ea0dffeef935a67909c00091a23d0951cd8a5cc96",
+      "bytes": 19142
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_dad.rpyc",
+      "sha256": "8c7910922a519a3338ea4389fa9e0a2f950053f609b2462b37c16f89e81eb746",
+      "bytes": 5862
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_derek.rpyc",
+      "sha256": "8c28b27c91312d9ec29ace4649a854c63bc995ad1e775b3fe7f63925b2f4488a",
+      "bytes": 4866
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_isabella.rpyc",
+      "sha256": "f61c3e06de671fdedeed770349898bc784fdd81d6638ef46b369c36f5989b710",
+      "bytes": 2920
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_jill.rpyc",
+      "sha256": "17c540e9d463ad813e29e1e45b7ed333d5bcf4d4e793bba712d115aac502274c",
+      "bytes": 5508
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_josy.rpyc",
+      "sha256": "9bd3a24babbf7b4cc1d1dc62f80b19664629f0cf00ca80209e62aaf0ce2f5e8a",
+      "bytes": 7400
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_maya.rpyc",
+      "sha256": "6122506b999b3741a3991a759396d6a3c81ef8c733173951352c7cd282f7c745",
+      "bytes": 4408
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_quinn.rpyc",
+      "sha256": "0fd01f12c10bec9c2e3d5d52e1ec09fed59d579edac7083c27cb94dffb794010",
+      "bytes": 5290
+    },
+    {
+      "path": "game/scripts/phone/chat/replies/chat_replies_sage.rpyc",
+      "sha256": "e118626358fd6810c1c4960d32b8d71ec272b79b7c98a41eb8ae266eba85bc43",
+      "bytes": 6122
+    },
+    {
+      "path": "game/scripts/phone/contacts/app_contacts.rpyc",
+      "sha256": "2619cd67a085cca9560ac73deccd8cf52b2b0f7f3552ec25e13186dda16cdf39",
+      "bytes": 27326
+    },
+    {
+      "path": "game/scripts/phone/phone_menu.rpyc",
+      "sha256": "47ccc407b7f0c1db70651ff60065380dfa7c0f58671c99d7d339957906cd0066",
+      "bytes": 174214
+    },
+    {
+      "path": "game/scripts/phone/rooster/app_rooster.rpyc",
+      "sha256": "9a267b0f8cd119538e41e07a38cbb50a1c4cf9a13b7f060e57c9412cf6b3011f",
+      "bytes": 58166
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep3/clucks_ep3_jill.rpyc",
+      "sha256": "ed77cd945a35d6ac19cdcfac4112ea9598fbe8dd0909988a9f27444879ab4d6a",
+      "bytes": 16260
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep3/clucks_ep3_maya.rpyc",
+      "sha256": "700423eb11915b79f766f5bec7b8b42ac418dab1b04975d04ea6b0383c1fdf27",
+      "bytes": 15998
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep3/clucks_ep3_quinn.rpyc",
+      "sha256": "b2d11ffd0353278d23ea0e7972310e8ec90c88affee78ca28360fd7abebbc906",
+      "bytes": 16012
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep3/clucks_ep3_rusty.rpyc",
+      "sha256": "111107259fbd73bdffc5b9264741ab4a5b2794b96c686976cbf9b719889accbe",
+      "bytes": 16376
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep4/clucks_ep4_cathy.rpyc",
+      "sha256": "1d8ad378771070e5db4ec604afbffd42bb355b4351428707ecdc38f0ce9b29d6",
+      "bytes": 13214
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep4/clucks_ep4_dawe.rpyc",
+      "sha256": "49e9d1b1d07e8fd3ec130cebac9f9c153e3628fae39b8eae62fcd387c7ffb597",
+      "bytes": 17016
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep4/clucks_ep4_jill.rpyc",
+      "sha256": "ece26a2c2c08a265d831b821c689e2ff4e0c24e3b5a71539f7d75ff6d6fe5bab",
+      "bytes": 17966
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep4/clucks_ep4_sage2.rpyc",
+      "sha256": "808e2cfa309ee7ea503a71d68d394a02e3dd170289d01b0648abe626e36ae6e5",
+      "bytes": 19268
+    },
+    {
+      "path": "game/scripts/phone/rooster/ep4/clucks_ep4_tybalt.rpyc",
+      "sha256": "8b3ca62d928817ea9fdba55fabc908d7578842bf6497e3fabc6ae3cf917667be",
+      "bytes": 13414
+    },
+    {
+      "path": "game/scripts/phone/shuffle/app_game.rpyc",
+      "sha256": "8955cfa0842a7a810f18404a4fcaf418f29c7ebd487cc5765d2598269d51efcd",
+      "bytes": 21452
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/replies/swyper_replies_cathy.rpyc",
+      "sha256": "c3b5390dc961ce1290ea44342f01af78220a5482ac00cdb2946ca1ebbe854a24",
+      "bytes": 12326
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/replies/swyper_replies_catrin.rpyc",
+      "sha256": "70d9b376442200f0f7c05c5a55820e5e9f81c6e43c43ef6bfcbb5a572582a9c4",
+      "bytes": 6612
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/replies/swyper_replies_ellie.rpyc",
+      "sha256": "2c50b1d8fd44c03c9da9270049c0938c352a4384692ef796283a1f9eb21c66ea",
+      "bytes": 4916
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/replies/swyper_replies_ida.rpyc",
+      "sha256": "63218d5da5b160cdea494282defbc7d321cdcf136e0d6c4c009659836f4926bc",
+      "bytes": 6940
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/replies/swyper_replies_nicole.rpyc",
+      "sha256": "4f79abc5d49533b5bc63dd42c0e18c45971f1951ec926be7e19ccedb3d155d21",
+      "bytes": 8282
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/swyper_chat_cathy.rpyc",
+      "sha256": "5178519da86555d7700873ec9decdb7e70aec6a864e2157b48f9533460ae2a9b",
+      "bytes": 13038
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/swyper_chat_catrin.rpyc",
+      "sha256": "327bdc2581ac6b4267dc747dbd593454d9f1ac085611145c2889f33fce8b911f",
+      "bytes": 13070
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/swyper_chat_ellie.rpyc",
+      "sha256": "befb3821f68abdb806fa3aa652492f49280b347ef59c756f2d7d6fe068817bbc",
+      "bytes": 13060
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/swyper_chat_ida.rpyc",
+      "sha256": "d510c32d78c586862a378977a5dcb8bf107846023d1da15607d9013f4c4f08e5",
+      "bytes": 12996
+    },
+    {
+      "path": "game/scripts/phone/swyper/chats/swyper_chat_nicole.rpyc",
+      "sha256": "ace2c6218d1b2bb49813320337ff708bdd17c34e266b8dec46752157ec2013b5",
+      "bytes": 13050
+    },
+    {
+      "path": "game/scripts/phone/swyper/galleries/swyper_gallery_cathy.rpyc",
+      "sha256": "cbf9ec74df2e7f3be1a88d3e1d0b6b97d233b20b14f93b2b522be226707b531d",
+      "bytes": 7590
+    },
+    {
+      "path": "game/scripts/phone/swyper/galleries/swyper_gallery_catrin.rpyc",
+      "sha256": "3a1c84674583b64f1320386e0d391eea3c13e447d54ab0d0f0ba18d17a9da871",
+      "bytes": 7018
+    },
+    {
+      "path": "game/scripts/phone/swyper/galleries/swyper_gallery_ellie.rpyc",
+      "sha256": "ae287a60d5c8b4ae2cd030a1c74168c5d16eaa4559717dfe0f7a7603aaf99757",
+      "bytes": 8174
+    },
+    {
+      "path": "game/scripts/phone/swyper/galleries/swyper_gallery_ida.rpyc",
+      "sha256": "a4a94f417b50c3382d78a2cab3a770f143d07fbe3a2a652725399907609d4132",
+      "bytes": 6988
+    },
+    {
+      "path": "game/scripts/phone/swyper/galleries/swyper_gallery_nicole.rpyc",
+      "sha256": "71362aa5b9b516412cdc20cefe4f3c0e0c0f75ed6d1304e3e654e6894416b3fc",
+      "bytes": 7008
+    },
+    {
+      "path": "game/scripts/phone/swyper/swyper.rpyc",
+      "sha256": "cd57c8b8bf9e6458263401520940a5be8eb82aa0e37d99e3e13eb359fad2fd60",
+      "bytes": 39600
+    },
+    {
+      "path": "game/scripts/phone/swyper/swyper_galleries.rpyc",
+      "sha256": "84440f263c534b5fe77518d906f275a67fc9f936fa9e30273b1f28e3eca94668",
+      "bytes": 26900
+    },
+    {
+      "path": "game/scripts/reports/report_ep1.rpyc",
+      "sha256": "35769caea515967793b3e9cdd081fd606920c24c3ee323ae4d43778e4a095c17",
+      "bytes": 23424
+    },
+    {
+      "path": "game/scripts/reports/report_ep2.rpyc",
+      "sha256": "2c3f1c2975bdb2a916c8170529e3c9a2aaf8d9971c03b59d62f96ab6af0e06b9",
+      "bytes": 23682
+    },
+    {
+      "path": "game/scripts/reports/report_ep3.rpyc",
+      "sha256": "8748a70ae54718182627267a10c99664ff3776b3ccc9c61e486759168a58b9fd",
+      "bytes": 22644
+    },
+    {
+      "path": "game/scripts/reports/report_ep4.rpyc",
+      "sha256": "bd2a8eb805b10c63501414a0757183cbfed32acf517bc2f139ed93c84c339f90",
+      "bytes": 24682
+    },
+    {
+      "path": "game/scripts/rewards/rewards.rpyc",
+      "sha256": "09d116b83cb40350d79a4108ee2547d542e835f5bf4f4d47f78e959dfd9d4550",
+      "bytes": 85924
+    },
+    {
+      "path": "game/scripts/rewards/rewards_camila.rpyc",
+      "sha256": "e3071014bc48559635ceb39ae0871f9143447142385c0cbeada24cf653373560",
+      "bytes": 23352
+    },
+    {
+      "path": "game/scripts/rewards/rewards_cathy.rpyc",
+      "sha256": "561a1f51e56f883ed3f68d1af0ae9c65e22c78ba46cf27248b4bcb4d69e72dfd",
+      "bytes": 20002
+    },
+    {
+      "path": "game/scripts/rewards/rewards_isa.rpyc",
+      "sha256": "af98d702d917e9f90dffaa1a697fefe19f17bb06d135a75c85ec644eddc0891c",
+      "bytes": 32248
+    },
+    {
+      "path": "game/scripts/rewards/rewards_jade.rpyc",
+      "sha256": "6ec5d1691ddc87c7f8e89a51a563a5fc2c892c1d25c9300ee126556fe22d61d3",
+      "bytes": 19658
+    },
+    {
+      "path": "game/scripts/rewards/rewards_jill.rpyc",
+      "sha256": "56efb2c5a2341494a742d39f39bf10b4a18c99301a1501586f584d7418734946",
+      "bytes": 55574
+    },
+    {
+      "path": "game/scripts/rewards/rewards_josy.rpyc",
+      "sha256": "7d799be58832e4cd2bb77e35b31375e37675e95da5490dc5c2683845ba35aa1a",
+      "bytes": 19434
+    },
+    {
+      "path": "game/scripts/rewards/rewards_maya.rpyc",
+      "sha256": "61b024ead4fe92a116b90db3f05c6e1465c42ced860f78460d40081cd69a44c7",
+      "bytes": 22088
+    },
+    {
+      "path": "game/scripts/rewards/rewards_mixed.rpyc",
+      "sha256": "1fac1a727fd5c9bdeaec89045e73ff625357cbd788d023a25e88911f77f52830",
+      "bytes": 92856
+    },
+    {
+      "path": "game/scripts/rewards/rewards_quinn.rpyc",
+      "sha256": "7d356afd39c783cfdfe75978d7d65d4c3d41aa30be1f9382da51f59bab1e21f9",
+      "bytes": 22942
+    },
+    {
+      "path": "game/scripts/rewards/rewards_riona.rpyc",
+      "sha256": "f326c313101fe8246ab52b35ec6d8d102d8a8f0b87bca933a3e87a416b1cb15c",
+      "bytes": 50530
+    },
+    {
+      "path": "game/scripts/rewards/rewards_sage.rpyc",
+      "sha256": "2a863a3629490177213dec91c98ec4542ad64bf0e6bdb5e311c7ffdc0aa6fe5d",
+      "bytes": 46910
+    },
+    {
+      "path": "game/scripts/sex_scenes/glory_hole.rpyc",
+      "sha256": "5ca9f46d4b3c49f5ffc822e8c8036c5c8e9f7819e7069aa46d1f131c485a64ac",
+      "bytes": 57819
+    },
+    {
+      "path": "game/scripts/sex_scenes/sex_scene_cathy.rpyc",
+      "sha256": "fb6ed40d2b36363c0e3e675eec2bd757078ef4efe9f3ee07ec12dceb97dff7d2",
+      "bytes": 17956
+    },
+    {
+      "path": "game/scripts/sex_scenes/sex_scene_jade.rpyc",
+      "sha256": "f7338c9d7bb5678b3bd75c7b355ac2930eec4ea7dd4255308ecb74da23293490",
+      "bytes": 22308
+    },
+    {
+      "path": "game/season2/rewards/rewards_2d.rpyc",
+      "sha256": "7b50a9c46efbd404660eb6cb5c08514ab9b02d99cfccaaa5bd0ad532718fe84e",
+      "bytes": 30928
+    },
+    {
+      "path": "game/season2/rewards/rewards_envy.rpyc",
+      "sha256": "e8e807a4d308def0958679876b54eb6f928647925c9e3c797fe443c21bb86208",
+      "bytes": 40718
+    },
+    {
+      "path": "game/season2/rewards/rewards_sally.rpyc",
+      "sha256": "3874592b70173fd00a247b12a53f4d1ad1bc6709265970c4afcf7ac722c1aeac",
+      "bytes": 34040
+    },
+    {
+      "path": "game/season2/scripts/characters_season2.rpyc",
+      "sha256": "824cc7d248f3b83f10f978bdfabb0c5ce1b1e2c405b567819758752d68184a1f",
+      "bytes": 10604
+    },
+    {
+      "path": "game/season2/scripts/classes/basketball/basketball.rpyc",
+      "sha256": "e6b7df9c60e2e38808d96d2f47fe4821fde4c2ec0023f6d765a46dcd40112c81",
+      "bytes": 23937
+    },
+    {
+      "path": "game/season2/scripts/classes/beachball/beachball.rpyc",
+      "sha256": "5cc9b1cac48043e79739c858fd05d4084ac168a2eb83fe0885415b8a84ce27dc",
+      "bytes": 18025
+    },
+    {
+      "path": "game/season2/scripts/classes/cooking/cooking_game_ep5.rpyc",
+      "sha256": "b47e2f15b6dcc259e5185ab98d6a37f10f588ec0068aba9d0c87093e2422ce3d",
+      "bytes": 18626
+    },
+    {
+      "path": "game/season2/scripts/classes/english101/english_test5.rpyc",
+      "sha256": "e8ed633f51f0b25ea1d1bfe9b217983983ddc4735fe3cd08ac4d70caea2c1fd3",
+      "bytes": 38538
+    },
+    {
+      "path": "game/season2/scripts/classes/english101/english_test6.rpyc",
+      "sha256": "0e577b50e4008ff3c91555e4ab7370f8cb369476006770b8104af75b8e7c1bd2",
+      "bytes": 37138
+    },
+    {
+      "path": "game/season2/scripts/classes/gender101/gender101_test06.rpyc",
+      "sha256": "bf8818238fd3abdbb17566c7365f74f8c5543d1713778aead2b530bd049ccb54",
+      "bytes": 50470
+    },
+    {
+      "path": "game/season2/scripts/classes/path_game/paint_game_ep5.rpyc",
+      "sha256": "84a96986fefadf15ebc93ca9daae030a631bc502af15f37363b08c66b298e4bf",
+      "bytes": 14436
+    },
+    {
+      "path": "game/season2/scripts/classes/path_game/paint_game_ep6.rpyc",
+      "sha256": "594db6208833b5a0c1f1f6ff2b45d91c8502a83d56f6e689d549b54bf8fc0ee5",
+      "bytes": 14602
+    },
+    {
+      "path": "game/season2/scripts/classes/tennis/tennis_image_labels_ep7.rpyc",
+      "sha256": "09aa80620799145cba0805ff1e33d421eb38955ce4daee80b64e18dfd73bace7",
+      "bytes": 15964
+    },
+    {
+      "path": "game/season2/scripts/episode5/header_ep5.rpyc",
+      "sha256": "d7f37ecb1e952e87076e4614769a49234c8e16cf4d963d744bb0ecbe371bffac",
+      "bytes": 32408
+    },
+    {
+      "path": "game/season2/scripts/episode6/ep6_dng.rpyc",
+      "sha256": "86f4da3768946dd09b46e637495e969bfb0762040b89deb8bdc49a36bf268301",
+      "bytes": 346586
+    },
+    {
+      "path": "game/season2/scripts/episode6/header_ep6.rpyc",
+      "sha256": "76464ebf6eefd204345eb4ed0ffa4c39187490e60181a1f6e00b7a16ae93b174",
+      "bytes": 44620
+    },
+    {
+      "path": "game/season2/scripts/episode7/header_ep7.rpyc",
+      "sha256": "452c57be9861a034e100e74f4696f416d9d97c32fbb39e75776969cd47c9ba5f",
+      "bytes": 64038
+    },
+    {
+      "path": "game/season2/scripts/episode7/madame_ep7.rpyc",
+      "sha256": "fef1ed90448bea2a43d67b0e34e74a4feaf2ace850f24c27448c190fc4f00453",
+      "bytes": 35092
+    },
+    {
+      "path": "game/season2/scripts/episode8/header_ep8.rpyc",
+      "sha256": "85afd0de7d0d004816ef12c2a92e5903f3ead479a102d3561f609f3c5d6b82c8",
+      "bytes": 12682
+    },
+    {
+      "path": "game/season2/scripts/episode8/madame_ep8.rpyc",
+      "sha256": "21a7d24e64c23e682415fb8549550fd5e28ae00d8e5a7a3303829c92857681be",
+      "bytes": 21662
+    },
+    {
+      "path": "game/season2/scripts/freeroam/episode5/ep5_freeroam_ano.rpyc",
+      "sha256": "9f82509abd3e2d22d7e8ee6de4215bbc54a70abd28a366380886a731a1eaddf2",
+      "bytes": 472572
+    },
+    {
+      "path": "game/season2/scripts/freeroam/episode5/ep5_freeroam_bella.rpyc",
+      "sha256": "fa1724b29001570d7d1ca8c13b05f4c06942b49c8a52fd816bf94c11a333bd0c",
+      "bytes": 62049
+    },
+    {
+      "path": "game/season2/scripts/freeroam/episode5/ep5_freeroam_bella_night.rpyc",
+      "sha256": "b52470fdb3427243443ef5a2af10ed704bf996d3189a58beddd83d08a3f31ec5",
+      "bytes": 43878
+    },
+    {
+      "path": "game/season2/scripts/freeroam/episode6/ep6_freeroam_bar.rpyc",
+      "sha256": "3a817b5efcaecc577a77ab2a16cad4376827b6af08542be034806bc0b83908ee",
+      "bytes": 113917
+    },
+    {
+      "path": "game/season2/scripts/freeroam/episode6/ep6_freeroam_diks.rpyc",
+      "sha256": "5a94b2702c110089e05da0c87463ba6758d806069e6adbc6842252864235ccc3",
+      "bytes": 151164
+    },
+    {
+      "path": "game/season2/scripts/freeroam/episode6/ep6_freeroam_diks2.rpyc",
+      "sha256": "4264d1505967cdbe9bd7f17c7e3a00bb403e5ee6e9a77f64e1983f397d125667",
+      "bytes": 149107
+    },
+    {
+      "path": "game/season2/scripts/freeroam/episode6/ep6_freeroam_library.rpyc",
+      "sha256": "81d284d26437882485cdac2a1e55a240ce2c1d01be776c98b163ef0b3311a07f",
+      "bytes": 133531
+    },
+    {
+      "path": "game/season2/scripts/laptop/dikfolder/dikfolder.rpyc",
+      "sha256": "eace97c278ae8b1f1d52ab0404a630b268487bd218af80f4bd5873ba6b02f9bb",
+      "bytes": 44976
+    },
+    {
+      "path": "game/season2/scripts/laptop/dikfolder/textbrowser/textbrowser.rpyc",
+      "sha256": "76d225f1fb5bb128adae412f16ef82cd31c897d5ce2f3042c7f123b6c8f9c319",
+      "bytes": 11044
+    },
+    {
+      "path": "game/season2/scripts/laptop/pack_quest/open_packs.rpyc",
+      "sha256": "f26998acc607bbf13a9adb98a20540f9c96228905f17f2c2f04a4cf2d3ea90ec",
+      "bytes": 9750
+    },
+    {
+      "path": "game/season2/scripts/laptop/pack_quest/packquest.rpyc",
+      "sha256": "39ce2c5a5c6c9cc3019bde5a841a887ecf0a53811dfdddda12ee9ca32290382a",
+      "bytes": 13232
+    },
+    {
+      "path": "game/season2/scripts/laptop/rooster_pc/rooster_pc.rpyc",
+      "sha256": "83c80b9c076457a1280bd9173467354d4b0a53b7d4e2cbf627581d7c03c65652",
+      "bytes": 3708
+    },
+    {
+      "path": "game/season2/scripts/mansion_game/mansion_exp_shop.rpyc",
+      "sha256": "e1c549cbd5748000ed115cb67af01eac358d7ced7772af331f6c785f8a264852",
+      "bytes": 40250
+    },
+    {
+      "path": "game/season2/scripts/mansion_game/mansion_graphics.rpyc",
+      "sha256": "77d474fe643bf85e4d73c4d43c95b2dc4ba65bd7baeb1d03eec63d11d10a7d3e",
+      "bytes": 44234
+    },
+    {
+      "path": "game/season2/scripts/mansion_game/mansion_graphics_tutorial.rpyc",
+      "sha256": "4d1b82e0e80c4f917243ef28618da53351f79e61cfaa5d928feb5803d24ca2bc",
+      "bytes": 51042
+    },
+    {
+      "path": "game/season2/scripts/mansion_game/mansion_report.rpyc",
+      "sha256": "9a2effb3d3f182b60500a7eb8dd91b65be0299f7c9bc50e69ca4212888be970a",
+      "bytes": 36540
+    },
+    {
+      "path": "game/season2/scripts/mansion_game/mansion_work_tasks.rpyc",
+      "sha256": "17807832fcc2ae09324ead50440aba15a079fb0a6fc020f7302611048ff7fa29",
+      "bytes": 23878
+    },
+    {
+      "path": "game/season2/scripts/misc/custom_functions_s2.rpyc",
+      "sha256": "93c84b6883da64d89392cdf83f714efb476b1bce7948d9dde5126af0f9efc64b",
+      "bytes": 7728
+    },
+    {
+      "path": "game/season2/scripts/misc/mp_save.rpyc",
+      "sha256": "11d079c184aea5e2279e46b9886f62805a3e62e4f9fd8f9ffd82826831064be2",
+      "bytes": 289898
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/art_2d/mphone_art_app.rpyc",
+      "sha256": "aff616ae4061f23adef47ee5e2f814c95240471d6a754c337c2f00c61637a326",
+      "bytes": 5750
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/bios_app/mphone_bios_app.rpyc",
+      "sha256": "ce9c60d2b9b91aef851c669b8d8f06233a1ca8b107f7ad4923b57a10a084d0bd",
+      "bytes": 13896
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/mphone_chat_app.rpyc",
+      "sha256": "99a4bb7636dd95ca24ade9e1ea11da4d3bd5f5c159c257fb7fa8c7307a7620f3",
+      "bytes": 15792
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_dad.rpyc",
+      "sha256": "bbd2e54274377291a7bdc41e1093cb5550030c7ed065ae15f364b984e12b2283",
+      "bytes": 2828
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_heather.rpyc",
+      "sha256": "7451affbc17a27a1d99c0c4b55083b58cc4dfe456c5bf184450822423882a1ed",
+      "bytes": 4846
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_isabella.rpyc",
+      "sha256": "29be5f75532256547b48b4fd59f0bc9a1cb0f7b50b33e9af2ccc385ef781ddaf",
+      "bytes": 4604
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_jacob.rpyc",
+      "sha256": "abf9770962da4a8eed296d43951a1c487cb0f63871fe3c1bceac8c3420377993",
+      "bytes": 2346
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_jade.rpyc",
+      "sha256": "eba5dda39aea66f3b53db51faf1fa922e27ad6eeed0f126dd4c6bda86e8d2508",
+      "bytes": 8732
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_jamie.rpyc",
+      "sha256": "0542b444d91a506b7f5bea37c59c9e51465231b2b3daab41e239baf759284188",
+      "bytes": 3978
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_jill.rpyc",
+      "sha256": "46eb73c6a07d7c5ad81b4dfd762e29d701cf0e19bdca6eeac79459f31a911e2e",
+      "bytes": 5730
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_josy.rpyc",
+      "sha256": "515691356aa91790bbeb8d969f47570554b12e60a76535b9c66e2491ed122029",
+      "bytes": 8834
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_lily.rpyc",
+      "sha256": "65beecbd8de859d84a3a658fa6c799de9e06837b6d3ceb1a3c8be3a33ad343d3",
+      "bytes": 3168
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_madame_rose.rpyc",
+      "sha256": "b4d07b2da99daac6924d0c9150405b32f2f95f4e85f11fb883546096693e0734",
+      "bytes": 2028
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_maya.rpyc",
+      "sha256": "f74cffb1661d0531c647f862096713c8602b34fcbce9cf4f3ce77c3748cc3d24",
+      "bytes": 11674
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_nick.rpyc",
+      "sha256": "eed8fe398481ccfb38ac0726a22045f72c0e00d6f2cf8b7a05d36c36a52a7bd8",
+      "bytes": 3618
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_nicole.rpyc",
+      "sha256": "e639abefb7ff742e35203873ba6c704cb5c9eca20e6d3cee28e76bca13752352",
+      "bytes": 4972
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_nora.rpyc",
+      "sha256": "db423c29bd0f618aa57761933d9198af57c8377d5c465d379a2dd05ababc86d6",
+      "bytes": 5848
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_quinn.rpyc",
+      "sha256": "8461156437b0a69019ca6d42b0a50a259887c0db617bf5b1aeacf71d7440d287",
+      "bytes": 2966
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_riona.rpyc",
+      "sha256": "036e99641dc8a9ce2010ef9f85559a4bb46fe39854bbba65e1691de3a6bdb30b",
+      "bytes": 5056
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_rusty.rpyc",
+      "sha256": "83814c0e6b757714bef94db47a4ab27e93e491f9378439500a0f374046b66ae2",
+      "bytes": 2454
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_sage.rpyc",
+      "sha256": "ff05564ce246796d5f439a4ae85f2037d5556c7a8e1a0c9427c0a850aeed5669",
+      "bytes": 6454
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/chat_app/replies/mphone_replies_tommy.rpyc",
+      "sha256": "be8c10eefec35bba7d1f236e5db03b3b0c0991c9dbbb03839a411400f51bb714",
+      "bytes": 3350
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/contacts_app/mphone_contacts_app.rpyc",
+      "sha256": "f8608b4a3874804615f97d8e8d9d0220a8dc86a920810fa6fcdcc7642713b5f4",
+      "bytes": 18092
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/music_app/mphone_music_app.rpyc",
+      "sha256": "2bef16567bbdbc95592e8be9d72a50e49e5e5b658c13f997af0b4b8ba52bda6f",
+      "bytes": 12194
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/music_app/mphone_music_songs.rpyc",
+      "sha256": "8850eee5e664b2736b024c95c3b33021d1b3f4669a8e2e915c86117937147059",
+      "bytes": 21404
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/pack_quest_app/mphone_pack_quest_app.rpyc",
+      "sha256": "6fe767eb05b628a969133ce8f638b9ea4513fbdb3bb9c8c49f6e69375c08e856",
+      "bytes": 15000
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/pack_quest_app/quests.rpyc",
+      "sha256": "37aea2e97ccaf82649e8fc12cfdd6d44fd7545e2de721058a8703de82c44b069",
+      "bytes": 4028
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/pet_names_app/mphone_pet_name_func.rpyc",
+      "sha256": "98832aaa8e132f7d75a06c016cd43c69e9a618f325e0f1141c2833039a3fcee0",
+      "bytes": 1802
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/pet_names_app/mphone_pet_names_app.rpyc",
+      "sha256": "6de58433025442535f8240cf9b8d88872bac941b5f25c6b9cca888a4d529c669",
+      "bytes": 18912
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/rooster_app/mphone_rooster_init_clucks.rpyc",
+      "sha256": "d893e0dc075e36047dcd96ac618f903d531db1d67de6a9978ba23902d266007d",
+      "bytes": 63096
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/rooster_app/replies/clucks_ep7.rpyc",
+      "sha256": "05a4efbb205c09d389c3b04096d99d46aa3fd28e2491a52a2b1adf072df41316",
+      "bytes": 7366
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/rooster_app/replies/clucks_ep8.rpyc",
+      "sha256": "fb1a019157180502092578a2c9da164e52bc4b7f667af51a9c453dc5a89c35d0",
+      "bytes": 4144
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/settings_app/mphone_settings_app.rpyc",
+      "sha256": "ea51ffe638199699adc0f002bee838e54c995e82d657fe1282c2c75f4ac68a6b",
+      "bytes": 11120
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/shuffle_app/mphone_shuffle_app.rpyc",
+      "sha256": "bab40c4e4dc0f2c1594c10c4e280d8e22e3d685befde12a6b873361da07fba3b",
+      "bytes": 13348
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/stats_app/mphone_stats_app.rpyc",
+      "sha256": "10551396276e598e8d42e74d05c845f9b94f119b9907c43eba0ea4c527908b12",
+      "bytes": 21670
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/task_app/mphone_tasks_app.rpyc",
+      "sha256": "8220a588351b15432270c7d132a979eddea41b0d1666e8f290fc4e0bf751ce8d",
+      "bytes": 5864
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/triple_tile_app/mphone_triple_tile_app.rpyc",
+      "sha256": "cd36ce125ec9783fc5687120a49520fd53c6b08674fd877406dec8087e4be1c3",
+      "bytes": 25704
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/triple_tile_app/mphone_triple_tile_img.rpyc",
+      "sha256": "cb37f217572ed5287456c5e8ef2c6962267bee8719b41599a9b729711145ec43",
+      "bytes": 44256
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/vault_app/mphone_vault_app.rpyc",
+      "sha256": "a28240e386e9ecf1a8118d589a6476279f0388c694b43b43e0ca97a3a89ce54c",
+      "bytes": 6794
+    },
+    {
+      "path": "game/season2/scripts/new_phone/apps/wallpaper_app/mphone_wallpaper_app.rpyc",
+      "sha256": "14e62b39cff6c15435db3f82adb278e4efea0c6e0997956eda9b91c4ba6a9c05",
+      "bytes": 7366
+    },
+    {
+      "path": "game/season2/scripts/new_phone/mphone_main.rpyc",
+      "sha256": "509b399368188be2fc0b71592021b40fbdedd06eb0dbc99e4285741aa437b387",
+      "bytes": 24488
+    },
+    {
+      "path": "game/season2/scripts/phone/app_rooster_s2.rpyc",
+      "sha256": "1d620d318f327afea06fc0f3c236b800c25bd5807f6c04b195ac46130f9a3d9d",
+      "bytes": 52968
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep5/clucks_ep5_anthony.rpyc",
+      "sha256": "c9175afb82a0c404ee30047086e87733ba588f79c2b466f557dbdcccaeb65df4",
+      "bytes": 17122
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep5/clucks_ep5_camila.rpyc",
+      "sha256": "ed2e03047da99dbf6e9dde23cc3382370f5cbe7e4b094b42288abbdf8848948e",
+      "bytes": 16216
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep5/clucks_ep5_jill.rpyc",
+      "sha256": "1b7dfcc32a7ce5c682b097a48afea7e6f8c921767a164cefbf3ada73c8a8d570",
+      "bytes": 16910
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep5/clucks_ep5_josy.rpyc",
+      "sha256": "69655c3b2b63a889041be3902e23f32a968119e68f3eed0cbb6eb1939bb34506",
+      "bytes": 16306
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep5/clucks_ep5_lily.rpyc",
+      "sha256": "308001af036060ef62e50aae22bb487c3bb243b1c3f2572835806c8a796f96f8",
+      "bytes": 16926
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep5/clucks_ep5_riona.rpyc",
+      "sha256": "7ac89e2bbf757368d0ad062fcf73d688863b1b015f845d96dd032e5e3e167adc",
+      "bytes": 17102
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep6/clucks_ep6_dawe.rpyc",
+      "sha256": "ba41fc2ee61a78b57b1bc602a30eef819a26677007613f375a53a4dfc425b1fa",
+      "bytes": 17562
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep6/clucks_ep6_derek.rpyc",
+      "sha256": "718fcad8757ec34494acb0f325a66b755f67501fb9b54780948c872d2193a517",
+      "bytes": 16218
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep6/clucks_ep6_maya.rpyc",
+      "sha256": "a11b9c38abb54f1fccaff46b4d1baca6441783c45f1746a1442bf3b2e5f797f2",
+      "bytes": 17258
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep6/clucks_ep6_melanie.rpyc",
+      "sha256": "1dccfcef62c008f05290f1f805a6365553d3bf6353963d393ed37435075a77f7",
+      "bytes": 16954
+    },
+    {
+      "path": "game/season2/scripts/phone/rooster/ep6/clucks_ep6_tybalt.rpyc",
+      "sha256": "e0e4ba9be4dc260eb60efeec1df4f3bfb0b37d6bb16ae87a7508404bfff94fcc",
+      "bytes": 17208
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/replies/swyper_replies_arieth_s2.rpyc",
+      "sha256": "08929fb2ca470e03df25da32465a0dc0f88d8c9166b5f83f4d1ab89af9706eae",
+      "bytes": 6078
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/replies/swyper_replies_catrin_s2.rpyc",
+      "sha256": "adea19e87dad508d50d72a24432a2e7aa4b67785ecd9175331dcc3b8c5ae5696",
+      "bytes": 8076
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/replies/swyper_replies_ellie_s2.rpyc",
+      "sha256": "3225619619759c05629325776955ef7b56bd89aeb462b951986497a1b5943091",
+      "bytes": 5724
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/replies/swyper_replies_micha_s2.rpyc",
+      "sha256": "561f66fcb861cb54ac555fbd1c59c16f9729167b3fe3789e0cc1e97dd83ce6f3",
+      "bytes": 5122
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/replies/swyper_replies_nicole_s2.rpyc",
+      "sha256": "632429fd269ec0e1406bf84e69a04a0e0631fe3d1d299365946eb84d52244b64",
+      "bytes": 6412
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/replies/swyper_replies_nora_s2.rpyc",
+      "sha256": "311e98a3b3b5bb0a6b775bafa923c36b813fa73b1fd08f0f758440c962fcff15",
+      "bytes": 8380
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/replies/swyper_replies_paula_s2.rpyc",
+      "sha256": "88804213e2924d37235cc574107ba22f17df711cbe8b9205ecb0a4598063066f",
+      "bytes": 8730
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_arieth_s2.rpyc",
+      "sha256": "50a22ae3ce0f7975a2baa29d5c299f9d33c45069e3237c94fdec70a0d24e3089",
+      "bytes": 13848
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_cathy_s2.rpyc",
+      "sha256": "afd9291ffad5f64d609328c6fff422b693962d9b91f293d931e7e7fdd8b7d5da",
+      "bytes": 9476
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_catrin_s2.rpyc",
+      "sha256": "e4ea3969b9634eb40b93180fcb5bcb8ff68332720add4aa9db95587e6dca3ae9",
+      "bytes": 9498
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_ellie_s2.rpyc",
+      "sha256": "4bd6539ebf1233c9f4f86e90a7585216a13258b505757e815bcbc01e808c649b",
+      "bytes": 9498
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_micha_s2.rpyc",
+      "sha256": "137293584b9cb186813b48d9b516ffe04d26e5230895cca33401bb3554083d28",
+      "bytes": 13092
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_nicole_s2.rpyc",
+      "sha256": "1a5d04638e5bae778632580dbe2dfb3acc261f69ddf077c6ef95a252e28e3661",
+      "bytes": 9496
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_nora_s2.rpyc",
+      "sha256": "6ec016f958110f54a1e0ba8f07bc716096d22e214a6c88c9a37ae61acae717a9",
+      "bytes": 13044
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/chats/swyper_chat_paula_s2.rpyc",
+      "sha256": "72c29312cadb68d5880f33947480f0929c0a0d461bcd04abaa6b0405ba4becde",
+      "bytes": 13090
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/galleries/swyper_gallery_arieth.rpyc",
+      "sha256": "a0f3b6a819e97282c76f7dd8a5b67019dbc2af791d3fcf09edea61e68b3368b8",
+      "bytes": 6108
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/galleries/swyper_gallery_micha.rpyc",
+      "sha256": "0e39be7f1b6bb9987a25a8194c90700c60418cbc187a8e3b359233e590829be9",
+      "bytes": 5574
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/galleries/swyper_gallery_nora.rpyc",
+      "sha256": "1183cf1c509b74a4622b45c7690327ff56bc26956cba4acba75b04f692e06ba4",
+      "bytes": 7042
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/galleries/swyper_gallery_paula.rpyc",
+      "sha256": "d1890dc5a796f53faae082164f115faf955af5d0d349f633e558434b67727523",
+      "bytes": 6576
+    },
+    {
+      "path": "game/season2/scripts/phone/swyper/swyper_gallerires_s2.rpyc",
+      "sha256": "da8efe2596015caebdfbdd89fa82d0ab843be815934ccef32dd4065239516809",
+      "bytes": 19294
+    },
+    {
+      "path": "game/season2/scripts/reports/report_ep5.rpyc",
+      "sha256": "6052db88cbe2b2adf82a297c0ce569c49f53377d01f96a567fe3d661c321cd48",
+      "bytes": 22620
+    },
+    {
+      "path": "game/season2/scripts/reports/report_ep6.rpyc",
+      "sha256": "703fa5fa526afb6c9fca5e40469a5cd1a98a2af2f715c8997182872acaeaa7ea",
+      "bytes": 23960
+    },
+    {
+      "path": "game/season2/scripts/reports/report_ep7.rpyc",
+      "sha256": "951aefe0faf705ec1946fe3b9d38953e9c805bfd52dabfba1e5774aa5dfa86dc",
+      "bytes": 24504
+    },
+    {
+      "path": "game/season2/scripts/reports/report_ep8.rpyc",
+      "sha256": "1500cab8b98cf5854065ad61fc5d00fcfde132dbc9eff11bb9be8fe8f665eaf3",
+      "bytes": 13682
+    },
+    {
+      "path": "game/season2/scripts/screens/jacob_art_screen.rpyc",
+      "sha256": "e8b53940790f1e8d1547a43b208425b3cc7abf06a8e5ded5b078507a44a77b41",
+      "bytes": 23466
+    },
+    {
+      "path": "game/season2/scripts/screens/major_choice_screen.rpyc",
+      "sha256": "2d250bf3040da92262953df693aac7bcfc4f54bbaf9d92ea9474571ba1288748",
+      "bytes": 9586
+    },
+    {
+      "path": "game/season2/scripts/screens/screens_s2.rpyc",
+      "sha256": "261a8069c359f15a79c878e8fc0c684b75b429367a61ecf18833bb5e857540ed",
+      "bytes": 45812
+    },
+    {
+      "path": "game/season2/scripts/update5.rpyc",
+      "sha256": "1ef45dd78d44bf8d25d519c84b20e661d8e353b053a0144f2580b603a5b83ae1",
+      "bytes": 1273180
+    },
+    {
+      "path": "game/season2/scripts/update6.rpyc",
+      "sha256": "3ecb86391f858b534977d322bf7dcb935e542c202abaebc3eb04728f49c9acab",
+      "bytes": 1543918
+    },
+    {
+      "path": "game/symbolfont.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "game/tl/common.rpyc",
+      "sha256": "fd8306341843569a70c00ff1134842a196312591e90db289dabd44998b5699e3",
+      "bytes": 30208
+    },
+    {
+      "path": "game/tl/names.rpyc",
+      "sha256": "a053dfb81992474134023c101a8a65bb37bbb31486e5f1898869269b27b45388",
+      "bytes": 7112
+    },
+    {
+      "path": "game/tl/season2/scripts/classes/gender101/gender101_test07.rpyc",
+      "sha256": "eefc79eac845520dddd715468dfc5b34a8306243352154688321317a31e5d1a6",
+      "bytes": 28922
+    },
+    {
+      "path": "game/tl/season2/scripts/classes/gender101/gender101_test08.rpyc",
+      "sha256": "2aabad866c6b1e83d2b48461fccbf99300d6103a40cc039cd92f587720e5b0d4",
+      "bytes": 35976
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode7/ep7_freeroam_diks.rpyc",
+      "sha256": "fcc88629a7ee3d0c79ed6c3b07cc91ac72ca6196bba314727058f42df17f8b0a",
+      "bytes": 9608
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode7/ep7_freeroam_diks_big.rpyc",
+      "sha256": "8a938a6391141795d7eb75ca53ae162f4661c5c32989a1fb6b4000ca910f204d",
+      "bytes": 49308
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode7/ep7_freeroam_diks_room.rpyc",
+      "sha256": "f5785cf52f8c6168bad6992e0e3f59f6a1fecdf6461079938d699e7ddbc686de",
+      "bytes": 5308
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode7/ep7_freeroam_hots.rpyc",
+      "sha256": "becf806577625de9dc037fad0f9eab01939a645667c59e767f8a4cbaa2052ca0",
+      "bytes": 5716
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode7/events/ep7_freeroam_hots_events.rpyc",
+      "sha256": "d0abf10fbb0315fc1b85512b7f287bc9d2b7af13b1b1876293a648c10715bd67",
+      "bytes": 390248
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode8/ep8_freeroam_diks_big.rpyc",
+      "sha256": "1ea7494c4cbfbe1802e407780f53936d9f45d8a0cb040ec5cb5950361fdfb1b6",
+      "bytes": 55874
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode8/ep8_freeroam_diks_room.rpyc",
+      "sha256": "37e436d1e322f5c6cc8702ca33a9ebe0a1c031cede093d10bc12ecf34dcc2924",
+      "bytes": 21780
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode8/ep8_freeroam_diks_room2.rpyc",
+      "sha256": "5af49faae3fa18758cf56fb5af5c9967d64d33a706e73e977361a6d3191e7e23",
+      "bytes": 18554
+    },
+    {
+      "path": "game/tl/season2/scripts/freeroam/episode8/ep8_freeroam_dorm_party.rpyc",
+      "sha256": "74bb301572a0620dfdc35788686be535ff8c1fd35d1b421d29b6e1167ccf575d",
+      "bytes": 277858
+    },
+    {
+      "path": "game/tl/season2/scripts/update7.rpyc",
+      "sha256": "ccd865b1695b969c694bb24e26069d50ef15ba62769693125f4ecb3bba3e9ef6",
+      "bytes": 932102
+    },
+    {
+      "path": "game/tl/season2/scripts/update8.rpyc",
+      "sha256": "a10fe9ea1c87eb03e1a4312846a7f3bcf7de1402cfc81c076c3215261f8205a7",
+      "bytes": 1236880
+    },
+    {
+      "path": "game/tl/task_freeroam_ep7&8.rpyc",
+      "sha256": "33567689a26cf53d07b906491ab4fa8d6e0bb1d454704131de446be0a7deefd4",
+      "bytes": 17384
+    },
+    {
+      "path": "game/update2.rpyc",
+      "sha256": "2d2b6cf4ee7357e23328ec0d368e2cd538d01858c324635da31b2a7c39a4a18b",
+      "bytes": 970730
+    },
+    {
+      "path": "game/update3.rpyc",
+      "sha256": "ea013f4b30a331da34dd77498a58d6ff4f9202b1ced454c273810ce17d497936",
+      "bytes": 1194310
+    },
+    {
+      "path": "game/update4.rpyc",
+      "sha256": "ec0a3ba79bff929c7535c84cac278eb6792140bee9eda3d442ddfde30a3fe9c2",
+      "bytes": 841069
+    },
+    {
+      "path": "renpy/common/_OpenDyslexic3-Regular.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "renpy/common/DejaVuSans-Bold.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    },
+    {
+      "path": "renpy/common/DejaVuSans.ttf",
+      "sha256": "769738126184d688ddc078df2304ddaf7a25c840c0937170cab790482f40750f",
+      "bytes": 15043584
+    }
+  ],
+  "payload_files": [
+    {
+      "path": "game/cn_polished/cn_polished.json",
+      "bytes": 4870442,
+      "sha256": "5d1ed07b659e51743db6c4a92e6d20c02f62a3ec867c554f2a61ccc4feed7ba3"
+    },
+    {
+      "path": "game/cn_polished/COMPLETE",
+      "bytes": 174,
+      "sha256": "db7cfe2d87287bd9c428b28c65ebf5c9aeeb8ee7e94a85510167d46f09191f0b"
+    },
+    {
+      "path": "game/zz_cn_ep6_lunch_fix.rpy",
+      "bytes": 1039,
+      "sha256": "00b25c2ee19cd71244dbecc907b06efc673b6cbc7f09630665115820edb83246"
+    },
+    {
+      "path": "game/zz_cn_polished.rpy",
+      "bytes": 4733,
+      "sha256": "7e7c0cf7019f514ecca0413696a04a46d83be5a96ab18081781fdd32d2e1d5ef"
+    }
+  ],
+  "tool_files": [
+    {
+      "path": "tools/UnRAR.exe",
+      "bytes": 565032,
+      "sha256": "c4f98e25a824df50f8c80304715f8e6edb9c287225d5d70d423b8b2b12d311cd"
+    }
+  ],
+  "offline_only": true
+}
